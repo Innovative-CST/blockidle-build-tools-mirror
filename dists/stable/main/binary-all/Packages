@@ -1,0 +1,139 @@
+Package: ca-certificates-java
+Architecture: all
+Installed-Size: 208
+Maintainer: @termux
+Version: 1:2025.12.02
+Homepage: https://curl.se/docs/caextract.html
+Depends: ca-certificates (= 1:2025.12.02)
+Description: Common CA certificates (java keystore format)
+Filename: dists/stable/main/binary-all/ca-certificates-java_1:2025.12.02_all.deb
+Size: 113832
+MD5Sum: 45333c96151ef3d4d7ce2eeb6f109766
+SHA1: 0a0c8efaafadc0e05f7cc5e35c1b0f03fb5ddc33
+SHA256: 290ec1b7a07b4b93537e4f4b12aaca4464f51c8f61fb0ac67def1d766615007c
+SHA512: 56d538dc8eeb6840df43ffd28b64b979eff64bc2b9d5fc16738eb85410a865f35251f1395fba0406f2f20f6ccacedeb2781d26a7e68e1b7d8cd6447c33ccf2a0
+
+Package: ca-certificates
+Architecture: all
+Installed-Size: 264
+Maintainer: @termux
+Version: 1:2025.12.02
+Homepage: https://curl.se/docs/caextract.html
+Description: Common CA certificates
+Filename: dists/stable/main/binary-all/ca-certificates_1:2025.12.02_all.deb
+Size: 124248
+MD5Sum: ff343dfb981a557efaf630a21a6d33f7
+SHA1: dd4b7c1e2ea2578889a0ea353cbf0597b4f3cc5f
+SHA256: d4831bcb14ad7b5ebac888f928b4a9db4d52116c5eb394a6eba1340017b87d16
+SHA512: f142e3dddc7dfe15143f8e1d3371196c8cd272ce15e6130add0852b5c0abf9dc5d6e3a667a7da832dcc411f9d17c6b3fb1da0cf1c2c27142d2a87c56af15ccc2
+
+Package: python-ensurepip-wheels
+Architecture: all
+Installed-Size: 1840
+Maintainer: @termux
+Version: 3.12.12
+Homepage: https://python.org/
+Depends: python (= 3.12.12)
+Breaks: python (<< 3.11.1-3)
+Replaces: python (<< 3.11.1-3)
+Description: Wheels for Python ensurepip
+Filename: dists/stable/main/binary-all/python-ensurepip-wheels_3.12.12_all.deb
+Size: 1801640
+MD5Sum: 3054abe056bfc12265f115b9625ab480
+SHA1: 69bffba6c7b3eae59244511ee9f0fbd2a5bd771d
+SHA256: 4a007f73dd4a3194b7ca18a7187433f6dd19806428c4a8fb42e18a348e0ec676
+SHA512: fce2b5e5d6f9ba8bfbbb6d6a5682628b4ce71134a5cc498bbc556c70c40929cf7939b0ad799f1c923330e8aeecddfc1ef5ba2b0cfc3c57ce6118116692e3b430
+
+Package: python-xcbgen
+Architecture: all
+Installed-Size: 444
+Maintainer: @termux
+Version: 1.17.0-1
+Homepage: https://xcb.freedesktop.org/
+Depends: xcb-proto (= 1.17.0-1)
+Breaks: xcb-proto (<< 1.15.2)
+Recommends: python
+Replaces: xcb-proto (<< 1.15.2)
+Description: The xcbgen Python module
+Filename: dists/stable/main/binary-all/python-xcbgen_1.17.0-1_all.deb
+Size: 44596
+MD5Sum: db0bef4100cff9d4eefe47448066d42a
+SHA1: 0e8159652b6e140a072b198e7232b69c4c17e90e
+SHA256: 562fab9ea2bea54c9a18a3d958da1df9f6f030f3c090d4e9f7cc70e2c77506fe
+SHA512: 18b8528b001521dff89f2553cadd97002ce25d99affa84c9311479505bfef248f69f81088fd06ed2f36ce511db64effa11fb9b3c55206408b98487e1d325a034
+
+Package: ttf-dejavu
+Architecture: all
+Installed-Size: 10108
+Maintainer: @termux
+Version: 2.37-8
+Homepage: https://dejavu-fonts.github.io/
+Description: Font family based on the Bitstream Vera Fonts with a wider range of characters
+Filename: dists/stable/main/binary-all/ttf-dejavu_2.37-8_all.deb
+Size: 2459288
+MD5Sum: d95e02ef15ff26f2730dd811dd0b0b7c
+SHA1: 08669d337d85578468ed33b51c96c59cd141b009
+SHA256: c0b8c018266310487e47fa810d3d8d849217d303b3d2e5ff0925b8999bf87555
+SHA512: 7215dbb6e64fce8312ddb6921e4ef7c9c5ebe40c8dc1f8f3ff97218bdcde6f1568e5f09139f82c536012ab5cad67303d707536df0f65d0039feca39ed6b34211
+
+Package: xcb-proto
+Architecture: all
+Installed-Size: 812
+Maintainer: @termux
+Version: 1.17.0-1
+Homepage: https://xcb.freedesktop.org/
+Conflicts: xcbproto
+Replaces: xcbproto
+Description: XML-XCB protocol descriptions
+Filename: dists/stable/main/binary-all/xcb-proto_1.17.0-1_all.deb
+Size: 78624
+MD5Sum: b2dc38f13e3cb45fdf49172995fe0b7b
+SHA1: dd05d506649fc6bcc638bd67fdc3ec573a2a9eb6
+SHA256: c6f0ad6dd9df8481c83a2e514d975bd68b1d36d362c3170e6213bb001d6a3fd0
+SHA512: c724ab5f684d26c8b7ec4f3bbf1ae96e5ad94fb76acb73ebd9bd277f4c6905bce1345cf83d7c14b7812b088cea1339e4939b5cc8a64efd58aa3d3bad1d817e80
+
+Package: xorg-util-macros
+Architecture: all
+Installed-Size: 144
+Maintainer: @termux
+Version: 1.20.2
+Homepage: https://xorg.freedesktop.org/
+Description: X.Org Autotools macros
+Filename: dists/stable/main/binary-all/xorg-util-macros_1.20.2_all.deb
+Size: 21952
+MD5Sum: 53ede75e76e28843d11ca7fa147840e1
+SHA1: d9047cecc75dc35944e71f6139cd3ce9226d4c55
+SHA256: 9ea21f3436e81aa3399379677f735f33c5ab035d9e4490f26d736f1cc896ce6a
+SHA512: 2b35be1a032db47607f096a76391cacac8fede3a9ad3e0e9c22abe9edd582922d8fe0ef6ab55a46ae1e86cd598d65e43c9df5896d520e752d111e722cb7f40bf
+
+Package: xorgproto
+Architecture: all
+Installed-Size: 2292
+Maintainer: @termux
+Version: 2025.1
+Homepage: https://xorg.freedesktop.org/
+Depends: xorg-util-macros
+Conflicts: x11-proto
+Replaces: x11-proto
+Description: X.Org X11 Protocol headers
+Filename: dists/stable/main/binary-all/xorgproto_2025.1_all.deb
+Size: 249540
+MD5Sum: e0bfd960402250012f5ed711774ab667
+SHA1: 5b4e8b87313c238963005b6a60bf7246262403da
+SHA256: 3c2baab751c45d6b2a86cad494b343275f230eff84ea2fabc38174e79d6ac027
+SHA512: c822d7ec215663f204b5641d0eb85e83fc56f3d97c19cce600bd27f998acae9a8bbd8064680c5410758e516f82b14b507ec5c6bd3498088eb548145dc3ff4367
+
+Package: xtrans
+Architecture: all
+Installed-Size: 296
+Maintainer: @termux
+Version: 1.6.0
+Homepage: https://xorg.freedesktop.org/
+Description: X transport library
+Filename: dists/stable/main/binary-all/xtrans_1.6.0_all.deb
+Size: 39888
+MD5Sum: f7c6d6ea9d6cc8da75e5f0124e9f6aea
+SHA1: 4af68ee1987dad5177bc69f91fe0e5d5bd95db58
+SHA256: 19a69d1edaf553be97285e712b093995790b8df00c6a1d114851f8a4fe43f4f6
+SHA512: fbc71f3a6ea1bb4cde7e9349bcdae84c56e344a740d1973b900992a74e58a5036cb2c8f91917821c616560429bd385171f83a4b17b559512ce88cdb7b7fe4aaf
+
