@@ -1,3 +1,19 @@
+Package: abseil-cpp
+Architecture: arm
+Installed-Size: 6960
+Maintainer: @termux
+Version: 20250814.1
+Homepage: https://abseil.io/
+Depends: libc++
+Conflicts: libgrpc (<< 1.52.0-1)
+Description: Abseil C++ Common Libraries
+Filename: dists/stable/main/binary-arm/abseil-cpp_20250814.1_arm.deb
+Size: 1020004
+MD5Sum: b06cd2a3d0ea9766660a3409f1e5b692
+SHA1: 0e3634dfacb9a06b0b0feaafe422c9e18d5a61c0
+SHA256: e1c9182c43ca1dbf467ebf2c971d7752849b49acb30f011000cb9d48ab5d322e
+SHA512: db69486e3f83de7dcd4c20bca8a1cf9a349d9e88081c7b02ff2bdb94c2618df01119bb7411be91c2df58b8e38c2422917c23843b6e1d304f0a5892118b6a6aaf
+
 Package: alsa-lib
 Architecture: arm
 Installed-Size: 1908
@@ -470,11 +486,11 @@ Homepage: https://libcxx.llvm.org/
 Essential: yes
 Description: C++ Standard Library
 Filename: dists/stable/main/binary-arm/libc++_29_arm.deb
-Size: 318168
-MD5Sum: e99d21c60c86d83a94efbe2d76c14954
-SHA1: 201a9df1965678c619c4089bc164bc48850c5227
-SHA256: f078b460c663046acc118d46d91dac5315cd48477565d71bad5c64f37c9cb903
-SHA512: 0dcf44e7f516ed51509e4ddb129b2af72f53589b5a1067cf9967b353cb4cc121c1dc57f607139f9c1103ea63195f9f471ac89389ffe63a84025c66a527d22dfe
+Size: 318292
+MD5Sum: 0e678cb0c06fd30d2453a2a23ae4c7dc
+SHA1: 781df6e7c25e7381e42933a2223fc617dcb69a39
+SHA256: dd2c97fb4847280b8b8c7ca22b4e5b92bb634cbce0a42303ed2ff3057a203efc
+SHA512: b373c8f8da6101a97739dcbb4a88640c92c4bffd901fcc4c0479a64ba72904163e4ba419a0af96db1c9c0e241bff2e7d91b27a7c2a959bc0e3397e1c7d4e5c70
 
 Package: libcap-ng-static
 Architecture: arm
@@ -1149,6 +1165,21 @@ MD5Sum: 4b2c2318f5154b9221c4c0a75194cf6e
 SHA1: 068aa00f19746ecc33df1485e806f82aa4b19e15
 SHA256: d21a3cb18ea6a5e710cb1d36b83d64a01ed9f0866b2e837a62ea60bcab754669
 SHA512: 9ca00d8cf19415deff71a9eaf0623c386ff09c857832b1181707b75f5a6a876222b4b6429069693cd7d3d9d499b773a9139d58e72b0843d6f58d85b3cc20e29f
+
+Package: libwebrtc-audio-processing
+Architecture: arm
+Installed-Size: 1184
+Maintainer: @termux
+Version: 1.3-4
+Homepage: https://www.freedesktop.org/software/pulseaudio/webrtc-audio-processing/
+Depends: libc++, abseil-cpp
+Description: A library containing the AudioProcessing module from the WebRTC project
+Filename: dists/stable/main/binary-arm/libwebrtc-audio-processing_1.3-4_arm.deb
+Size: 371692
+MD5Sum: 961c007d4633ca8646f36cad22376a33
+SHA1: 3c6bf0708951f0b14a675de6218f8038ae1653eb
+SHA256: 7d8713344cfc974db885e2041098a5f0098982eb00ac4a96d510e292f168f20b
+SHA512: 5f935bfb4d0cc6406f87e46f50435dff5551e5b05dbe61c9d7e5edd038d787c2de54bf538df4a28a39708590e386d78951ca6525a1a928a682666624f8737dc4
 
 Package: libx11-static
 Architecture: arm

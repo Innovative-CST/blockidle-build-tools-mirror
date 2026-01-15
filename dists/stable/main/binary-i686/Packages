@@ -1,3 +1,19 @@
+Package: abseil-cpp
+Architecture: i686
+Installed-Size: 8552
+Maintainer: @termux
+Version: 20250814.1
+Homepage: https://abseil.io/
+Depends: libc++
+Conflicts: libgrpc (<< 1.52.0-1)
+Description: Abseil C++ Common Libraries
+Filename: dists/stable/main/binary-i686/abseil-cpp_20250814.1_i686.deb
+Size: 1182556
+MD5Sum: 787f43ae922b433b51d3fc0b120cf34a
+SHA1: 68316debf92770032794ca6e223f90870315685d
+SHA256: 78b29063e75613dc88e1948f2adf01b05acfdf474756714e89134c4012e9f180
+SHA512: 1128def91728970cd9ecc956e42dd64badc7d0ef45e40d020b0cde6ccd92ef0ddbbfc23f9d01ab341c6eb2f9ef019689a0b8042f0674444bfc258ed0184b69f2
+
 Package: alsa-lib
 Architecture: i686
 Installed-Size: 2252
@@ -470,11 +486,11 @@ Homepage: https://libcxx.llvm.org/
 Essential: yes
 Description: C++ Standard Library
 Filename: dists/stable/main/binary-i686/libc++_29_i686.deb
-Size: 365044
-MD5Sum: b3880f79c46ae788ecf42a17f2100aa3
-SHA1: 6669e2682eb246f4a69aeff47127b6621a3272eb
-SHA256: 51df2ef69b98416df5599340639e2b09aad3ea744c1fd0174d228b9b948520de
-SHA512: 8dc577e137e32121563828c02ec3bf25ddde5ccd09b485b2dd7ab07486a9786fe0cfbe494623b34469d91c2903ed35af11b0b8a17358b7ba26f45f5233776011
+Size: 365012
+MD5Sum: ed16c5513996f818da8635b7edcaa675
+SHA1: a13697ddccca80e05b747de051fef7c90f22e650
+SHA256: 987a1e65fc86060bb6fb9ec24a4b65255342789952d037e5ce44d4dc8e661448
+SHA512: 5b0d1198f4b1b99d1c9ee0bc8724cc07f53dfa620280a8bdbc595b467cd715193e423223a74a19092b21ff1563cc46c10cc2d57718ccdb44b5098d4440211f71
 
 Package: libcap-ng-static
 Architecture: i686
@@ -1149,6 +1165,21 @@ MD5Sum: 6198f5c032695081b7ec344da94743bc
 SHA1: bbed369caee9071382539bb2f4e912e68f7a8771
 SHA256: c544a807a954ce4b13c349b514314522b54c8e6eed1ec5b4e410a19c358c6867
 SHA512: a241be8b7aad51423d539e8f7801222fb84046fd0aa85e389a1a09ee737892d54a1f2f1c9a92b9df64fd7c11c892612cfe33541a6430c32d7a62f5ca7504106a
+
+Package: libwebrtc-audio-processing
+Architecture: i686
+Installed-Size: 1572
+Maintainer: @termux
+Version: 1.3-4
+Homepage: https://www.freedesktop.org/software/pulseaudio/webrtc-audio-processing/
+Depends: libc++, abseil-cpp
+Description: A library containing the AudioProcessing module from the WebRTC project
+Filename: dists/stable/main/binary-i686/libwebrtc-audio-processing_1.3-4_i686.deb
+Size: 451904
+MD5Sum: 233807054f1a6e2afabb25f50cabf10d
+SHA1: eea97e910b1ae8428d3b002b68ba22da221c4f32
+SHA256: dd6f4d653daa2c00a68bb1c220b31f6e56cc92be0928ba46496286a5bf489c48
+SHA512: 5e0f97afa0e3af2ddabf90de5f4b9ebbd77a6a25a162a6a3b51557d9a99098646a0d7564ff3664ae62408c1441492835b88335a4df3b12424462ef0b5eca6903
 
 Package: libx11-static
 Architecture: i686
