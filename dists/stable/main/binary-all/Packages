@@ -56,11 +56,11 @@ Recommends: python
 Replaces: xcb-proto (<< 1.15.2)
 Description: The xcbgen Python module
 Filename: dists/stable/main/binary-all/python-xcbgen_1.17.0-1_all.deb
-Size: 44596
-MD5Sum: db0bef4100cff9d4eefe47448066d42a
-SHA1: 0e8159652b6e140a072b198e7232b69c4c17e90e
-SHA256: 562fab9ea2bea54c9a18a3d958da1df9f6f030f3c090d4e9f7cc70e2c77506fe
-SHA512: 18b8528b001521dff89f2553cadd97002ce25d99affa84c9311479505bfef248f69f81088fd06ed2f36ce511db64effa11fb9b3c55206408b98487e1d325a034
+Size: 44576
+MD5Sum: 5392056c473dccfe04478500f2cb8770
+SHA1: 9490060472e568e3add86c3ccc0a687816c7eb0e
+SHA256: 28c82808e311eca04c655d9f10965903578e5ce387c4f0057231e089c7b87590
+SHA512: 8483eac0e0632816186ce7b8263844a7411cd26768a8ca85563c499499716fe8ba54aa1bee86b2d56453ea7603a28bdf7c3bb75219d5d157c3c3e7abcf39818a
 
 Package: ttf-dejavu
 Architecture: all
@@ -87,10 +87,10 @@ Replaces: xcbproto
 Description: XML-XCB protocol descriptions
 Filename: dists/stable/main/binary-all/xcb-proto_1.17.0-1_all.deb
 Size: 78624
-MD5Sum: b2dc38f13e3cb45fdf49172995fe0b7b
-SHA1: dd05d506649fc6bcc638bd67fdc3ec573a2a9eb6
-SHA256: c6f0ad6dd9df8481c83a2e514d975bd68b1d36d362c3170e6213bb001d6a3fd0
-SHA512: c724ab5f684d26c8b7ec4f3bbf1ae96e5ad94fb76acb73ebd9bd277f4c6905bce1345cf83d7c14b7812b088cea1339e4939b5cc8a64efd58aa3d3bad1d817e80
+MD5Sum: 40752dffbfb2806e925efc3a4c85176e
+SHA1: 4e28d40bcca93b71a3a25f4acd2887b236c52c79
+SHA256: bc0a2483c48c32f2c9eb48b875395280ea7f4a7032c218412216036e92ccefe1
+SHA512: 5e42bae7d39c397b98016857554b09b547d0f89baacc3767991bec1bb09c208e0c5917fa6afefa46285b939df39ac4aa9d9edb57df65e74a4ac8fa9714edb4b2
 
 Package: xorg-util-macros
 Architecture: all
@@ -100,11 +100,11 @@ Version: 1.20.2
 Homepage: https://xorg.freedesktop.org/
 Description: X.Org Autotools macros
 Filename: dists/stable/main/binary-all/xorg-util-macros_1.20.2_all.deb
-Size: 21952
-MD5Sum: 53ede75e76e28843d11ca7fa147840e1
-SHA1: d9047cecc75dc35944e71f6139cd3ce9226d4c55
-SHA256: 9ea21f3436e81aa3399379677f735f33c5ab035d9e4490f26d736f1cc896ce6a
-SHA512: 2b35be1a032db47607f096a76391cacac8fede3a9ad3e0e9c22abe9edd582922d8fe0ef6ab55a46ae1e86cd598d65e43c9df5896d520e752d111e722cb7f40bf
+Size: 21956
+MD5Sum: 85fedbe8c5f862b97fe4717ef5d5c280
+SHA1: e1eeb242cd3af7df427adcc98280caf1e7fcdb13
+SHA256: 6d83d13fd973dd4c5c0c62e00113059a988bb8dd817dfdcb9f4453095d7c27de
+SHA512: 9236995c5d1c47954f965d7077c6ee2d9d116de11e057d3d6bece441ff6fd065df52b70f78879e5799c0695ed71ec30c6f7644ce83d0201ed8672a52099b50c7
 
 Package: xorgproto
 Architecture: all
@@ -117,11 +117,11 @@ Conflicts: x11-proto
 Replaces: x11-proto
 Description: X.Org X11 Protocol headers
 Filename: dists/stable/main/binary-all/xorgproto_2025.1_all.deb
-Size: 249540
-MD5Sum: e0bfd960402250012f5ed711774ab667
-SHA1: 5b4e8b87313c238963005b6a60bf7246262403da
-SHA256: 3c2baab751c45d6b2a86cad494b343275f230eff84ea2fabc38174e79d6ac027
-SHA512: c822d7ec215663f204b5641d0eb85e83fc56f3d97c19cce600bd27f998acae9a8bbd8064680c5410758e516f82b14b507ec5c6bd3498088eb548145dc3ff4367
+Size: 249528
+MD5Sum: 7aa83708b97f33cebf7fdfeb107ca330
+SHA1: ecf6eb6d7a0422b57171af3b60e9c99c6653201c
+SHA256: 89f5e8d9c1e5251cf8b636a03342f1aee00540924700964e1d4de58f68b98706
+SHA512: cfa3d5518413dccb215d6572fc6655713b3cdcc312c7fc1f2ed108056529656c06d163ae42a4a61f41e33b4b3998ff08628c052f54452eaf5831fee292ee6566
 
 Package: xtrans
 Architecture: all
@@ -131,9 +131,9 @@ Version: 1.6.0
 Homepage: https://xorg.freedesktop.org/
 Description: X transport library
 Filename: dists/stable/main/binary-all/xtrans_1.6.0_all.deb
-Size: 39888
-MD5Sum: f7c6d6ea9d6cc8da75e5f0124e9f6aea
-SHA1: 4af68ee1987dad5177bc69f91fe0e5d5bd95db58
-SHA256: 19a69d1edaf553be97285e712b093995790b8df00c6a1d114851f8a4fe43f4f6
-SHA512: fbc71f3a6ea1bb4cde7e9349bcdae84c56e344a740d1973b900992a74e58a5036cb2c8f91917821c616560429bd385171f83a4b17b559512ce88cdb7b7fe4aaf
+Size: 39868
+MD5Sum: 0a75d292c93b7cdc0a1dbba50aa0e37e
+SHA1: 71c26b8d006c3f903253827bd7d3b09a3adb1794
+SHA256: 0c7d6040e067a5492d7cc31c0cd8342e6cd0b831de6ee112dcf53e450a7d4631
+SHA512: 4348c032e0c61f21e8603d25466de89f322cc102846300a15de085d0123c4db215d1fd3ad6a95ac644b310e4391dc3e8f5a5beee33fb3f2af20e405bfba1a1cd
 

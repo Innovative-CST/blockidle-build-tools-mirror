@@ -8,11 +8,11 @@ Depends: libc++
 Conflicts: libgrpc (<< 1.52.0-1)
 Description: Abseil C++ Common Libraries
 Filename: dists/stable/main/binary-aarch64/abseil-cpp_20250814.1_aarch64.deb
-Size: 1116788
-MD5Sum: b61c10a914af5d308e7f7989ec84f492
-SHA1: cc864c492e53ef0a1fdc6814c6281297902b7688
-SHA256: 024184a03f43ccd8054ef25109ef569efed33ed9399a3acf8054c419c748d355
-SHA512: b8bb6ca213b45025fe6289dcc1d118072f66e3f10b600f7f8db740e5d730d71b1598e8a93d0fdb94f3b76def85c22e86ddb8298408e14de59e4739862196c524
+Size: 1116800
+MD5Sum: 1f1325edba686fd571c265cceeda059c
+SHA1: 3e6b8ba34e68b8b0da54d16c6d18c80e86e982a3
+SHA256: dae8a6c9e6a4b9bc7358fdaa55553e537061684a833b3315f02ae5e39ab1cc40
+SHA512: a04972461c14622f102797f9d26696268b1a06eb382f3582a874d153c3dc66f647b92c912cdd0177f3b0d968e354d2343b4cc49ec579b2077dbaabe45c3b830f
 
 Package: alsa-lib
 Architecture: aarch64
@@ -108,6 +108,23 @@ SHA1: 24e126b997c3ecffe67373cc709341d1616b998a
 SHA256: 80b47c3324d3deb2997c5fad7b3f6956943526245afc910964530d32d177e96e
 SHA512: 03590e97942e545fd3976b7b5b632211e38e4edc9cb1e475d2a0ce511a321dd92292870f264c6724a4e7ef0043737d68fd52fa5c7ea8164e3505434e6db727e5
 
+Package: dbus
+Architecture: aarch64
+Installed-Size: 1744
+Maintainer: @termux
+Version: 1.16.2-2
+Homepage: https://dbus.freedesktop.org
+Breaks: dbus-dev
+Depends: libexpat, libx11
+Replaces: dbus-dev
+Description: Freedesktop.org message bus system
+Filename: dists/stable/main/binary-aarch64/dbus_1.16.2-2_aarch64.deb
+Size: 429004
+MD5Sum: 53bca378c3abfd8af66c1987a68b517b
+SHA1: 85eaf6a32db4a2f2e9281c343fadc0122a2e6131
+SHA256: c02f064e71c14039c97565d7499f95f94b4cec3eea6f8cec076bf8156883bdba
+SHA512: c119618f8753859f7d46d4c7faec46dfaaaec42c21e4374a2c655c75b8e9a0916038830dbec0e4c5892ac23d08d00c3cc402a72b631b849a221ce3d9d6f29d7c
+
 Package: fdisk
 Architecture: aarch64
 Installed-Size: 468
@@ -122,6 +139,21 @@ MD5Sum: 04dc257765fc3acea3378df73795a6db
 SHA1: 3ce60667d08c32e66cd05dfb23ecb28da22741e6
 SHA256: 3c88f93dcfc86a9028f4bde3fb110158cbfd136078c397b9108ca12861d6b4b8
 SHA512: 9bb246913c4c4e4c71abc9eb77e48e1564fe62b870755854745f5d5911f91e25fbe77a3fbc71ff4c71c81fc78d51e01cdf4f2bcbbcb0eb8de305d5da3f6348c5
+
+Package: flac
+Architecture: aarch64
+Installed-Size: 332
+Maintainer: @termux
+Version: 1.5.0-1
+Homepage: https://xiph.org/flac/
+Depends: libflac (= 1.5.0-1)
+Description: FLAC (Free Lossless Audio Codec) command-line tool
+Filename: dists/stable/main/binary-aarch64/flac_1.5.0-1_aarch64.deb
+Size: 105720
+MD5Sum: 147b37baf77303e2761bb37f5ddc4f92
+SHA1: dbfd21021672f044fc9f2fcf7bb9834af1cb4e8b
+SHA256: decb72b8b4a46af5f69a865926d9e313ca483152b9c880c5b83ac36a4bf47843
+SHA512: 23ce4da9d8f8dda4a8edea3e94e87ca828f69c443c8ec90772fd8e3c6bdbfc2adb6299c8d41bdbaac60622dbcceb34a8d95dad8f37d5edd6f2528115fad68a68
 
 Package: fontconfig-static
 Architecture: aarch64
@@ -264,6 +296,52 @@ SHA1: 0ac7a57dfb5fb3d37100359bc9f386c02c9dc2e1
 SHA256: 8c9ceba1f00c55c97cf919f4c88cc13022ee4ecd02c14eadd9ec5b48f6f71385
 SHA512: 2fbc9f26c121d310c03c46c523ae5f685f5eab71111dfbb21b5987fe8e973a62d1744bffa2a774c5b32c5f850cdb520792601b42fe47f98bc4ad0ba1c5f96225
 
+Package: lame
+Architecture: aarch64
+Installed-Size: 616
+Maintainer: @termux
+Version: 3.100-7
+Homepage: https://lame.sourceforge.io/
+Depends: ncurses, libmp3lame (= 3.100-7)
+Description: High quality MPEG Audio Layer III (MP3) encoder - frontend
+Filename: dists/stable/main/binary-aarch64/lame_3.100-7_aarch64.deb
+Size: 191948
+MD5Sum: 5aed4073aa7afa326fd7ed7e05ae0f2f
+SHA1: a1826c37e6fb49097f32d06b8c0b6b62ea0b1a46
+SHA256: c583a28f8af299ecc143f28451f8e903a90e55f5cb8f54c5c68942a7ec062283
+SHA512: d81ebff834cea101082c5abe7c2f745b0177d2b50405845e4adcae42e8acd59700914873b0becdcb1a900d21cae63b9ce85d5d0d7928f9f408bacbed6a080d5a
+
+Package: libandroid-execinfo-static
+Architecture: aarch64
+Installed-Size: 36
+Maintainer: @termux
+Version: 0.1-3
+Homepage: https://man7.org/linux/man-pages/man3/backtrace.3.html
+Depends: libandroid-execinfo (= 0.1-3)
+Description: Static libraries for libandroid-execinfo
+Filename: dists/stable/main/binary-aarch64/libandroid-execinfo-static_0.1-3_aarch64.deb
+Size: 2400
+MD5Sum: a1b684bad4271e2437faa7dc6f186ded
+SHA1: 8f67a760b61bb0d2566aca660c44c660f80f5e1a
+SHA256: f3832107dd6541e44816191b2a904a72b67c0e0ba6c032400df579f6b81de5d7
+SHA512: 1f809f5d42cc484ae08fb7563696301041079861c6f1dca2405a8ded325a186db3ca34d6f238ba7604f2369d5289240d0b83abcb6115e190cf7b42b1d27583c4
+
+Package: libandroid-execinfo
+Architecture: aarch64
+Installed-Size: 88
+Maintainer: @termux
+Version: 0.1-3
+Homepage: https://man7.org/linux/man-pages/man3/backtrace.3.html
+Conflicts: libexecinfo
+Provides: libexecinfo
+Description: Shared library for the backtrace system function
+Filename: dists/stable/main/binary-aarch64/libandroid-execinfo_0.1-3_aarch64.deb
+Size: 15216
+MD5Sum: 108344a9d18a76c3c4ca338f5fcc0daf
+SHA1: 1a8e059262e69ae18e350b41b3e29bde941c42af
+SHA256: 00df1e6ad8a69ce85997f2e0ed5c994d17419724433d9b57c5917a19b3f4d25e
+SHA512: 0e6b5965e0f041011fdd9cc27e0e9e570d4cc1e64015ef237b7bb543d81d215052be7d5d2ad449c18a5b988c72ba5d6d1b2155b8387a0a18c1616b906dfecdf9
+
 Package: libandroid-glob-static
 Architecture: aarch64
 Installed-Size: 40
@@ -273,11 +351,11 @@ Homepage: https://man7.org/linux/man-pages/man3/glob.3.html
 Depends: libandroid-glob (= 0.6-3)
 Description: Static libraries for libandroid-glob
 Filename: dists/stable/main/binary-aarch64/libandroid-glob-static_0.6-3_aarch64.deb
-Size: 4624
-MD5Sum: d094d42d571b1850739c069939d925a5
-SHA1: 3edb0bc62dcd43d6b4061160daccdb4b3b0969d9
-SHA256: f87578e1e30c8152016d0b9bbcdd69c2e80d58efb893007a0b2c3a2136651808
-SHA512: 9025c7abb00d01d69eb99fb3b2b2f0c54ec5d579cc7d3086874945086df495d6c93528967b73b388328e71863cc41a30d4134c3eb793556232541996907163ef
+Size: 4620
+MD5Sum: f3aeaa8eba326fe06f1953214d1d5a7b
+SHA1: ab24713ba4089edac6ab4d0b2439dff5ea4b6a25
+SHA256: c38b7e2dcee80b1ae2f5b84f089f2ec9cd1478be7d6d74c59f17d2a8cb73f643
+SHA512: d517dc93b3c0bdc547430f6999fb175d7809f118e94ce5cd52edb8fcc45d9f4f512227f0bb4e97e4ba7de5ca6deb43768521e196ec48cf2dc7735b9b4f859532
 
 Package: libandroid-glob
 Architecture: aarch64
@@ -289,11 +367,11 @@ Breaks: libandroid-glob-dev
 Replaces: libandroid-glob-dev
 Description: Shared library for the glob(3) system function
 Filename: dists/stable/main/binary-aarch64/libandroid-glob_0.6-3_aarch64.deb
-Size: 7012
-MD5Sum: d9977f89bde2d95c4edc20f45fc71a09
-SHA1: 9eb362fb8189506dcf99c5afbc2a30167b518c4b
-SHA256: d21d612d1137197a2106d94545894e77d0fe21fe4aeaf1fd7f80b70a5878a1e7
-SHA512: 088144cc4d0271db30bbd586a508397cb6e92ea1490913e5db58fb96926b7d238a7c2b9c25721889180b982b1cb28c54e0956b44981729d2d5d80438e3ae0b6e
+Size: 7008
+MD5Sum: a4c9a049827de4082467021b7cd8b115
+SHA1: e36b9bc7a9ac7cef1ef0a1484a8d5074a2e9848f
+SHA256: b834b9b6770157d06a8616031f7b85cc6b8f9744342a1eb4fe78439d11c5daf7
+SHA512: f60a7efc3f5d8ba78855ad9df2e79fbdb0fe8507e1722b4264174d2a66462b761d4c7cd8dbeb078f145ff4613bac1e5aff650c6b29f50cb3a471810f7b5af9fb
 
 Package: libandroid-posix-semaphore-static
 Architecture: aarch64
@@ -395,10 +473,10 @@ Depends: libandroid-support (= 29-1)
 Description: Static libraries for libandroid-support
 Filename: dists/stable/main/binary-aarch64/libandroid-support-static_29-1_aarch64.deb
 Size: 8632
-MD5Sum: 93885bb5a156f4fce1d29959cd195be4
-SHA1: 98ed9b798aed491dca37a078e391c0c0526f77ff
-SHA256: 10972814804183a4b12fb35602a2cf39aadceb41cf7f4b30ada372a076509ff7
-SHA512: 96552cca497fe28e6b04548a471b2b42ccbc8684674831e8c2f8334c6b91c5e54146a1d874f364c298da9e2a3e3ed39c0f733a6fd594711e903a4fe692415535
+MD5Sum: 497b3b28d419005e30add31515597528
+SHA1: f21caa41c043c80ccd86c9c8bace6c7d888b17eb
+SHA256: d3110ffbf1a0db080a00b0c7e48b8bd939031de950af6b97f2b60089f7bdb12a
+SHA512: 2bdb779a9e608b67b3e169414da24126c930310938951d65420fc58a321a79f5b563d85c33a97f37f532bf6a5fd5a150c47715331d588cbf5f8dc3f99af5e30a
 
 Package: libandroid-support
 Architecture: aarch64
@@ -409,11 +487,11 @@ Homepage: https://github.com/termux/libandroid-support
 Essential: yes
 Description: Library extending the Android C library (Bionic) for additional multibyte, locale and math support
 Filename: dists/stable/main/binary-aarch64/libandroid-support_29-1_aarch64.deb
-Size: 10940
-MD5Sum: 7848a2236d30a56d76e40e1a8f997428
-SHA1: fae23a0ba4e5af537ecf55d721c616a3f7392be7
-SHA256: 17aa07cf4c567fa116f425e5c2bc9ad22f25b1d3cb27c6d7b553a8c69e9967ad
-SHA512: 79618caa2dd929d8d646c52eb3d25f9f416186282910d5a88e5e1b5e451f902472550aebfe39967c8944cf6bc2322177d834d5d6514415b898b397076ae8c81e
+Size: 10936
+MD5Sum: 678eae4f2d7a7930ee1884ceea40bac0
+SHA1: c61866518bdfaa971faa49aea8ae3849c67f1b82
+SHA256: b28da95c42638724920d1b5a83a0d32faae65b3d70848e538105c9b5f343c4db
+SHA512: 9cac84aa069f8ab2cbc9bf6e56a83070a5e1a3c6e97200cb9d935279180cecff3404282d9dc4f681fcaf7b92047c2e13f4d004a0d6cc64e60bca07f3fd1e3b0f
 
 Package: libandroid-sysv-semaphore-static
 Architecture: aarch64
@@ -563,11 +641,11 @@ Homepage: https://libexpat.github.io/
 Depends: libexpat (= 2.7.3)
 Description: Static libraries for libexpat
 Filename: dists/stable/main/binary-aarch64/libexpat-static_2.7.3_aarch64.deb
-Size: 57716
-MD5Sum: 7b3c14bbebe3de2e13638331d63d915b
-SHA1: 782982c0ce75b6379c50f41cf9a6dd309cd29f14
-SHA256: 4d710d68bb5b7fd987bf3b6ba888e38cc6271783e731e51fb2dfe3428d6f9f39
-SHA512: 1c22cec7ddb71cae0d2b64c1a741276bb27f3c10bc141c1fe2384c0bcd9096871514bb96dfc0d126ed9a15e0c07ab11ae1bdfd575c097d3d041aac4db0d034d3
+Size: 57848
+MD5Sum: c66c9caf03fd309aafd885194f0e6197
+SHA1: b52e42b15bd353958317156b77704806194bd3f7
+SHA256: e22366f036c841a35833a05bdbd57e5cd4948cf22a03833f40bd2e915330e839
+SHA512: fddc0bef2c859c513b827db386389430cba3f91ee9a36fa19150580a47c372eb0726531e693e845b600b44bc0fc299cab98d0e34b4fc44e314f43f08f87791ee
 
 Package: libexpat
 Architecture: aarch64
@@ -579,11 +657,11 @@ Breaks: libexpat-dev
 Replaces: libexpat-dev
 Description: XML parsing C library
 Filename: dists/stable/main/binary-aarch64/libexpat_2.7.3_aarch64.deb
-Size: 91092
-MD5Sum: 1ae47df55a3780ded3eb89d8a6dd70da
-SHA1: 1e4b006bc37da0b9d488809400c81e034dd4fb30
-SHA256: fce0488213d2afb00a763290ec97568fce22f09d431433dd82c0ff5c932f7660
-SHA512: ff58b5ae86b9d92286ef632fc6ebfdab7d2106058654ea8672c0e415b6ed53295a2967249d1344dd9a103f34e901c2e6c311a5f25c5cef1237dd27d5c6dbd044
+Size: 91112
+MD5Sum: 4a276ad367c76bc9b4dc26def1affab1
+SHA1: f873b39fd0c612fdc4d546b812f3caa28ed38769
+SHA256: 37e04a74b9d30bf6cc05182c85d8a26f06c33e840c075b8a84766084390dc1c3
+SHA512: 15a00849b6350e316c991bf1619a81dfdb9775e192dad5a962b2dfdaebc313a73269f2684a6733941c6c8fa04b95ab080bf223530b0cce611aeee7d5127af737
 
 Package: libfdisk
 Architecture: aarch64
@@ -630,6 +708,38 @@ MD5Sum: 6a36b679fa19c04baeec75f3fc4c5be4
 SHA1: a1ca8f6fab107c66da71038b013f2eb42a450303
 SHA256: f59e58aa72fad53c3bb24610d66897eeefc1619adc9581d5720860ecb844c163
 SHA512: e08886ca83de0e8f3b8c1a25e389c5d752f180829ee1ca95b25b9c55a6f3611b616ff631cc093a34b087477ff7051ad5a067c03fe73f1cdb034437a148bb1b41
+
+Package: libflac-static
+Architecture: aarch64
+Installed-Size: 548
+Maintainer: @termux
+Version: 1.5.0-1
+Homepage: https://xiph.org/flac/
+Depends: libflac (= 1.5.0-1)
+Description: Static libraries for libflac
+Filename: dists/stable/main/binary-aarch64/libflac-static_1.5.0-1_aarch64.deb
+Size: 110300
+MD5Sum: 9e06458e111fd021eca13a7462ae47cf
+SHA1: 1fb341ef5a270c5462357ceb885162d9ad0c6743
+SHA256: df68d25f9812f9c56ec137d00991bbaab0c88494dca6aa5b9abe47cb61b13810
+SHA512: d9d15ccad290e245a51b6a92fe78dff6991a3c3f1f69f4a10e13c6c0e35f3d932daa46070c0a849809cc680538ca77ce1c744f6ab998452e2a66a7651e95b3a4
+
+Package: libflac
+Architecture: aarch64
+Installed-Size: 1044
+Maintainer: @termux
+Version: 1.5.0-1
+Homepage: https://xiph.org/flac/
+Breaks: libflac-dev
+Depends: libc++, libogg
+Replaces: libflac-dev
+Description: FLAC (Free Lossless Audio Codec) library
+Filename: dists/stable/main/binary-aarch64/libflac_1.5.0-1_aarch64.deb
+Size: 203364
+MD5Sum: f0463c1154246b3f3330bd0677f1a4da
+SHA1: 1da656bf95d4ec7f5ab7f2ae8dd1a7bfe475c393
+SHA256: 18b0b967ec9cfc1566f674a9a49565402aea9ad3be2137354f4ec5d726449738
+SHA512: 54092f84f20d2a865e43ac776a495690501642c66a1d2c14450a52b4932dbe6a802c21bf7eb19d9e71f76096f9fc6eac37f6769008186ccec1b381ac9cac5dde
 
 Package: libgmp-static
 Architecture: aarch64
@@ -865,6 +975,37 @@ SHA1: d2f3cae2f2beb2d777eb6abd0da49e79b46d0bf3
 SHA256: 0e9194ddeda6eb68b78ca4eecbe063498935fd8fec741042a1fa0d42ebec4d8f
 SHA512: ef15126867f9128f3b517f75baf5d9d4f72d1cb8abb1dcbf79701cb125c135eb660957fdded4e2ee250ab4b65b683b1427c145a01a63f61a85c17616ffdc1b31
 
+Package: libmp3lame-static
+Architecture: aarch64
+Installed-Size: 428
+Maintainer: @termux
+Version: 3.100-7
+Homepage: https://lame.sourceforge.io/
+Depends: libmp3lame (= 3.100-7)
+Description: Static libraries for libmp3lame
+Filename: dists/stable/main/binary-aarch64/libmp3lame-static_3.100-7_aarch64.deb
+Size: 121292
+MD5Sum: 1e51d9d6765bce507fd9b81c3f09425f
+SHA1: 9626ef751330035a39350d532399628ceccc000c
+SHA256: 11bff16d771963b7158f15bc06f623d3833c6cb1ae0bbec416a9507aff2c962c
+SHA512: 6dd19ecb7d68448c9092336149d4bd7056f9f9359f784a55183bd4e04ce65398345d4e6afad4343c12d42c68f8316704cb4297673c573a1e7faa5017e22d8823
+
+Package: libmp3lame
+Architecture: aarch64
+Installed-Size: 348
+Maintainer: @termux
+Version: 3.100-7
+Homepage: https://lame.sourceforge.io/
+Breaks: libmp3lame-dev
+Replaces: libmp3lame-dev
+Description: High quality MPEG Audio Layer III (MP3) encoder
+Filename: dists/stable/main/binary-aarch64/libmp3lame_3.100-7_aarch64.deb
+Size: 114684
+MD5Sum: 08ad25f39fffe5afcde7d9a122890b91
+SHA1: f6914f7b8d8b9123341b469e260cbfb21e0d2ac9
+SHA256: 1be5817e1df042a3cbf28c5a37a08f19eb10a2a9bc4cfc137dd39e8044ef294a
+SHA512: 8bfc940cf8ad38380897d49a181153becc4b7fe4763a94186a4f8c76364272e6b0d58e2a20f537c3916f934097418b8ce4ae6ca4965d1168b6cea8f76d5b3ca0
+
 Package: libnettle-static
 Architecture: aarch64
 Installed-Size: 3832
@@ -928,6 +1069,68 @@ SHA1: 1f75d50ec96944980fc7b7d71fb23504efb0fbfe
 SHA256: b6072172f678dd1bc5f1dce16f9900b4e3c2df288fb0343c8921484b91eecb1b
 SHA512: 74cf254d98f84e1709a01b0aa33d9eb25c86e3bed6ccec856367fccb0eda75c8ed1aea3c01ada68d91a4302ba4df62e252f2927c711ad0e1a2841523848181ae
 
+Package: libogg-static
+Architecture: aarch64
+Installed-Size: 64
+Maintainer: @termux
+Version: 1.3.6-1
+Homepage: https://xiph.org/ogg/
+Depends: libogg (= 1.3.6-1)
+Description: Static libraries for libogg
+Filename: dists/stable/main/binary-aarch64/libogg-static_1.3.6-1_aarch64.deb
+Size: 16596
+MD5Sum: 90daf097aec9030144834876fff33248
+SHA1: 6dad4b6d5857282996c415733b8b1f346d24a064
+SHA256: 78223841488f98921319f097889d9f5138cf377756b896a58b107a22938194af
+SHA512: aa3c3734995d9b63a11b5100237407ef0839e8c6716d0f1dcae18842cc0bd69c21a76416185818491d600bdfbe2cf8c19b534f9e4dd54a1725f3cb1d72ff6c8f
+
+Package: libogg
+Architecture: aarch64
+Installed-Size: 684
+Maintainer: @termux
+Version: 1.3.6-1
+Homepage: https://xiph.org/ogg/
+Breaks: libogg-dev
+Replaces: libogg-dev
+Description: Library for working with the Ogg multimedia container format
+Filename: dists/stable/main/binary-aarch64/libogg_1.3.6-1_aarch64.deb
+Size: 188652
+MD5Sum: a6d265f883d315c04e5edd7e34ebf8d1
+SHA1: 4569597d93f7a8f8e272a8195e2a8a0f197df941
+SHA256: 107fae18fcdc1fb691fe52111e8cbd95653b7d4c3a4295e4b331773fbd78ddab
+SHA512: 8b600eccc9c60c0e597fa723b9b1a1003597be92cbd42e8f55537e81916dcdb84a5bb93b3afbe0b11dbbde9dd93af0840d8add500c16e021bdd161e26ef33724
+
+Package: libopus-static
+Architecture: aarch64
+Installed-Size: 660
+Maintainer: @termux
+Version: 1.5.2-1
+Homepage: https://www.opus-codec.org/
+Depends: libopus (= 1.5.2-1)
+Description: Static libraries for libopus
+Filename: dists/stable/main/binary-aarch64/libopus-static_1.5.2-1_aarch64.deb
+Size: 195432
+MD5Sum: b5f2e6669bee0193ffe63178baad592e
+SHA1: a57da8aafdef873c5ef41ca66a18514d583620ff
+SHA256: 869656378c920270006e2f2ba06b6e3a0a476267692f49beea91fd2e5d3c326c
+SHA512: b82f56210b3362a130305623fa81251ae325e61882f9bee49dc66a62af34aab0a908dffa4eae96c25613b084a5f748c2539015134813b688d7de262896f74359
+
+Package: libopus
+Architecture: aarch64
+Installed-Size: 536
+Maintainer: @termux
+Version: 1.5.2-1
+Homepage: https://www.opus-codec.org/
+Breaks: libopus-dev
+Replaces: libopus-dev
+Description: Reference implementation of the Opus codec
+Filename: dists/stable/main/binary-aarch64/libopus_1.5.2-1_aarch64.deb
+Size: 184824
+MD5Sum: 803daa9317277150c5a734adeffa3b47
+SHA1: 63fae7e1b80b45e97d64ef868b0335ab6a74898d
+SHA256: 91640dc4d50d4fa10da6c70b9926543ede47036263e3779485584abb8263d9ce
+SHA512: bf73f9bdbb4f9d81d1e08c3fbb3abebb91e1c33523721661463a31be46f8bb69df666b53545bc2dece2cf20bbf1f64e898259e5868f30559bced4ef2e7933188
+
 Package: libpng-static
 Architecture: aarch64
 Installed-Size: 332
@@ -990,6 +1193,54 @@ MD5Sum: b239cd2395c38d782efb56f9e2524e8d
 SHA1: 585e331664ec8cc47ce5da1e81dbc4c599107850
 SHA256: 3c5df630737526a29c0b63c51ace5c05a59c0096d7b88e3476982744e2dfb84a
 SHA512: ff50d34b700bd80bfd82a3feba4f45080fa47cabf7754fb6c2e0bf041bb28f2b267659c49162dae4c929c18db1ea6d380cee087c6fb0843f01e29d601e80eb22
+
+Package: libsndfile-static
+Architecture: aarch64
+Installed-Size: 876
+Maintainer: @termux
+Version: 1.2.2-2
+Homepage: http://www.mega-nerd.com/libsndfile
+Depends: libsndfile (= 1.2.2-2)
+Description: Static libraries for libsndfile
+Filename: dists/stable/main/binary-aarch64/libsndfile-static_1.2.2-2_aarch64.deb
+Size: 187696
+MD5Sum: 5bda1232ae5d64fe16d4613c8996cd14
+SHA1: f3d2a4e5212f7f66597da5ffe2a963367643115d
+SHA256: a09236b9f446a9c4979ebc2cf334131a0428a3c5c427df0dfbae22f5e64e6859
+SHA512: 8e55cf9634d7237ad2733ef15c66a8324c3b644c51ad27089fa32a0073341dcb80c3d5a2dad13d644cf7d7c9192493939c02d028f25dda80751d64dd3ed8d428
+
+Package: libsndfile
+Architecture: aarch64
+Installed-Size: 724
+Maintainer: @termux
+Version: 1.2.2-2
+Homepage: http://www.mega-nerd.com/libsndfile
+Breaks: libsndfile-dev
+Depends: libflac, libmp3lame, libogg, libopus, libvorbis
+Replaces: libsndfile-dev
+Description: Library for reading/writing audio files
+Filename: dists/stable/main/binary-aarch64/libsndfile_1.2.2-2_aarch64.deb
+Size: 218412
+MD5Sum: 5ab04665158e48969d358094def937de
+SHA1: 91361963688584d0b9749477ad2744e8cb0a45b5
+SHA256: 45bc3301da4dd76140083022fd987b176df4501fd870eaee06e746ad3cd4cd54
+SHA512: e2151ed722745fdd5fe0ade1f802f46bd3e3406f47d8c6f6ee749480649da1e6b4121fd7cfedbb12756384144ac432faf6357223d685a23a8ade94adb2f23187
+
+Package: libsoxr
+Architecture: aarch64
+Installed-Size: 1100
+Maintainer: @termux
+Version: 0.1.3-8
+Homepage: https://sourceforge.net/projects/soxr/
+Breaks: libsoxr-dev
+Replaces: libsoxr-dev
+Description: High quality, one-dimensional sample-rate conversion library
+Filename: dists/stable/main/binary-aarch64/libsoxr_0.1.3-8_aarch64.deb
+Size: 287792
+MD5Sum: ec1750820fc1a61418bfd9861f1a007d
+SHA1: 7329c8e36ec73095eeca1bf638ba03729ab350b9
+SHA256: 82d7fe81fcd1f5d7599e9192b2882f7def1503a977cdd3fbdab813398d7bcef2
+SHA512: e3c2a1f1f78fe2f00e17f9975ef2056304122c2deb243fd14e79cd60a3ae0797d9e1b833e63e4a40ce0cc9e26b28516242b06e44d9591b12957826bca787b93b
 
 Package: libsqlite-static
 Architecture: aarch64
@@ -1166,6 +1417,38 @@ SHA1: 19d4673ad9ff4bbfe71e70c753df512fe897af5d
 SHA256: 885ed6463c6ae9d461b058865b07387164361ec4b32eaab2dd1e3902599796d8
 SHA512: 33c7229adbae8b37cc6796ed1b46210f30dbe730285e7e1d4cb7abcb5018b2d588680e47443e73172911a0132121e30e5b12046b97eeab7fd0b202493852bffd
 
+Package: libvorbis-static
+Architecture: aarch64
+Installed-Size: 1020
+Maintainer: @termux
+Version: 1.3.7-4
+Homepage: https://xiph.org/vorbis/
+Depends: libvorbis (= 1.3.7-4)
+Description: Static libraries for libvorbis
+Filename: dists/stable/main/binary-aarch64/libvorbis-static_1.3.7-4_aarch64.deb
+Size: 157048
+MD5Sum: 957e14d50812eef2fdcac1ed12f92472
+SHA1: 027cbe14cd97528ec670e17dd90f3da887b9be14
+SHA256: 944e1102bc968c084c0deee816908d258254dc3f5726bb88e35f3218806c5cf9
+SHA512: cd500502859abaa84f8cc25443a15d8deb832899d26b1b20626dadba4e78d008a93d54a0f15ceb39bc2b5e66f669a15109f7190215df5ce7fbeda513b000abd3
+
+Package: libvorbis
+Architecture: aarch64
+Installed-Size: 1764
+Maintainer: @termux
+Version: 1.3.7-4
+Homepage: https://xiph.org/vorbis/
+Breaks: libvorbis-dev
+Depends: libogg
+Replaces: libvorbis-dev
+Description: Library for using the Ogg Vorbis compressed audio format
+Filename: dists/stable/main/binary-aarch64/libvorbis_1.3.7-4_aarch64.deb
+Size: 262844
+MD5Sum: 75a14760135febd88a0b43894a139339
+SHA1: 0af085c215b4d9abcaeb1c79dde031e629b5f74d
+SHA256: 5d5c8d312b8dbe99f870d73287f1593a48c5e2c47054af59f02cf5a997a9782f
+SHA512: 86dea8a8ba83da73fe842b07913ffef928e056eb0c37f9e28b85ba673c25a3c76b68bd0fe72082835b715a43609bc2c1afa326d7e8c9bf3f65e4070321431c5f
+
 Package: libwebrtc-audio-processing
 Architecture: aarch64
 Installed-Size: 1544
@@ -1190,11 +1473,11 @@ Homepage: https://xorg.freedesktop.org/
 Depends: libx11 (= 1.8.12-1)
 Description: Static libraries for libx11
 Filename: dists/stable/main/binary-aarch64/libx11-static_1.8.12-1_aarch64.deb
-Size: 567380
-MD5Sum: 24f0321e8c86196cfc9c7216cf26eb69
-SHA1: 075bd62228d61e8b8c6efb65f8fe8beff9edbd8a
-SHA256: 77310dc6eb241615b0dce120608b8d9775f453c76d8fb973541c40be0b368421
-SHA512: b1fd70f5fc578a520bcc7a8498985c3c4e232867e604782e3e20bc9d9c24667f821d21688db52fdce6904f925dc22852382102733816fb3bf4526c4922032dfc
+Size: 567468
+MD5Sum: 709e779075c19d6c58fe5592aaa65de6
+SHA1: debc5b6765e8f94787cb9600f7ad5f95dc6e8514
+SHA256: 93dc0364395c9db001d601235a88fdd44f8c776b7c4d027b15abf33c62369628
+SHA512: 3a6837b2fae27be9ba490deee494ada61625796a50a685d2d9a50283e8965fc56f69aa0cede92d449d32b2dbd7cb9ca5c8a702f4724753f6b82db90ab7de5cfb
 
 Package: libx11
 Architecture: aarch64
@@ -1206,11 +1489,11 @@ Depends: libandroid-support, libxcb
 Recommends: xorg-xauth
 Description: X11 client-side library
 Filename: dists/stable/main/binary-aarch64/libx11_1.8.12-1_aarch64.deb
-Size: 1912472
-MD5Sum: c68c549c4bae4bc87ce552d91bc22f93
-SHA1: f356ac667409e14319568076ee79bdc997c94bc1
-SHA256: a0922c4ba87f6ec22c8d9d14f09f2a3eb7ca706f690787ffb304c500d06eaf24
-SHA512: c528597cf3d52576f667a822e912680da348c256d56ea4bd82d0f435b41f78442f12043b33ef5d0084f862fff53458e0efee6e9ec688e4d6753dd2570f44e3a2
+Size: 1911868
+MD5Sum: 84a5bc9dea85ebead7b79439048aa3b4
+SHA1: 6137318da9c6705d24e5e360bdb1ed1f995edb9e
+SHA256: d6a856ff468a38f548a17c2df8989bebecbcf08cf55ef75e80475f6d648e3e9b
+SHA512: 21ee17480d58d1d0a9739976918116df1af6e3ed6f061ef188b74fe6a666a0e9ee078532712046f64db413f872e0f70d0ae1037f2499f9bca4a654040f46a0ab
 
 Package: libxau
 Architecture: aarch64
@@ -1221,10 +1504,10 @@ Homepage: https://xorg.freedesktop.org/
 Description: X11 authorisation library
 Filename: dists/stable/main/binary-aarch64/libxau_1.0.12-2_aarch64.deb
 Size: 9164
-MD5Sum: c223caba21a5a0041028803c4190eac1
-SHA1: 851f7aa1a5d829a14c083fb4587142e00ece3df2
-SHA256: bfad9b07e8f0c2a2ecc665891bc1e9f1a282fdb01badc84213335ec507ff5c8c
-SHA512: 98577e994a5f1f80e669388f8d09ceacd7e22ab7243f39e411b41a9b88ba3ac0cf933047823e2fdddf273739b108e87af8802ea1ce0856a1f20b20fea1f85c56
+MD5Sum: 12360abc595c81a87b8fc5310a362e37
+SHA1: 7af45c15f99829746f778eb8c3e7cd94fdf9d4ef
+SHA256: 3445d7c2578d1534584394b33c65861b145876d3702e83a3100922e66abdafb9
+SHA512: 396276ca21b836fd61911ee3b4cf294a1893cea992a83bbfc00d067440a48f681a7522542ee4a28acccccd578f716ac12e69fbe8833aebf23c3e8c4d1c08e196
 
 Package: libxcb-static
 Architecture: aarch64
@@ -1235,11 +1518,11 @@ Homepage: https://xcb.freedesktop.org/
 Depends: libxcb (= 1.17.0-1)
 Description: Static libraries for libxcb
 Filename: dists/stable/main/binary-aarch64/libxcb-static_1.17.0-1_aarch64.deb
-Size: 160884
-MD5Sum: be055b423c085aedb103ebc89aec93de
-SHA1: 98fc49aad685883a82233d314a73942e044f58be
-SHA256: ad5ea0fa7f6ddbb5facf1f2ab605e79acd4e9faf7edb21c8874faf30221e3110
-SHA512: 3f64c086cd6c7ac9470503e78a8bb70f66e8429abdd9d33bd4ae70b723197b66918e02cc9d2b130f3b471edbe36b070bdc26662d2983d768e8b193b66f0aa8b3
+Size: 160748
+MD5Sum: 5e75b1b456d86152edf530eb6186a60b
+SHA1: 52ec0eb9cdd99bb51c0d2f41b93263a062572251
+SHA256: e7867b81862ab982900c136f4fab8a3eb9816552288378eec443c8850f50fb71
+SHA512: ae2428af82accfebf0eddd4df22351a4005c3726ebd62e613794f881d6bad8728c37e2a0a5b90db10183b0efc308cb95333d4df3c4d625787b5f58ef0f431963
 
 Package: libxcb
 Architecture: aarch64
@@ -1251,11 +1534,11 @@ Depends: libxau, libxdmcp
 Recommends: xorg-xauth
 Description: X11 client-side library
 Filename: dists/stable/main/binary-aarch64/libxcb_1.17.0-1_aarch64.deb
-Size: 918312
-MD5Sum: 8da5504d979c3b5c6e0704f772a0c4db
-SHA1: 61ee54b0dd73f0310c4ac49133856d8cfa2f0b36
-SHA256: 605469ea65916d232a42cee06060e74a6890a105b8b064d3ea1fc50625c87015
-SHA512: 039ee914f85beb2402333ab1c47bdff379d778a6446f0a8f976c06c9755e98d7db0dc1510e490cad473f07980d26a368510923247c1ff331c4dbc889b7e855a7
+Size: 917780
+MD5Sum: a1178d89a97eccbcdd6ad754f9c37dcb
+SHA1: 5acc792c247bb1a393ffbfe199705ba1a1c1d29e
+SHA256: a214440b8c70164752730bcd6f9bc07d6d04166837cc841151f6ece2ccb231d4
+SHA512: c6dbe3186c0871563071f484f4caaba333af01b9e7517831ed4b8b6f5a2b6f8786664889bff2f943afe7706accb5fe0a7c59bad3e37c66016d6595f364203c35
 
 Package: libxdmcp-static
 Architecture: aarch64
@@ -1266,11 +1549,11 @@ Homepage: https://xorg.freedesktop.org/
 Depends: libxdmcp (= 1.1.5-2)
 Description: Static libraries for libxdmcp
 Filename: dists/stable/main/binary-aarch64/libxdmcp-static_1.1.5-2_aarch64.deb
-Size: 7924
-MD5Sum: 60853f033894dcd99aeb66799d81b5c8
-SHA1: cc6d9cfa949d56e6c6f038b063f0514722cc8c2e
-SHA256: dd96fb3eeaf33b8a0c89f6929b95fbcc75afb4e8cce935dd5c72a31951f7acf0
-SHA512: 8ff8059ce664ef0d5ae76aaafdfea871db88ddaca8dc5dcd30082706bd4e6678e4a16c2f015134f4f991b771a496aee38a68540a07ea8913e6c9a24bfa7fd813
+Size: 7916
+MD5Sum: 5758e03759223485448c6897c83fc7c8
+SHA1: c3204c0249ff377e6bad0ddb71abf869e4b4fa17
+SHA256: 77cf2a959b05288c6418df4f271fdf60984a3c01c5b356fca32b8af3bb2425f3
+SHA512: 6ec71f4a83c4944d0e1d7e142ad7bf6fb7136f1788da6876c287d517bca1a38be7cd2e3ce07c8a43f263119124be3c91e1fa08e6947c1c3529045530807f58d0
 
 Package: libxdmcp
 Architecture: aarch64
@@ -1280,11 +1563,11 @@ Version: 1.1.5-2
 Homepage: https://xorg.freedesktop.org/
 Description: X11 Display Manager Control Protocol library
 Filename: dists/stable/main/binary-aarch64/libxdmcp_1.1.5-2_aarch64.deb
-Size: 24420
-MD5Sum: 7e12216ce161422acf692f6f72fe22e7
-SHA1: 31fc98a36d2a875e7afd74905d575e7aa82f1e26
-SHA256: 123ebd3778b3fb700c1c73a0fab6b8180156ac1d7b2920486a772f592c09b3ce
-SHA512: d856ed181523f12279b2a90e6d84770e8afd9e5aa0963ebc8cd8d269d6146480da01243328660345f0c9668788fff5561920f4a204dc0485f505c38f57f1373b
+Size: 24404
+MD5Sum: 7cce0bd5b3319a71441699c61d05aba3
+SHA1: d8c3e624d069f69f136a5010d2d6e615ead32a54
+SHA256: a7b8439631b2421d2401b0fc8802d34664464ade71150f850e00e1d0f90c654c
+SHA512: e1238e85c173bff5cf129e6d7168735d90bfc304a68a2c2e4a30e20ca17d2fff6c7fe78f853e181a33f2aa3ab3f59b310be8e994a4017b00a371adbbc1325c56
 
 Package: libxext-static
 Architecture: aarch64
@@ -1522,11 +1805,11 @@ Homepage: https://invisible-island.net/ncurses/
 Depends: ncurses (= 6.5.20240831-3)
 Description: Static libraries for ncurses
 Filename: dists/stable/main/binary-aarch64/ncurses-static_6.5.20240831-3_aarch64.deb
-Size: 153660
-MD5Sum: c311c7cacfd97ca57056f9326610cd01
-SHA1: 9b0cbd0140fcf8ec581fe050aaa68103afaf3301
-SHA256: 730f328e61bff91d937900a06060157f34c3a342421ed40060a0d9b155f9ce72
-SHA512: d2c0aecf479eef9633004096b55812dcde9bd7a01610a8d46f00180ea39fe709920b7acdebe535f27d2f2392751a3db8a65bfc287d6b9a4512e8963d3872d5f6
+Size: 153292
+MD5Sum: 42fe789c4051d2a36aea28b26ba6f042
+SHA1: b0513974c244fb55523f8dc298a5f1c7222018ba
+SHA256: 2a7e5be489daa0bede4faa75cfc5ba78f545fe2606f6d34ea6d9c682778ae45c
+SHA512: 07c2610f76d8427f4d7c0eb2d32eb74cbd91fa0c1fae0defb0aeecb6628616225aa1b4432a7139d58541640d430bae41bf57baff5ff3305281f551d2ed0ac30a
 
 Package: ncurses-ui-libs-static
 Architecture: aarch64
@@ -1537,11 +1820,11 @@ Homepage: https://invisible-island.net/ncurses/
 Depends: ncurses-ui-libs, ncurses (= 6.5.20240831-3)
 Description: Static libraries for terminal user interfaces based on ncurses
 Filename: dists/stable/main/binary-aarch64/ncurses-ui-libs-static_6.5.20240831-3_aarch64.deb
-Size: 39496
-MD5Sum: b430984b19e575b8f8b1ebdcce143fc1
-SHA1: df15518abe50f99bcf33f36e16cc2a77576a359c
-SHA256: fcee56c4affbfc42ea604ad5a914727a4769f9e464a794dc591877dc539579f9
-SHA512: ac21c29f10171e5d0b2552e4e6faf38b379aaf276563884596a118c53de27f329c6bf7c17cd4c73c848d8da69f1e4b1d8fd1c1d9ea69e08f7a9282dce044916b
+Size: 39552
+MD5Sum: ba25e56418184a831a44c3993d40f03f
+SHA1: eb727990580462fca0b8abadfe8731f1de8d4b09
+SHA256: 89b5e12d51fbb232ae42f7e9a9c369743a64ecf1422bc641f0858a1a3bba3600
+SHA512: cf2b9822eca0ebf87a67cdf3151de2cde29b05a0b9da4dfa9396b3f924e5c1c8951f1e3bb0a8624c1756383b60285bf4abc0937603a70a215a54c82aee6a8b23
 
 Package: ncurses-ui-libs
 Architecture: aarch64
@@ -1554,11 +1837,11 @@ Breaks: ncurses (<< 6.4)
 Replaces: ncurses (<< 6.4)
 Description: Libraries for terminal user interfaces based on ncurses
 Filename: dists/stable/main/binary-aarch64/ncurses-ui-libs_6.5.20240831-3_aarch64.deb
-Size: 32904
-MD5Sum: 6bd3f353d2f8a8fb350656860965c83f
-SHA1: 1bc1b586e7d86c43d83da4230c1b1189fd7d2015
-SHA256: 76018ab5beb2a8bf12228edf7580ec3f4a1d897710e6d4e6937e8809aab4ab5b
-SHA512: d8fbe727ee1b9d92f4ab342319bf5dc4d9d00f5440d6d5fa117b764ee972dafa7df39f15f20ec42593aca197e0f731d85f90e14a9ad3bbf55fb1959ff5982482
+Size: 32908
+MD5Sum: 89e74176290ce38ee586a6cf87abe7a7
+SHA1: f1f4761c6f08ab33d60c9d3cc4eb43de43c4bdd1
+SHA256: 640d6901cdbe819fd3a823298c4ac049f3cf29cb1c7f1f90897bf26ba2c3b58e
+SHA512: d4baa8208092c9e9fdd0f02d21eb2fb0e435a3fb565904f047ee2d7b4527468a11629b3fd159c2280665ca466a0ff138d090b498544bee160a24d44e8a810606
 
 Package: ncurses-utils
 Architecture: aarch64
@@ -1569,11 +1852,11 @@ Homepage: https://invisible-island.net/ncurses/
 Depends: ncurses (= 6.5.20240831-3)
 Description: Tools for working with terminals
 Filename: dists/stable/main/binary-aarch64/ncurses-utils_6.5.20240831-3_aarch64.deb
-Size: 87916
-MD5Sum: d78aaad4388cffe4da5d358bf38100ab
-SHA1: bb7de7244f0247747abd13d38144245d5e7e51c1
-SHA256: 247a5c39f3c97eae71aac372aad553be031c0cbc65c5a9835fc456070686ebd6
-SHA512: 9b2516d27bed73eddca702cab3f318fe7056caba262351df0a80c8d2a0442113e4e25628cd5610e7d5ad25e9af5ba8b58c526862f73c81c533e387c2a9a8783d
+Size: 87812
+MD5Sum: ad7ab3be64f1fbcab07182cfe98aca2d
+SHA1: 7b0ec7f4e0a9ee0616a72c8a1da76dd33db2bc76
+SHA256: 813fced6e1c0521eb0f24844567154c7bd9f10cf5430ff6e92b6968f804e9833
+SHA512: 3b106040e6e0bb4bac2d33f051ef92fcfd91204c6fc1e0f494386c1031892f9c1f13b8ba810149de67f63cef89ad31bed578e03e290e00389011c3c6e39eae3b
 
 Package: ncurses
 Architecture: aarch64
@@ -1585,11 +1868,11 @@ Breaks: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
 Replaces: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
 Description: Library for text-based user interfaces in a terminal-independent manner
 Filename: dists/stable/main/binary-aarch64/ncurses_6.5.20240831-3_aarch64.deb
-Size: 538324
-MD5Sum: 8eeb7ea3ee274ca5832794dbd10175ba
-SHA1: 56c3f4e03655b56eff7cad3e5acd6154c2bcdb9b
-SHA256: 0c482d46263d2c2005e92365062de8d6d00a992ff76ebda0e8f4a69a9eebf2b3
-SHA512: 2abc11082eed1163f05092768f35da1f08982d59d725b246099676a4e6f6ed2e0edaff4ce1b760060b64f3d48d7a437f8d8cff22a4283afa5e264bf35e082705
+Size: 537704
+MD5Sum: 5f9783330d0558f41f7c47893a36bf05
+SHA1: 7c61d03a732990fce6dcc9ac250107a79e1a1ac8
+SHA256: e4c441298787dca36a959dea71d5b9c83271b472d1e2c24efc8977f6edcf525c
+SHA512: a2c4431465568e7d34740fcf9f24143e758b47c4481883c99e5f171abb3e203647edbebc9b1c9833f4115f485c7827039815af39efb7b4f033126fbef718df51
 
 Package: nettle
 Architecture: aarch64
@@ -1828,6 +2111,37 @@ MD5Sum: 5029d948d61a2f2552613520fdf47469
 SHA1: 1ce65810b83c1ede4017ee9d57dd3de07a199350
 SHA256: 9821c591f03127890d6747f3286bc7fa1d118c96f76fede84a0cf0c3aeb08656
 SHA512: 2c71c956452641c43373688e1a6cac69d3b2a0f766b5b588e1cd25d26077a16e80d150babd1ced99df3891289bd5e83ebe862efed7428dbd5e9efacd7d419c4e
+
+Package: speexdsp-static
+Architecture: aarch64
+Installed-Size: 120
+Maintainer: @termux
+Version: 1.2.1-1
+Homepage: https://speex.org/
+Depends: speexdsp (= 1.2.1-1)
+Description: Static libraries for speexdsp
+Filename: dists/stable/main/binary-aarch64/speexdsp-static_1.2.1-1_aarch64.deb
+Size: 32848
+MD5Sum: 41b23e565ebddf6675acf0aa1f0f3377
+SHA1: aa06ca64026e7fb35e29a22d2947efd04d89f177
+SHA256: c75e8afb2f3137ab4125fae1099528c6e37405369b8e52b2a93bfb2aa514ef65
+SHA512: 368c0952d16762208a9e8caa6f0643f9e1136a3179d0709874840b99fac4a03293550f34dacf7c189aa8f2d02b0f01c6e7c4d946bb04cadcf364eaee60e6d65b
+
+Package: speexdsp
+Architecture: aarch64
+Installed-Size: 168
+Maintainer: @termux
+Version: 1.2.1-1
+Homepage: https://speex.org/
+Breaks: speexdsp-dev
+Replaces: speexdsp-dev
+Description: Speex audio processing library
+Filename: dists/stable/main/binary-aarch64/speexdsp_1.2.1-1_aarch64.deb
+Size: 37308
+MD5Sum: 94043862f762bcd8adee66cca2aeebb0
+SHA1: 25f46bfcb5c248c91daa0ae68dbf2f05cbcb65c1
+SHA256: 0cd50c20d9d93f3cc73befa656a2003eeb706eb9a6447f4bee06f0fb8cc2081f
+SHA512: 47dc8b2787524cd54b8f7b8f97db3032770ce614c266758e9ee6a9ce7309bba3673fe6d75514b5a580e42b5f55d1d71fe273fc5dcfcae985b276590d0f63fdae
 
 Package: sqlite
 Architecture: aarch64
