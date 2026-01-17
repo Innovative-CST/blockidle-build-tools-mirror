@@ -7,11 +7,11 @@ Homepage: https://curl.se/docs/caextract.html
 Depends: ca-certificates (= 1:2025.12.02)
 Description: Common CA certificates (java keystore format)
 Filename: dists/stable/main/binary-all/ca-certificates-java_1:2025.12.02_all.deb
-Size: 113832
-MD5Sum: 45333c96151ef3d4d7ce2eeb6f109766
-SHA1: 0a0c8efaafadc0e05f7cc5e35c1b0f03fb5ddc33
-SHA256: 290ec1b7a07b4b93537e4f4b12aaca4464f51c8f61fb0ac67def1d766615007c
-SHA512: 56d538dc8eeb6840df43ffd28b64b979eff64bc2b9d5fc16738eb85410a865f35251f1395fba0406f2f20f6ccacedeb2781d26a7e68e1b7d8cd6447c33ccf2a0
+Size: 113840
+MD5Sum: 084f5d7317a60f2b0a567b7b3b79990b
+SHA1: c056847971cec8a73b77bd596619616043e2b676
+SHA256: 487e41d0862de1e45a08f9d8e766cf7e1f3db8036534a57257680721d0570764
+SHA512: 9858b17ac5598d404d26b656ced444f043f4da160f63d4c7ad79d4b96309f28e0209f30b755a76720253caa858d6e9176c6df6439619d8efa0715ca4f3a166f1
 
 Package: ca-certificates
 Architecture: all
@@ -21,11 +21,26 @@ Version: 1:2025.12.02
 Homepage: https://curl.se/docs/caextract.html
 Description: Common CA certificates
 Filename: dists/stable/main/binary-all/ca-certificates_1:2025.12.02_all.deb
-Size: 124248
-MD5Sum: ff343dfb981a557efaf630a21a6d33f7
-SHA1: dd4b7c1e2ea2578889a0ea353cbf0597b4f3cc5f
-SHA256: d4831bcb14ad7b5ebac888f928b4a9db4d52116c5eb394a6eba1340017b87d16
-SHA512: f142e3dddc7dfe15143f8e1d3371196c8cd272ce15e6130add0852b5c0abf9dc5d6e3a667a7da832dcc411f9d17c6b3fb1da0cf1c2c27142d2a87c56af15ccc2
+Size: 124240
+MD5Sum: 2a3b8429c67d25fdbbb8cd946e34595c
+SHA1: c01c8e6660c03ba11d61ec364b9f5cfe96816dd3
+SHA256: 1e9867905668ec6e73f251da18ae723af91db2db395c4d24104a715da3af9b6a
+SHA512: e3559edd309a530b018c281fac607298b74da2fc2ae310ab07dc56053d8e7ba2ae4cf011379e76016604e62730b1e454598e6a4d7d1b4aab496f9eeed96681f3
+
+Package: glib-cross
+Architecture: all
+Installed-Size: 82120
+Maintainer: @termux
+Version: 2.86.3
+Homepage: https://developer.gnome.org/glib/
+Depends: glib (= 2.86.3)
+Description: glib for host (NOT for Termux)
+Filename: dists/stable/main/binary-all/glib-cross_2.86.3_all.deb
+Size: 12123880
+MD5Sum: 575118723082ba2830524fe3da61c0eb
+SHA1: 7745fc26cfd46f1d217a02bee43b8dde88271903
+SHA256: 16a7d09916da9da267fb6755ccfbb9688839ddfd51e830ef7f785272f6973597
+SHA512: 343ac829bd924a3c506a5d9edebaff9c6c13204b517eb930d066be240fe159542b6eafbcad1a0ffa095143b5fc895215328eb5499a89781d669e737c109fb5cd
 
 Package: python-ensurepip-wheels
 Architecture: all
@@ -38,11 +53,11 @@ Breaks: python (<< 3.11.1-3)
 Replaces: python (<< 3.11.1-3)
 Description: Wheels for Python ensurepip
 Filename: dists/stable/main/binary-all/python-ensurepip-wheels_3.12.12_all.deb
-Size: 1801640
-MD5Sum: 3054abe056bfc12265f115b9625ab480
-SHA1: 69bffba6c7b3eae59244511ee9f0fbd2a5bd771d
-SHA256: 4a007f73dd4a3194b7ca18a7187433f6dd19806428c4a8fb42e18a348e0ec676
-SHA512: fce2b5e5d6f9ba8bfbbb6d6a5682628b4ce71134a5cc498bbc556c70c40929cf7939b0ad799f1c923330e8aeecddfc1ef5ba2b0cfc3c57ce6118116692e3b430
+Size: 1801636
+MD5Sum: 7e553f138d48e6e88dccef6b59f8ab7a
+SHA1: 1925347b1f820d35164ba7d7cf16a768e0d608e6
+SHA256: b837d0656590a2423b52507a69195681253efa6dea12a163df0686b4f715fe25
+SHA512: 40a6493eb8e35c9c586aae69b88553c6af625a5e2c0607dbce010f677c4c750a44e5102b9d347a04a39bf565b5ee569825f3771df47bd01a2ff9776e11c89e4c
 
 Package: python-xcbgen
 Architecture: all
@@ -62,6 +77,21 @@ SHA1: 9490060472e568e3add86c3ccc0a687816c7eb0e
 SHA256: 28c82808e311eca04c655d9f10965903578e5ce387c4f0057231e089c7b87590
 SHA512: 8483eac0e0632816186ce7b8263844a7411cd26768a8ca85563c499499716fe8ba54aa1bee86b2d56453ea7603a28bdf7c3bb75219d5d157c3c3e7abcf39818a
 
+Package: termux-am
+Architecture: all
+Installed-Size: 620
+Maintainer: Michal Bednarski @michalbednarski
+Version: 0.8.0-2
+Homepage: https://github.com/termux/TermuxAm
+Conflicts: termux-tools (<< 0.51)
+Description: Android Oreo-compatible am command reimplementation
+Filename: dists/stable/main/binary-all/termux-am_0.8.0-2_all.deb
+Size: 577304
+MD5Sum: 7cbe54b1efba11556bd2adaf964ff01a
+SHA1: ed9265195d2c9b896cce5ef3c42db46e65df1e81
+SHA256: e2c895d7fe16619db7d70d6b5bf67bd921b905d3680145b21ae5de1711490e6d
+SHA512: 1378078b32cfbf9a48905cba4f9dd85d83091a713e6ac9bcc0681b62d12c8a8ae0b89108073162e9d7d6bfbae34e57f514d2876438201c0aee0fd1f15b8238cc
+
 Package: ttf-dejavu
 Architecture: all
 Installed-Size: 10108
@@ -70,11 +100,26 @@ Version: 2.37-8
 Homepage: https://dejavu-fonts.github.io/
 Description: Font family based on the Bitstream Vera Fonts with a wider range of characters
 Filename: dists/stable/main/binary-all/ttf-dejavu_2.37-8_all.deb
-Size: 2459288
-MD5Sum: d95e02ef15ff26f2730dd811dd0b0b7c
-SHA1: 08669d337d85578468ed33b51c96c59cd141b009
-SHA256: c0b8c018266310487e47fa810d3d8d849217d303b3d2e5ff0925b8999bf87555
-SHA512: 7215dbb6e64fce8312ddb6921e4ef7c9c5ebe40c8dc1f8f3ff97218bdcde6f1568e5f09139f82c536012ab5cad67303d707536df0f65d0039feca39ed6b34211
+Size: 2461520
+MD5Sum: dedcb07204c66f49103efd61e8061b66
+SHA1: 694fa814bec14272f09619a886f43113c47666f0
+SHA256: 1e562a38dd4b50f0760e3bdc8f02c944c54f834fa1ea7b18609addaff549071a
+SHA512: d8f010b502bd54b15fb24048974a6ebe6f0a0c3878733a2f51a4ffe5c5334aa4b061efbfe0262036e72fb6421b36266e9de9fac9384d2f340fc5d24cae3faa12
+
+Package: update-info-dir
+Architecture: all
+Installed-Size: 48
+Maintainer: @termux
+Version: 7.2-4
+Homepage: https://www.gnu.org/software/texinfo/
+Depends: texinfo (= 7.2-4)
+Description: Update or create index file from all installed info files in directory
+Filename: dists/stable/main/binary-all/update-info-dir_7.2-4_all.deb
+Size: 2480
+MD5Sum: 79ed26cd859bae5d915eac2266f9348a
+SHA1: 5934f76ddbb47112de4e81e1b00e8ea624dde7d9
+SHA256: 4fd5fff136ece9c6626ed66cc1a3401125506ba5f5191531426fe5b7e8f9c626
+SHA512: 8453820d6945800fdcc5d1966fddb478bcf6ad2279b7f52898ed9ac31d626f9f9899d6dbe1c70246de8d84f1b5a98814a260743ec7adc0cceb80c287aa3ec785
 
 Package: xcb-proto
 Architecture: all
