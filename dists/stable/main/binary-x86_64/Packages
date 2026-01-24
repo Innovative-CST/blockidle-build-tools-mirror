@@ -8,11 +8,11 @@ Depends: libc++
 Conflicts: libgrpc (<< 1.52.0-1)
 Description: Abseil C++ Common Libraries
 Filename: dists/stable/main/binary-x86_64/abseil-cpp_20250814.1_x86_64.deb
-Size: 1178180
-MD5Sum: 8efd19828d1e0e5f8f99eb19450df77a
-SHA1: dc9cd2c1d5629d990e35bd5978abef9b7596d21c
-SHA256: 4c79c88326048b17b1ce3759b280f8a231abe19659e2f394de0c5bee7479e2a9
-SHA512: fe144bde760364e6dac646cf04ba2057f729e2322c2e1a9264a69fcd2cc746e48f3b5d329ba9d852fdbead80b108b34855dd8a0844170e1c3163b3922819a46a
+Size: 1178192
+MD5Sum: 291c39b8dddf8cd0ba442d8d361f9459
+SHA1: 2c8dd595fb8216557ab3a038c6df29bf89a6030f
+SHA256: 092d30dddfed8acadfaaba5c52573a8210be5b4a8d219c4a000240f4907d8030
+SHA512: 06619de083279e36dd36e053af58058f1c4cd9421464f9a9f63ddee750f59c7daa41d25344c4160b62f6ee7f37498afae9af07173dbef26f84186cd4f6838bee
 
 Package: alsa-lib
 Architecture: x86_64
@@ -263,11 +263,11 @@ Depends: libexpat, libx11
 Replaces: dbus-dev
 Description: Freedesktop.org message bus system
 Filename: dists/stable/main/binary-x86_64/dbus_1.16.2-2_x86_64.deb
-Size: 447944
-MD5Sum: a0662eae3c7299714c43dc3e5495e313
-SHA1: 9cec61eab970220f8531fd5106b441b4ca602870
-SHA256: 4006ab0f2bf6c933a283fde614ba5e4fa67598ceafe112ba42b074dc508c28c9
-SHA512: ac3a101f8b3f013a1a518f7d1f1e9fcc2f46ef4cbadb88ba52af387a946ce083648243a154e87e6d2543303409f4960a1593428110cbe37847efdb494634b897
+Size: 447816
+MD5Sum: fe731f3340fdbfa7bf6c489dada67611
+SHA1: b1fdce94f47690a90ef528d099dc4a60418d092c
+SHA256: 0e7c46e4714c53aa7cd5867d6d4d98dc16b9142dae129cd4d7abdcbd9a303af6
+SHA512: 920bc53bb13bad0fe44fd6810f77ae6d07965fcae37e832d91ccdb775f85c7c0e405956cd4b6482cff448298f01c5c3218f98f252185f5ea34166fd27a5bfd52
 
 Package: dialog-static
 Architecture: x86_64
@@ -348,18 +348,18 @@ SHA512: f32ee4eadb673578e8d65a976f5b121c0ae48e3e73cb72c42d7e4e340f8367146f605222
 
 Package: flac
 Architecture: x86_64
-Installed-Size: 336
+Installed-Size: 340
 Maintainer: @termux
 Version: 1.5.0-1
 Homepage: https://xiph.org/flac/
 Depends: libflac (= 1.5.0-1)
 Description: FLAC (Free Lossless Audio Codec) command-line tool
 Filename: dists/stable/main/binary-x86_64/flac_1.5.0-1_x86_64.deb
-Size: 110640
-MD5Sum: 57c259ec6009a4973644913843db796e
-SHA1: 9bf35150596af95250e68dc13f8dfe65a1a320b0
-SHA256: 2facd81d4024eec3219a93ae0a250d7f3986130374ac1dea836a697a92086d5b
-SHA512: e9251867bade07f1e921c219ef087954ab1acb537f1bc4a6e5089812d698627ff9f94b793e3c423ea57598a80f0205055fc99d249613fe8914c280224c473adf
+Size: 111664
+MD5Sum: d25b1eecb7ee0a8e20dddcfd53e73c2b
+SHA1: f235541094c46fa86da9b1cb08f788396a2fb4a8
+SHA256: fc02f53b60a303993e6df7f15faede7c3cc9678075eadba582f8e2417efc04e4
+SHA512: 3b4251d8e73ea9cc24834bc46eb41fd06ac7837e81ce6bf90701866533ea153639bf91e22ee4af9449197029d34a218e6823b88644409d8e6272a53d88325a43
 
 Package: fontconfig-static
 Architecture: x86_64
@@ -639,11 +639,11 @@ Homepage: https://lame.sourceforge.io/
 Depends: ncurses, libmp3lame (= 3.100-7)
 Description: High quality MPEG Audio Layer III (MP3) encoder - frontend
 Filename: dists/stable/main/binary-x86_64/lame_3.100-7_x86_64.deb
-Size: 199228
-MD5Sum: 2ac350f70dd392b6ad92207b1b069a7f
-SHA1: ff4aa67e11407f1f93585a4a275bc0fdc591db1b
-SHA256: d8b757cf592e8a323b69560c7811daf51c2772280c2414365a6153538070e318
-SHA512: 033437db2b5354c45775d4f08ea0b85c90cdb753f5f9fbceed7d0990e95aad48222385274e40c61c1ecd252c215d7b03ca4e11557f6814794ea229846249858f
+Size: 198780
+MD5Sum: 67ef100bdf0010132de13f199f6aa370
+SHA1: 984eac7cc222dc06929b614f0e00d825de155f14
+SHA256: b310db69994861a149343c78d43f368d4f36545b889bc8c7da58aaaab6c747c8
+SHA512: c312e24cbf5679471212c8ffeb88b4008c3be3d9b8ddb5c8c136ae40a0f7c1722d3cd84b764d595ed7535e6c09ab1dd6c91260ed9695fcd3fe025f28c55f0cfd
 
 Package: less
 Architecture: x86_64
@@ -702,10 +702,10 @@ Depends: libandroid-execinfo (= 0.1-3)
 Description: Static libraries for libandroid-execinfo
 Filename: dists/stable/main/binary-x86_64/libandroid-execinfo-static_0.1-3_x86_64.deb
 Size: 2324
-MD5Sum: f974704dc79b6531aac63d901f5d7867
-SHA1: fe2754c21f42eaa0bada0a5ee99a19799264461d
-SHA256: 2672285e70ab76f39d0c4eda6155041833d8db21ea3e2c90dfc265c4d9fa4009
-SHA512: 5969f1678f61a267c459aab2b88be1cb1cb4f485e766256ac0f59b6e4bbe9b0b4214be60184806672f9a3e0a4631ab6402897f976d504bacf5888df9927dbf43
+MD5Sum: 2d5b4659765acc3e0d6553c45b70d863
+SHA1: 0bfb0c6416c9abf1c917dc10ec42ee5f1ba226cc
+SHA256: 905241efa76fe257728d5e2da5aa816706dcf22091cba0e3326a7c4404ec1277
+SHA512: 1ded6c3631a643e1a83b887b395580abb446b88f03451d2f0c28b09b45bcac09953e94e4acacfb3395d97435756ccea8f600ec3b9d0f40d51cefcec7bf120186
 
 Package: libandroid-execinfo
 Architecture: x86_64
@@ -717,11 +717,11 @@ Conflicts: libexecinfo
 Provides: libexecinfo
 Description: Shared library for the backtrace system function
 Filename: dists/stable/main/binary-x86_64/libandroid-execinfo_0.1-3_x86_64.deb
-Size: 15124
-MD5Sum: cb2e55151430fd28e4a07dea3bcd05f0
-SHA1: f958711f28877c626f3efadfab6079b446233476
-SHA256: 9cd6877ed71d3c5d3dcc34e1c0346b78bb37d46a5f128ba0acde4677e04c75ac
-SHA512: 2fb628281108f8c2df689c6820999d5d4536002856c06056cf65e9ef588ed221a0b5b31308f9b9e939c0b23b6d07405f5ad00955d24c313d9af26e5294bd3dbd
+Size: 15116
+MD5Sum: 424a5dd8c8aad6f6478eea84c515ce58
+SHA1: 3bd8b52e1bd9d57de9496143e2e3d823d3299628
+SHA256: 1cf831e0f248a3c2d581295a6d38091fbf1406987cfbd751b42859dbf2136a61
+SHA512: 21356be88d5067512a58aae8bf309d457574d5167c5b0d401ff37eb77988dd6a8d376b4ac1ca368ab6cd392640fa02cd27da6a2bf28de579e7bafbd896f83e1b
 
 Package: libandroid-glob-static
 Architecture: x86_64
@@ -732,11 +732,11 @@ Homepage: https://man7.org/linux/man-pages/man3/glob.3.html
 Depends: libandroid-glob (= 0.6-3)
 Description: Static libraries for libandroid-glob
 Filename: dists/stable/main/binary-x86_64/libandroid-glob-static_0.6-3_x86_64.deb
-Size: 4656
-MD5Sum: ba5bdf0b8e0612595ef90a4fdca646a1
-SHA1: e97c7ce03c1d1aeb578791118d75289a5b49dfc7
-SHA256: 7157bd5b9c6695905a7ae2e6d47203f1424e838034210e80975d167ff052f048
-SHA512: e8812e67465d6cd12ad5807e2a3bb31e7f9d09ab7831f51c8a0cc0c464876b3ba379078c0586848037c9e23e19703f74ae3d7a4cc2d8423747b6dfb09da28cae
+Size: 4652
+MD5Sum: bb51885af1a1d23ebc7e1b0111b62b95
+SHA1: f6f8ae82df7a3c29a47dc519cb3762582c135381
+SHA256: 492141e17a15d095e72352aeb175791338cdf8685057d518562d758ddf644e96
+SHA512: dc37a80d2113685d97afc87257490e91518ff94901e58d7bd9d322500c6b683c3d3f0ff31f4cd15474c80e4394271d4decd3046b28a8118aa2be76cd56de20e7
 
 Package: libandroid-glob
 Architecture: x86_64
@@ -748,11 +748,11 @@ Breaks: libandroid-glob-dev
 Replaces: libandroid-glob-dev
 Description: Shared library for the glob(3) system function
 Filename: dists/stable/main/binary-x86_64/libandroid-glob_0.6-3_x86_64.deb
-Size: 7260
-MD5Sum: 546a45af8f812e360d5a13f80b0ee8c8
-SHA1: 64c21b9d1c014f62c49c785c60c3d2cf9e3bb922
-SHA256: 320c56166bfe1a85c535d3837122ce365b5a5f16954eafb2b7fffc4181e37692
-SHA512: 214be7ea170f1dae38571477976b6edb57dee66c9403f8d31f20cf3b54a04c5dcfe347d9199766d385a4f1bfca790ebda94021c725862fd191b973d4ad28dfec
+Size: 7252
+MD5Sum: 66093f115edd4723adbd11557c26e314
+SHA1: e58846e121f6e6202a43d57a5fb869546224723b
+SHA256: 7a13d52bbaec5df2b16da49d5242b7a37880795b98a7bb7f71970219ff2c31be
+SHA512: bfa20d82e01e7f83503a867708436fe0f84471a5ff9b28e160039a927e46840a86f603a269948be729bf0f974af5e7b089ed4b71f631aa72d1d33e971f794696
 
 Package: libandroid-posix-semaphore-static
 Architecture: x86_64
@@ -1020,11 +1020,11 @@ Homepage: https://libcxx.llvm.org/
 Essential: yes
 Description: C++ Standard Library
 Filename: dists/stable/main/binary-x86_64/libc++_29_x86_64.deb
-Size: 359832
-MD5Sum: 6f94cdb04f31593019413f9bbef1ae49
-SHA1: 022b63912ad3c75a8f24e305dd233671060b9cac
-SHA256: 2a730f136b55be0e45ee917b7ba2ba1d01c9eef11908c89af8b99c668527ac1f
-SHA512: 1407c272e84cbcd1d3e137fb809a1ff1559f5d8e25c98a6a6cc2bbd18ba78cc07194460e63db02c1dbeca70b981fc1edd76eef05c251f3072010a4571c035495
+Size: 359496
+MD5Sum: b9c43f2f90086eeed8573f97e2c06c29
+SHA1: b72f43615d7781373e883d21675d75668663c0e3
+SHA256: bec5ef8a152c04c7970d7dcbc32fe70b92dc8c3145a355588b80566a27a8655b
+SHA512: f8b56c7c49429a732f64c3f984929d6d6b52db7d28c03560210ce018cbe98dabc13b8d557ec671ab7537870e214ef4712a9db0eca1df2fc69a34b37024bba912
 
 Package: libcap-ng-static
 Architecture: x86_64
@@ -1131,11 +1131,11 @@ Homepage: https://libexpat.github.io/
 Depends: libexpat (= 2.7.3)
 Description: Static libraries for libexpat
 Filename: dists/stable/main/binary-x86_64/libexpat-static_2.7.3_x86_64.deb
-Size: 64136
-MD5Sum: 23401284095ebe9248cab4395c51d2cf
-SHA1: 26c9dc316ba4194d4e9cf97e223257da45dafebc
-SHA256: e9b04a99d8b0f86c01cff9a069a2e4700a8df149cce8c497848f80d6b415904d
-SHA512: 9030c6a4c4b80943bbdbf5109f2772b202c919e009745bbaac528d9917cbeb5777766b8b01ab8a785db1153687be1e884543a28c4d0a34b65a88c990ef949e7c
+Size: 63960
+MD5Sum: d0a01f5a48e6ea6a492d79e411533873
+SHA1: a8608d7d347d4214fd9cc712b1af5424693d564d
+SHA256: 643ac5aac99957e7885b1a09e713ca13428ab89ffa991217c0d0a80cbf7d2986
+SHA512: d5bc08489c865a8bbaff3baf5bf4078f011d1ac380a12b6d9b2745b37c3ef59d94f8ade3cd7740f68a9267aa350b65d67ed17617ff7db22c34bcf2d3970f2ed4
 
 Package: libexpat
 Architecture: x86_64
@@ -1147,11 +1147,11 @@ Breaks: libexpat-dev
 Replaces: libexpat-dev
 Description: XML parsing C library
 Filename: dists/stable/main/binary-x86_64/libexpat_2.7.3_x86_64.deb
-Size: 96784
-MD5Sum: 3d54607e36a47eb74403cdb4189637dc
-SHA1: 5ea75e599a4abdb52182e9865ab52fead76d48a9
-SHA256: 172da4f2db3f59facba307982e6e9f21b84f7f123d2e08782f3fa68644b7e778
-SHA512: b82b3ee6a170b66a576d466b7fc12a6927a5bd14b8a0da4bf4ccbc4365d72360f5e71c4dd09acd3574d69790cf94bd16ce3a63f3069f098e605595507804dc89
+Size: 96932
+MD5Sum: 2a61cf5d06cc6a4b4e34a4e6ad548358
+SHA1: 9693a942e9a28c5b435afa41213c6d0b17711d71
+SHA256: c8ccf7fb01d08514d1c8bf3d4cd7e108d36c1c5201caf027ff571d1d2278b818
+SHA512: 2a991e56f65f27f98dc674277e579e21742f03cf8b652987d8b0b94b15da36eca3f99b2408eb5c6715dfb81ef86a836cfc6a31ba05297014d4c5f84311488196
 
 Package: libfdisk
 Architecture: x86_64
@@ -1208,11 +1208,11 @@ Homepage: https://xiph.org/flac/
 Depends: libflac (= 1.5.0-1)
 Description: Static libraries for libflac
 Filename: dists/stable/main/binary-x86_64/libflac-static_1.5.0-1_x86_64.deb
-Size: 115480
-MD5Sum: 025ddc5d73e961493ef20550f0d5a96b
-SHA1: 9588022a82673ddf0cf7e4d172bbd71a04b357d0
-SHA256: 746a1d3ab4652de3314c84ff7c9123d2538e7465fb956f7c89d302190e317675
-SHA512: fdfdc8aa96d96a87a5472f5a65269df1d9652233b4f58124aa9be37d91b10f47bb215be09f16e42af5eaf4762bd22c548232033044750d5f89dd84d55306603c
+Size: 115472
+MD5Sum: 62e02e43c0ce75a4e7086587927d0e3a
+SHA1: 9caf8a861cdeac0620c6207a1008bc3c3d09ee9c
+SHA256: 8dec713a312c6c9000cbc275492f518137f01cc08a61eb2e3434c86eedf6bf6a
+SHA512: 8c929992fe2641534e824d47c6d7a096ddce65560fa6fcc2f518b5b5af2ed6bd392e2e7c24ee49fab697e367850c13f59020cbafb9632f008148ca115d0823da
 
 Package: libflac
 Architecture: x86_64
@@ -1225,11 +1225,11 @@ Depends: libc++, libogg
 Replaces: libflac-dev
 Description: FLAC (Free Lossless Audio Codec) library
 Filename: dists/stable/main/binary-x86_64/libflac_1.5.0-1_x86_64.deb
-Size: 212672
-MD5Sum: ffb3da8dafbfdf5015f9edb13c49af1e
-SHA1: 00fdccf3adfc70399187f9ff3b81f762ed52246a
-SHA256: 0e8c173ab7bdd58d760bb088c5c957b119ea30a127ae9094f657884e71409c23
-SHA512: 31caff192c8a49744ae5fb2448f57f137a2824084021447739f0b392a5dd483d036e1930298f6b0976d0fabf28379ce14512cc387d93da372f6f99247711b98d
+Size: 212604
+MD5Sum: 2b20156eded8503dde16a8346abe737b
+SHA1: 45eef827546003b76fc727593e7768c895726358
+SHA256: 4bbdc1e96c790085aeaed9a5da0552c27e7b47e90eb09068b7ad405d4cf65d81
+SHA512: 83cb911ab85f5b8a4d192bb6e0cd1e196103b93cbdde0652372ffe3f52606c95358c684bc2613c5366ef5d504c6d5ad0939a6f632a768271dd1c42d5690d905e
 
 Package: libgmp-static
 Architecture: x86_64
@@ -1490,11 +1490,11 @@ Homepage: https://lame.sourceforge.io/
 Depends: libmp3lame (= 3.100-7)
 Description: Static libraries for libmp3lame
 Filename: dists/stable/main/binary-x86_64/libmp3lame-static_3.100-7_x86_64.deb
-Size: 126676
-MD5Sum: 8ebf1d2774d6fed6fb93828ddf1460dc
-SHA1: 5d3f54ecac76e9dc6f8ef1a5148ac913708468c5
-SHA256: d6f40cfc20bf199991d7104a6096142af19cb904eb92017e360f8393cf57f376
-SHA512: f56d0a7b099af30a2f39a5692ec499e87e692f06742c26d304e9b6e00a6c95220f07033d0477d622822858a239a68e132ae3d0f1baa509d7a67399bb06a4f9bf
+Size: 126692
+MD5Sum: 7adc1da4c2eaa130cb2c991acfb88310
+SHA1: c31d5927a04186f92f0d07069444a606792b5169
+SHA256: 649fe28d029839a3a904f86782d3a01f1639795d5b340e2663c66f9f3c2f43b3
+SHA512: c18b513cb3ddc830d14d5bab451367f8dcd61d865c55ee389f91e8e380a9718a67587f9a6366942ebc10a4a1a031f5d24f7a792cbab3850edd96ef81c0f7b6b1
 
 Package: libmp3lame
 Architecture: x86_64
@@ -1506,11 +1506,11 @@ Breaks: libmp3lame-dev
 Replaces: libmp3lame-dev
 Description: High quality MPEG Audio Layer III (MP3) encoder
 Filename: dists/stable/main/binary-x86_64/libmp3lame_3.100-7_x86_64.deb
-Size: 120256
-MD5Sum: 7db76a0b72e94b0e075c9609fd8977fe
-SHA1: ec3197b8de1e9f6bbcc6e724e92b9ddb00f433c2
-SHA256: 0c865643522a52323b13a8531368d077287ea535f062bacaf44924aa901a2f2a
-SHA512: d22f929f8d56aeb48c102271eae155c410351c07d64d2199d4ac08b0e1c2d97a5706f263edab5ca243acbe01bab096f2f2697799a7cd8d5d90f6b688abd5fbe8
+Size: 120260
+MD5Sum: f45ddd196ca08f4ea6b6dbe8c563e985
+SHA1: cef8bc19585c9c7c76f875cd3f973587f9d04dc8
+SHA256: c1a8e55a6461255c0da86613ea2639dee493e9a408fc46da2d655088d02f14d1
+SHA512: 281837a7a2815b74d3296ed3f683d38d29a98b6ea94ffb3b655ac5bdf4e095055a512e628f4074d4ab7ec7b052c8c2dc328ce3a338fb25cf1533435ad54a951e
 
 Package: libmpfr-static
 Architecture: x86_64
@@ -1646,11 +1646,11 @@ Homepage: https://xiph.org/ogg/
 Depends: libogg (= 1.3.6-1)
 Description: Static libraries for libogg
 Filename: dists/stable/main/binary-x86_64/libogg-static_1.3.6-1_x86_64.deb
-Size: 16540
-MD5Sum: 31f20a575afd8b01da7afbfd65b59007
-SHA1: eefa0cbe82141fd3270d61c403cd92c9aa03640a
-SHA256: ba42dc28160a996ffb5d87b27d2966f8b35116a3dce526c9d26c097b32ddcfdf
-SHA512: 30ae7f596cb5cc18aadf63043288ff65eb50d1bef2723068ae635307c5ee3eca643d6f81fcc0ef639f2d0fbd3dffe0643337c8b831e3d48ad7fdc6cfb040393a
+Size: 16532
+MD5Sum: 978186d9f921af46080be29a4d617e1a
+SHA1: a44c736fea7c111e1d404373cc34d8e2bd37ab2e
+SHA256: 40c65847de11583b82a3bfbda50fc29cae363fc4b3e575789847904439c7731e
+SHA512: 58926dc408f921a3b4a755b79d04455c5224ec341b0b3af5d4204a24e2dc3a8a7a551ab1aa9f7c4f9def80f2803ce0fee80fe96cfc8ad92155185f1db7ba7f36
 
 Package: libogg
 Architecture: x86_64
@@ -1662,11 +1662,11 @@ Breaks: libogg-dev
 Replaces: libogg-dev
 Description: Library for working with the Ogg multimedia container format
 Filename: dists/stable/main/binary-x86_64/libogg_1.3.6-1_x86_64.deb
-Size: 188776
-MD5Sum: 8fe68a0d53e3bf58e66acf5514a22380
-SHA1: 1f8f8bbf01f7a9fc3e14937e7d9ebb023818f01b
-SHA256: 6cb453e1184ef95a6008f042dacffcac890362122646e9d79d93999c7ca353d8
-SHA512: dbb63a141c9538d7667717977f1e10f9539dee7b4578c462c88285c65e5a7ea5cfee6dedf4ae97c7cb90d0ff6e599d128f23ecca862db006100732c9c70efd38
+Size: 188760
+MD5Sum: ef14bc83eac3737dbd09e9670f8a4bf9
+SHA1: 89ed759dce0fbee1e3e4b4aa55d85f3530dcbcf9
+SHA256: bdb865f1ceced8f1301d4bb54e8b33046a51028303838d32e21950f19a675270
+SHA512: ae2fadd5d54684dfe1035ac0e6e728a9aca25feecce30a0a41880507360d95c974e7d7d2c1c989250a1c1d1e65ee5d1c4a041241ca609c429de1f2de9d36bf9c
 
 Package: libopus-static
 Architecture: x86_64
@@ -1683,6 +1683,21 @@ SHA1: 9f0ad5226a5272911493dd646a15247a9f9e3a38
 SHA256: a1443f010552172dac71c91fc92599f583a6d2c6d96a4fa3855e5c3ed4008e31
 SHA512: 1c86d69664f61699a395dd227332045a89baabcba6a46b553f02698c5531b1654fac3e49acf12179faa165ca1f36440d2cdf9f53335cfa151ad1bca09a1ef39d
 
+Package: libopus-static
+Architecture: x86_64
+Installed-Size: 720
+Maintainer: @termux
+Version: 1.6.1
+Homepage: https://www.opus-codec.org/
+Depends: libopus (= 1.6.1)
+Description: Static libraries for libopus
+Filename: dists/stable/main/binary-x86_64/libopus-static_1.6.1_x86_64.deb
+Size: 211864
+MD5Sum: e1346b75bd0a2606369aef078af0bb4d
+SHA1: be0cb355f7b5815f6e34e07d560a2a056147761a
+SHA256: 5c4f77b66e41d8a845ab858b15130e1ff2ff6b0542ee7e130b657c6c44ca5114
+SHA512: 50e92da19d3052f3779891f15383960c981567abc3fbaf7bf96d4dcffeb07601b4e98bf896f202654d5df8b4297d43b5ed4150a53507f4568599b86a9ffb512d
+
 Package: libopus
 Architecture: x86_64
 Installed-Size: 560
@@ -1698,6 +1713,22 @@ MD5Sum: 05d5af42ebf253a66e6a3a75a8396cd1
 SHA1: 64db34f997a20d74b33399946fda071745fc31dc
 SHA256: 673a1b4ed46c4b6f51881a53c5ce035e319044ad1facf6f2bf08dfe06631961f
 SHA512: e367a1ae0478665777e260873733e161f75f0dbc7aa1ff07d02b0f98afcc6694edf434a9af715daeecccb0061acffc1b3c93aae3d9d84322550ee14ff76aefcb
+
+Package: libopus
+Architecture: x86_64
+Installed-Size: 592
+Maintainer: @termux
+Version: 1.6.1
+Homepage: https://www.opus-codec.org/
+Breaks: libopus-dev
+Replaces: libopus-dev
+Description: Reference implementation of the Opus codec
+Filename: dists/stable/main/binary-x86_64/libopus_1.6.1_x86_64.deb
+Size: 201948
+MD5Sum: a26cbbf599ca33eb7276e65e28a099e3
+SHA1: d6bde7b54f9999253b7576d53b615e40e684ee45
+SHA256: 2b24947914e788023bb19cef331c3af2d81b6768f3082bdeaaafe792e439dac9
+SHA512: de3af7043a0f616f80c7a190ff04a653c1ae3be593260cf24c72aa8819550f173ecc3fa61f260ccb04fa384bad84427e12036685d253404eedf933d979f5b78a
 
 Package: libpng-static
 Architecture: x86_64
@@ -1803,11 +1834,11 @@ Homepage: http://www.mega-nerd.com/libsndfile
 Depends: libsndfile (= 1.2.2-2)
 Description: Static libraries for libsndfile
 Filename: dists/stable/main/binary-x86_64/libsndfile-static_1.2.2-2_x86_64.deb
-Size: 186508
-MD5Sum: 7776f9a67ab14a4357f2516051fca1ab
-SHA1: 4b23c60ec507dad47a0c20979bde4c36f8145077
-SHA256: 5ca79880da3c3e2b659bf1c5f3d31cc65e772b9da130f1a1ee6ffa099a224836
-SHA512: 698696fd158db74e792bd6374b7916a7f8d22e623e144286ed4d66e5503b106c7f7bb52eebc7493b6b130c70b01df032e7b715ea8317e67177f274bf0ee6ccc1
+Size: 186680
+MD5Sum: 38417376741e86eac11fd89eb750f246
+SHA1: 3a3308e49edad9aec9cd0779f15c9ea8b430951f
+SHA256: bfd4e25f94db0400625e490070bf8c17802e81f1b73a8b78efb5004b54d24f87
+SHA512: 405b64fd0f87237396c1e9f3e7e9044f38d6d4c1a0b58797727c51fc2d2a3241fef89a1b94988042e0946ac86a5d0693f284ff7074b41d36e35563b9fe9e93aa
 
 Package: libsndfile
 Architecture: x86_64
@@ -1820,11 +1851,11 @@ Depends: libflac, libmp3lame, libogg, libopus, libvorbis
 Replaces: libsndfile-dev
 Description: Library for reading/writing audio files
 Filename: dists/stable/main/binary-x86_64/libsndfile_1.2.2-2_x86_64.deb
-Size: 222396
-MD5Sum: 1d002f32d09e165db102ab9326e72e42
-SHA1: 18771264cdedaa9a5a5a026b02837d29b356d4fe
-SHA256: e460709289c596390f0c3d3472ef1c6379bec6e8df2a485bbae67c5e27266cbf
-SHA512: 5bb1d8981979869dfbaa7d8e55d3d73656439248ae10ce839bdfa1402111f7a46ebc49dd535b31d077a898817fb7cf6e65bee471de9a2989b938d26104d63993
+Size: 222344
+MD5Sum: a609df8c1eeb93dcabd4e369f4944760
+SHA1: 0306d879ef22d1740a0e8a9aee38d5580faaf2ca
+SHA256: a68f67d7c08890521abb23b744ef01440c68c94511d287989ec46b9f0406fa08
+SHA512: 94dd0eb095709fbf73a14acf5a859f8456b403cd05dc9c3f530b9c72c8e3cb00a642fb9b0bb2a9aab565a7e1b33cac96f15b543c10d1e464039cfe9fbdbed2b8
 
 Package: libsoxr
 Architecture: x86_64
@@ -1836,11 +1867,11 @@ Breaks: libsoxr-dev
 Replaces: libsoxr-dev
 Description: High quality, one-dimensional sample-rate conversion library
 Filename: dists/stable/main/binary-x86_64/libsoxr_0.1.3-8_x86_64.deb
-Size: 380172
-MD5Sum: 5e5f13627c0edc44152ff3d5f3f849df
-SHA1: d780e4c4dab20adc220fac0eefe5be2ba49a1089
-SHA256: 873623f59fb7742533e67c0a90387c57f4e42ab9343ed19ed8940c0235d3eb5f
-SHA512: 398362878c381471b7a514a23b462655fe6a47b1987cf732381f522c8e739e06322c89d39862e43c92aec1a04d6932b6d63ca1c3b7abd08d7e802e55c69ddd0f
+Size: 380048
+MD5Sum: 4d17fe06feee6aa94f08ad7807bbcde0
+SHA1: 6bc8c663514659d85c77fe5d2399b447a82c8549
+SHA256: 7d4c482e8d3029767bb81954cb4aea14ad34f621a0578e79dbc95914eec084c3
+SHA512: 5a9893c524e8acf08eb278328a1d8db52e9e8db3b8bbd5f41c705a9469c2bec9b71898ada4548b82224bf1df7073f655d955c0ddadc7f9855295dcc6737a1ab9
 
 Package: libsqlite-static
 Architecture: x86_64
@@ -2075,11 +2106,11 @@ Homepage: https://xiph.org/vorbis/
 Depends: libvorbis (= 1.3.7-4)
 Description: Static libraries for libvorbis
 Filename: dists/stable/main/binary-x86_64/libvorbis-static_1.3.7-4_x86_64.deb
-Size: 159572
-MD5Sum: 2fac8ef0c1b359e3cdc9626957c390da
-SHA1: f2eadc92995933392deb9a93245aff85ebaaaa4b
-SHA256: 7b7b5e6aae0fd125326c0ffda294fbac9de26505151f80d0c515347eacd71b0a
-SHA512: 30d42dcc6b5b8517276df6a40efa5e714582565e044da402af2ab88fee48e112e0532fef83cf26adcb0c4791428b4820933a0f93af16707fe02a6329d0fe1297
+Size: 159436
+MD5Sum: 35178e0ab52d39354f163a3c3fd401e8
+SHA1: c1349d74dca6ddf268d4f3ff3fdc6d1e90406fcb
+SHA256: 4350766b7facd805729f116c59f63ba91b610e0eca9e7a3fc17625a980f36607
+SHA512: 4c9a244e1aea75e2df6f76e7b6b0e8ed7a657420e8dfaa550602163e90c34cfcf7f095e5fb52287633d6629125ec75754fea5a83a4cc02bf29ec7af58965c125
 
 Package: libvorbis
 Architecture: x86_64
@@ -2092,11 +2123,11 @@ Depends: libogg
 Replaces: libvorbis-dev
 Description: Library for using the Ogg Vorbis compressed audio format
 Filename: dists/stable/main/binary-x86_64/libvorbis_1.3.7-4_x86_64.deb
-Size: 266744
-MD5Sum: 9e8979971f259393df9cfb70b6bd550d
-SHA1: d24addcf4eb71306a2afba95ff262fdede02c35d
-SHA256: e7c52ee6b24dae580c4cbbf33767c012003e19f541ef40777920305e6a573a90
-SHA512: 476cfbaef5e40ef00bf8711c5e6644c91a324c7d059aa056f93256fa8b81a1ebe311ce5d7187a56bca556ce70a59ad4c148affcbf9ec746ddf5f13c3d8bf9ced
+Size: 266884
+MD5Sum: 7d05c6bb6c823f80cd545e275784f010
+SHA1: 5087f2294daaa867f0d013f17368e6e7852e1401
+SHA256: c4791bcdb81f5a72baad965d531b6a8a83a86b3a7f248daa7bddfb700f5e6253
+SHA512: 9334c2b523422e486a4d2bde926f1efdff027d513f54faf26c72fd4bd087248faacaf70cf7b9095782adf3fd43862cfeb68a576a90f2748abd30010494dea856
 
 Package: libwebrtc-audio-processing
 Architecture: x86_64
@@ -2107,11 +2138,11 @@ Homepage: https://www.freedesktop.org/software/pulseaudio/webrtc-audio-processin
 Depends: libc++, abseil-cpp
 Description: A library containing the AudioProcessing module from the WebRTC project
 Filename: dists/stable/main/binary-x86_64/libwebrtc-audio-processing_1.3-4_x86_64.deb
-Size: 435412
-MD5Sum: 707cd226d94a87a8ef6495381922427b
-SHA1: b26e5e7ae51e038fb85d805f59fbae229f228551
-SHA256: d7812c78ba490b12e3e307c7e792b1da249489b813628f1d32771b0f5a767643
-SHA512: d08909c53097a46cf7771a5396b6c54a96678062a926c1f8296e18c135ee149c9d1a14cbc355a45f5e805a99af2ffc94f162907c890ae54c27049291f10d1051
+Size: 434172
+MD5Sum: 5e2bd5c85516d2195a13d45a0053d85a
+SHA1: deb35257c1556c8c856ca520e3c653c70287a65b
+SHA256: 5347fc2706e2ccf2ff68437c2b9138dba36b50597133a2ad6ebf7498689e63d6
+SHA512: 5a50473ff99ed870ed3d7b8caf408488528f21221c07a55894fd4ba5caa157af28bdafe81e63f9641318042b5ef52d7f5d5f2b8ef07ff87999f12c71861873e5
 
 Package: libx11-static
 Architecture: x86_64
@@ -2544,11 +2575,11 @@ Homepage: https://invisible-island.net/ncurses/
 Depends: ncurses (= 6.5.20240831-3)
 Description: Static libraries for ncurses
 Filename: dists/stable/main/binary-x86_64/ncurses-static_6.5.20240831-3_x86_64.deb
-Size: 156204
-MD5Sum: 6f41cd460f559f215534368b22688aa4
-SHA1: ec200e9a280ea7f19ad261e2c070cbb8dc2e0440
-SHA256: 7500e6836740f0e33dc67e7c596e76f7f14cfdc41ca3fefcd0957d6f0ea87974
-SHA512: 2bb7d838d981800899b1514225c9bea8bc0abeb151d03783a0758cdbf832d8daaee7f3ff87ae8ad428eb16d157afd30896cfa0df0ae7b053588a685a5825b24f
+Size: 156164
+MD5Sum: 9ef318449f02c092c8160acd6b799c8e
+SHA1: 21251fe556095206179d3d6dab3c78d33bf27e0d
+SHA256: 6276ab3c7cc410461c96d8b971f13e083d1eb17c5840e28bc4d74597a0ab9771
+SHA512: fa0d391584632ff38d469ce326650640b21cb1489bcbacbffcda682a5056398d5b35a899f1648a3a1c3f6acd8f6fa6ba656f2bf44db66b93c690dde84a55cc0d
 
 Package: ncurses-ui-libs-static
 Architecture: x86_64
@@ -2559,11 +2590,11 @@ Homepage: https://invisible-island.net/ncurses/
 Depends: ncurses-ui-libs, ncurses (= 6.5.20240831-3)
 Description: Static libraries for terminal user interfaces based on ncurses
 Filename: dists/stable/main/binary-x86_64/ncurses-ui-libs-static_6.5.20240831-3_x86_64.deb
-Size: 39108
-MD5Sum: ce18b9c8a57b17f4b321fdabbe850e57
-SHA1: cb8c11c3f9b0bdc34433314d5646dd4cb6105f70
-SHA256: a7d191e8eae0cd44b58bb661256d0a6a6754a977c4b476b55f257f5c293483d3
-SHA512: 0474a0d12581c8e2c21db2f95423126ab29e3359c0ded5d9f6b7b48c20069b4bc43f877bc576d0d45407b82b6fcba643009234ba1d65b3bbf312076337f1e6e2
+Size: 39088
+MD5Sum: 206aa3d3d8ad3b334e97dd8abe77bc7a
+SHA1: ebce00fc08f12889361d981e6651fa597d79df9c
+SHA256: 0000fdcc0773f76fdfe886b38692c8273061f33452ebefc30bc0098910c09b69
+SHA512: 1412267d6795a0130b408466a02fed627adab22f1926450a726b6742060a003688c17457325669d42327621dd54a386989760d0d96d34f684fdf9cc2dca83eb7
 
 Package: ncurses-ui-libs
 Architecture: x86_64
@@ -2576,11 +2607,11 @@ Breaks: ncurses (<< 6.4)
 Replaces: ncurses (<< 6.4)
 Description: Libraries for terminal user interfaces based on ncurses
 Filename: dists/stable/main/binary-x86_64/ncurses-ui-libs_6.5.20240831-3_x86_64.deb
-Size: 35336
-MD5Sum: bf7649ae6c3e4d9db99961d694bd78c2
-SHA1: 2a84f832785a1a6ec61bf189a614cfacded25765
-SHA256: e93315428d0a60e26d7472731493c9945235c6fc1a39e26a170f9b2dfccf4a32
-SHA512: bfb8a0599130c5f5dd40a3437a326eb99b59ed2f50d038233f18fe9b772518dd16119a3415efe81529fa0e751a1abfad83e38d589c453c26b445853122015cbe
+Size: 35376
+MD5Sum: c5d15801e430c9590fb8cfa5223551ae
+SHA1: 9340eceac35e63f3ec9f925bc7df0180cc890d53
+SHA256: 3fd1bca09f5410bdbf865fc4469340d4c957cdd4b399521c16eec81a0cac5dce
+SHA512: 6de11ce34588df9b7e71a430d3e24b992d00958be3b2bfc1dc71485e21a6dd8efc84b4c5bd766aef132bd0d524aae35e1cd63ffe1aada95efe3c9465331778cf
 
 Package: ncurses-utils
 Architecture: x86_64
@@ -2591,15 +2622,15 @@ Homepage: https://invisible-island.net/ncurses/
 Depends: ncurses (= 6.5.20240831-3)
 Description: Tools for working with terminals
 Filename: dists/stable/main/binary-x86_64/ncurses-utils_6.5.20240831-3_x86_64.deb
-Size: 91208
-MD5Sum: e6c97bc0959a3a64173e79549d081b30
-SHA1: 2a3d91822e5d453ebc51a40633d42bee05b3fc44
-SHA256: c7e2571212ca22b644e7ea9408dc4ff52609f8782bcae8f03e04096555e439ba
-SHA512: 1f86d93b80f0864a74ac094477b1e1a33ec7e51666f12533701bf67851f89f7fa4e36e83913bfff78d4da89cc7e0a6d4d459537dd9bddc4b5d1d5bca6db0135c
+Size: 91180
+MD5Sum: 059afefdb4c468669e1e7c0804c14eec
+SHA1: 652168ba7a9b871f70c882a1ca83984e3fa4b5d3
+SHA256: 1717f10d0a23c7ece77f6bb1b1690e72a29fc4bb98570aeae5225294cc99e3c8
+SHA512: 40395fd391f90bff8928cadc9c64a9e29695227716a9f5f611d5a5422b7e575c74a4c6943380d70817064cd84a372c8bfc3e2d28c59d2b4afc1a20f70310c1d8
 
 Package: ncurses
 Architecture: x86_64
-Installed-Size: 1592
+Installed-Size: 1596
 Maintainer: @termux
 Version: 6.5.20240831-3
 Homepage: https://invisible-island.net/ncurses/
@@ -2607,11 +2638,11 @@ Breaks: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
 Replaces: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
 Description: Library for text-based user interfaces in a terminal-independent manner
 Filename: dists/stable/main/binary-x86_64/ncurses_6.5.20240831-3_x86_64.deb
-Size: 549740
-MD5Sum: 592ef7cec02aead6e753fef5d3440bc6
-SHA1: d7e7d54505b58083267764bcb9b03541aa9954c8
-SHA256: 8c16b6c7f36c4c7286074c8f3b95bf23410f0cff7451da92ddc549e062b62def
-SHA512: 5d4052970de6bd82a2dc648072ef66392908aa56dfdbc732bf5046fbc9fad109412c5ef25360bb7238be8ee03e1809b019ae395e0066cc3cae23c6b0f10c19d0
+Size: 549656
+MD5Sum: b94b6ebabfaf8cebefad174f99bb4ca8
+SHA1: 3b6fc01215025c6c7034f101e3d89bbfab12e481
+SHA256: 2d5b0435f857046b6fd0793c0d85de665a41e992b0125576edeb4328dec5be8b
+SHA512: 5a9dd6db1d005f9479393369e8d07f4f9e4cd13af57bf626847a9fff658a57b987bc95c5129436058f5431859f1d1031d3d53b6389702a0d2ef51a97fe3d34bc
 
 Package: nettle
 Architecture: x86_64
@@ -2986,11 +3017,11 @@ Homepage: https://speex.org/
 Depends: speexdsp (= 1.2.1-1)
 Description: Static libraries for speexdsp
 Filename: dists/stable/main/binary-x86_64/speexdsp-static_1.2.1-1_x86_64.deb
-Size: 34692
-MD5Sum: dc8e25a2e472135666eef399961e1f2d
-SHA1: 9682159efc85ea878952942e0afa0babba949c80
-SHA256: 0b525aeabfc49d007ab9fe6efab1642381a71eabefa39a62f886f5d23b36a9cc
-SHA512: f0982d595aeb5e304f59751d58b58ca5387b12ba00c14cdd258808024f03437ab137a3f3c8b3f3628f8771a87df9114531cb5e4fda7cf18bce952642b1c94d27
+Size: 34688
+MD5Sum: e47edc7b5712bc79c2ab85230a7f8098
+SHA1: 0a77afddf5ba8f843bd7dfa82b6b9fcabcdbec46
+SHA256: bd160ab3a6c279e6fb73bfedfaa47f2ed0a7d86ca79e4c71dfff1fa7a9e93eb2
+SHA512: 44143dd72f4064de0e43775ae05e40153af37d26a078eaecc330b2adf91538507741efcb084b17fa89f011592dde48288999d9b31a70679fad6e5bb9e57aa78e
 
 Package: speexdsp
 Architecture: x86_64
@@ -3002,11 +3033,11 @@ Breaks: speexdsp-dev
 Replaces: speexdsp-dev
 Description: Speex audio processing library
 Filename: dists/stable/main/binary-x86_64/speexdsp_1.2.1-1_x86_64.deb
-Size: 39172
-MD5Sum: f292df7fe595275228de04db036146e5
-SHA1: 12e1892a3a09431b8728f2c0311a055144c803aa
-SHA256: b20ac5e50d68b17b3453c9062300ac920a28bc389116847c7eb19dca6d77e7bd
-SHA512: af2cf20ef4e913a86d98f761d83fa34e3b278cca20e4f16e5d0ed7c364e4f3088ed2ee478598dea1722a2369401989810485cc6e171eb22f984eab5ef7525db2
+Size: 39212
+MD5Sum: fff05a8fb4ce1b2810429fd92cf01963
+SHA1: 006f920575eed5e2b8dd255f850100df06f228dc
+SHA256: 57baa4918506b46b3824be31dc980ba634c6c4362cdebc4bf52523669943a250
+SHA512: e78a7674b9829fba87aa873cdd33f4aec2fd61e86be32b5a90bc5d4260a8795a0b6fa22a0676a0671f8a515b220629d78d0f9e201c78b8a3f55be8fd3e2e19f2
 
 Package: sqlite
 Architecture: x86_64

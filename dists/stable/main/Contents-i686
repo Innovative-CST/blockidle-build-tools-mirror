@@ -4228,6 +4228,17 @@ data/data/com.icst.blockidle/files/usr/share/doc/libogg/white-ogg.png           
 data/data/com.icst.blockidle/files/usr/share/doc/libogg/white-xifish.png         libogg
 data/data/com.icst.blockidle/files/usr/lib/libopus.a                             libopus-static
 data/data/com.icst.blockidle/files/usr/lib/libopus.la                            libopus-static
+data/data/com.icst.blockidle/files/usr/lib/libopus.a                             libopus-static
+data/data/com.icst.blockidle/files/usr/lib/libopus.la                            libopus-static
+data/data/com.icst.blockidle/files/usr/include/opus/opus.h                       libopus
+data/data/com.icst.blockidle/files/usr/include/opus/opus_defines.h               libopus
+data/data/com.icst.blockidle/files/usr/include/opus/opus_multistream.h           libopus
+data/data/com.icst.blockidle/files/usr/include/opus/opus_projection.h            libopus
+data/data/com.icst.blockidle/files/usr/include/opus/opus_types.h                 libopus
+data/data/com.icst.blockidle/files/usr/lib/libopus.so                            libopus
+data/data/com.icst.blockidle/files/usr/lib/pkgconfig/opus.pc                     libopus
+data/data/com.icst.blockidle/files/usr/share/aclocal/opus.m4                     libopus
+data/data/com.icst.blockidle/files/usr/share/doc/libopus/copyright               libopus
 data/data/com.icst.blockidle/files/usr/include/opus/opus.h                       libopus
 data/data/com.icst.blockidle/files/usr/include/opus/opus_defines.h               libopus
 data/data/com.icst.blockidle/files/usr/include/opus/opus_multistream.h           libopus
