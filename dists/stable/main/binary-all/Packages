@@ -7,11 +7,11 @@ Homepage: https://curl.se/docs/caextract.html
 Depends: ca-certificates (= 1:2025.12.02)
 Description: Common CA certificates (java keystore format)
 Filename: dists/stable/main/binary-all/ca-certificates-java_1:2025.12.02_all.deb
-Size: 113840
-MD5Sum: 084f5d7317a60f2b0a567b7b3b79990b
-SHA1: c056847971cec8a73b77bd596619616043e2b676
-SHA256: 487e41d0862de1e45a08f9d8e766cf7e1f3db8036534a57257680721d0570764
-SHA512: 9858b17ac5598d404d26b656ced444f043f4da160f63d4c7ad79d4b96309f28e0209f30b755a76720253caa858d6e9176c6df6439619d8efa0715ca4f3a166f1
+Size: 113820
+MD5Sum: 69170519fe117d952e19446a9026b9b2
+SHA1: 96595e8687cf0ccc105164338f737ff8e34a5b8b
+SHA256: 1e29381afe5e14d13dce0f98fcaa7d12c06d1b30948cedbd8b248a7f2f90259b
+SHA512: b7b4a715076886dcfa8b53f13279e34ec4ea5a3a19ec2d617da8e24a5d3b45a44e7b8be55b6219a75f90c6167c4b42f3b0c905142d2174914e0b2950185d42d9
 
 Package: ca-certificates
 Architecture: all
@@ -21,11 +21,26 @@ Version: 1:2025.12.02
 Homepage: https://curl.se/docs/caextract.html
 Description: Common CA certificates
 Filename: dists/stable/main/binary-all/ca-certificates_1:2025.12.02_all.deb
-Size: 124240
-MD5Sum: 2a3b8429c67d25fdbbb8cd946e34595c
-SHA1: c01c8e6660c03ba11d61ec364b9f5cfe96816dd3
-SHA256: 1e9867905668ec6e73f251da18ae723af91db2db395c4d24104a715da3af9b6a
-SHA512: e3559edd309a530b018c281fac607298b74da2fc2ae310ab07dc56053d8e7ba2ae4cf011379e76016604e62730b1e454598e6a4d7d1b4aab496f9eeed96681f3
+Size: 124244
+MD5Sum: 762304164ef5ae39d5b7f1dcbd2b5062
+SHA1: 4a7422865ef3f6aa57e08ac94ea5021a95e66d19
+SHA256: f3c5560fe8a4189c1e60561c03c52725b55dc1b05806e6cf58397b5bfca41352
+SHA512: 41a18797c406bb315c1ba84a1d8ccf6cefebb6fade62b9d85b5df754cde81df466aa317b4f069edd5838e3d3a560dfaf99c001c5bd81c0719d448526bfcb4849
+
+Package: glib-cross
+Architecture: all
+Installed-Size: 82120
+Maintainer: @termux
+Version: 2.86.3-1
+Homepage: https://developer.gnome.org/glib/
+Depends: glib (= 2.86.3-1)
+Description: glib for host (NOT for Termux)
+Filename: dists/stable/main/binary-all/glib-cross_2.86.3-1_all.deb
+Size: 12125312
+MD5Sum: ccfeea9eb2e770ab402a48595869444a
+SHA1: 812f35dfa804785d018d6f88d3153b74f619835b
+SHA256: 7737fa071a06ef57706088179563b1441c09d72ab46ddf95a85ef977ecd904aa
+SHA512: 2bd85ee3473b31a7d274c3ea4fe13687a21ea7fb7ce66bb8e61de90c94e994597bd3e022d83137baaafecb68134d29f72f2d2f648a92cf72bec11608509ca962
 
 Package: glib-cross
 Architecture: all
@@ -41,6 +56,23 @@ MD5Sum: 575118723082ba2830524fe3da61c0eb
 SHA1: 7745fc26cfd46f1d217a02bee43b8dde88271903
 SHA256: 16a7d09916da9da267fb6755ccfbb9688839ddfd51e830ef7f785272f6973597
 SHA512: 343ac829bd924a3c506a5d9edebaff9c6c13204b517eb930d066be240fe159542b6eafbcad1a0ffa095143b5fc895215328eb5499a89781d669e737c109fb5cd
+
+Package: python-ensurepip-wheels
+Architecture: all
+Installed-Size: 1840
+Maintainer: @termux
+Version: 3.12.12-1
+Homepage: https://python.org/
+Depends: python (= 3.12.12-1)
+Breaks: python (<< 3.11.1-3)
+Replaces: python (<< 3.11.1-3)
+Description: Wheels for Python ensurepip
+Filename: dists/stable/main/binary-all/python-ensurepip-wheels_3.12.12-1_all.deb
+Size: 1801644
+MD5Sum: 2dbe593005d4e077aa0fc986c0f67b9c
+SHA1: ac62dad42e1a545470d9e13ea601bebcf2aa8ea9
+SHA256: 35038598732a3f125b4e6d5a407c0cd217a2d090fcb906af787e0b943b7c86fa
+SHA512: 375fa6c3e5c9778d4b504ceac7d722608b574c88c89254c41b5bce988e629f7e45226edf7e2eaf538e82b45cac6cbf7272ea81544f1d9d28abd964728eb21373
 
 Package: python-ensurepip-wheels
 Architecture: all
@@ -86,11 +118,11 @@ Homepage: https://github.com/termux/TermuxAm
 Conflicts: termux-tools (<< 0.51)
 Description: Android Oreo-compatible am command reimplementation
 Filename: dists/stable/main/binary-all/termux-am_0.8.0-2_all.deb
-Size: 577304
-MD5Sum: 7cbe54b1efba11556bd2adaf964ff01a
-SHA1: ed9265195d2c9b896cce5ef3c42db46e65df1e81
-SHA256: e2c895d7fe16619db7d70d6b5bf67bd921b905d3680145b21ae5de1711490e6d
-SHA512: 1378078b32cfbf9a48905cba4f9dd85d83091a713e6ac9bcc0681b62d12c8a8ae0b89108073162e9d7d6bfbae34e57f514d2876438201c0aee0fd1f15b8238cc
+Size: 577280
+MD5Sum: 7c44362bbe483960c7064893dc48f7a9
+SHA1: 68268c145a10d43671dfcbc27ce0b1312c286487
+SHA256: 035a8e42a526a64f719d812ba446b78a4c904561f6ca028068fa7b31cccb20b4
+SHA512: e4637545ba24c98a10d0ebc847d29a2f73aaeb1458372e1640611c64f725c19aec8ff1c55def6fb654439a03f7574ce656b8ed707ae2b8636297bd2f54eb292e
 
 Package: ttf-dejavu
 Architecture: all
@@ -100,11 +132,11 @@ Version: 2.37-8
 Homepage: https://dejavu-fonts.github.io/
 Description: Font family based on the Bitstream Vera Fonts with a wider range of characters
 Filename: dists/stable/main/binary-all/ttf-dejavu_2.37-8_all.deb
-Size: 2461520
-MD5Sum: dedcb07204c66f49103efd61e8061b66
-SHA1: 694fa814bec14272f09619a886f43113c47666f0
-SHA256: 1e562a38dd4b50f0760e3bdc8f02c944c54f834fa1ea7b18609addaff549071a
-SHA512: d8f010b502bd54b15fb24048974a6ebe6f0a0c3878733a2f51a4ffe5c5334aa4b061efbfe0262036e72fb6421b36266e9de9fac9384d2f340fc5d24cae3faa12
+Size: 2460492
+MD5Sum: 47ba5af37a55f104b7a8ce3a2a146bc5
+SHA1: e6411f37fba3ae3cd989ae08928987988c085ff5
+SHA256: 6a5c00aca10bb1a091f6ae03b67cbbba70e26d0818dcf5fc0679e5d862581e8a
+SHA512: 82dfc407c11f9019ed9fc97370ac34aef0bec6aae9598ecb854cbdfcf767c9e70037a54e31a07a489aefaff4c00b37ad48836834095db5f38d9e016d6fafdc9a
 
 Package: update-info-dir
 Architecture: all
@@ -116,10 +148,10 @@ Depends: texinfo (= 7.2-4)
 Description: Update or create index file from all installed info files in directory
 Filename: dists/stable/main/binary-all/update-info-dir_7.2-4_all.deb
 Size: 2480
-MD5Sum: 79ed26cd859bae5d915eac2266f9348a
-SHA1: 5934f76ddbb47112de4e81e1b00e8ea624dde7d9
-SHA256: 4fd5fff136ece9c6626ed66cc1a3401125506ba5f5191531426fe5b7e8f9c626
-SHA512: 8453820d6945800fdcc5d1966fddb478bcf6ad2279b7f52898ed9ac31d626f9f9899d6dbe1c70246de8d84f1b5a98814a260743ec7adc0cceb80c287aa3ec785
+MD5Sum: a78268c81005b36a042a72785fb510d6
+SHA1: 03c6a13e6ac3840c58f9f8fa02804829a9155e22
+SHA256: 9f117846288e9eacd217f14e90af8593fc0e48bf967b37d30aa9c2add954a1c7
+SHA512: 456422602edcb2e4a2db64b1d41b39c1b34da4ed49dedb7d9324fb1ac7ea131301c03f72a9eec7fe96daa3b4f7a8a4ebf07ada15d5aa31be80f2de46f2975f99
 
 Package: xcb-proto
 Architecture: all
