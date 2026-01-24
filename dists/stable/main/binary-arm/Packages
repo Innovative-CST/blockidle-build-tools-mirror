@@ -121,11 +121,11 @@ Breaks: brotli-dev
 Replaces: brotli-dev
 Description: lossless compression algorithm and format (command line utility)
 Filename: dists/stable/main/binary-arm/brotli_1.2.0_arm.deb
-Size: 330220
-MD5Sum: 6f1222632276cf68356a4dfd5f7655fe
-SHA1: f4e19495503d7f3607a9ebc87a3a052a3acaf83a
-SHA256: ecea56a2e7ca455b7a8573d073447c42a9b8541184fa81851d685c180dc2dd33
-SHA512: dd7137e6c076feb78bc1b78666fc8f3cdacce3f88ea30315561a13d454b26aecc18adfc5e373907acbd278a73575467417a7a7bce6141543e665f3e2d3d77a50
+Size: 331828
+MD5Sum: 82f4a0dbe688c4e2d5668535d5363d73
+SHA1: 9d41eacfd034b57aa8e5f14f8aac4761111b2f6c
+SHA256: 7a087303cebbff7598ae60243112c126bc8a6b3f1e31f1874603fe2e711f07ce
+SHA512: 595fd6b4d2c85f2fcf3f04c01d045bac21cb926239b70826c73b0e342d8f47589d7c4a08f50a5ff98477c53b07a70bb59374e354d7527f24f95939e3b0bbe08a
 
 Package: bzip2
 Architecture: arm
@@ -137,11 +137,11 @@ Essential: yes
 Depends: libbz2 (= 1.0.8-8)
 Description: Tools for working with bzip2 compression
 Filename: dists/stable/main/binary-arm/bzip2_1.0.8-8_arm.deb
-Size: 25780
-MD5Sum: f6ac12e7944b739ea9c54c3abf0566f2
-SHA1: 68c1b277d2aa8f329daead5b359610d98c780659
-SHA256: c0516adde06ae9d1e3d5b7afb0007d482ad00829bc106217f44f2d18444b54b5
-SHA512: abdabc76c0a38c4020447db26c3a13641b8e40b97b5cb983b8d7d24d3816ac88b49c34612a09cbae857c2aea31f355ddc8ad28df6e4f69fb223684695af6665c
+Size: 25784
+MD5Sum: f735b5d0806908ac88ff1fdda510107c
+SHA1: 0a61028365ff9b9b84ab1671e276ccf279e0e1f8
+SHA256: 43a60cf2275e96ff0e9bf57aa92116525457e381d1c9b5a6eb2e7799f6c281b1
+SHA512: 5be59536c5da78bd34e05983a8a1a2b2ae679f5500aa05d6620bd6f0d74752aeef3e1ed1e5c72becb755af8603ec3028165ef4abdc87816c8ad5f9fb1e59bf62
 
 Package: check-static
 Architecture: arm
@@ -417,11 +417,11 @@ Homepage: https://www.freetype.org
 Depends: freetype (= 2.14.1)
 Description: Static libraries for freetype
 Filename: dists/stable/main/binary-arm/freetype-static_2.14.1_arm.deb
-Size: 275064
-MD5Sum: e1604ef1d205665230f6a2f3d24b1a63
-SHA1: e3921888d49b64e5e82eda601dc3167e8c3d0c8c
-SHA256: 4dc09fb4906482107b744e0faa39c09a7b47375d649659eaafc58db7d490a308
-SHA512: d8dbc382f384102248a17cc623dc67228aea8ac627c561353e1b0a54946de4dde8c83d271a41b69a420f67af525559fff0632d7286606af4d25ccf78472f5cb1
+Size: 275348
+MD5Sum: 7e26595a4941f9006a1ad3a752ffbbf0
+SHA1: 1079cc2a07d93745aacf79c169760b83cc18de04
+SHA256: fb6225270ba9d17a8152a125dddc9a5110f0f692469d11feceed29d1b3d84a92
+SHA512: f8b479ee31416eb04d16e0568ec9297af2d5d0f598e59145c1ab77c9008563c6fdf6231c82c7537d8cdc62be14f483446697f815a2cb45fc76ce92404623acac
 
 Package: freetype
 Architecture: arm
@@ -434,11 +434,11 @@ Depends: brotli, libbz2, libpng, zlib
 Replaces: freetype-dev
 Description: Software font engine capable of producing high-quality output
 Filename: dists/stable/main/binary-arm/freetype_2.14.1_arm.deb
-Size: 386796
-MD5Sum: 015aafd4aa4b7dbcd9d9097affe254f0
-SHA1: 0b0a985b4b4d1c6998a34207991447da3aade14e
-SHA256: e8d9d0f0549851ea0979604242ea48ea0241681e81ccf5fcbb1e40a7f87dc6a2
-SHA512: 95f9344f38f7fcfdedd26d4857da7cad556d3d97ab7cebdb999360062a1b4208ba21dac84cb092e278d0345ca77a590d8a885083712693dd6b15624c34b00d7b
+Size: 386832
+MD5Sum: 3ca2b64be6c75b142306b6c4b5bcc79b
+SHA1: 1ff3e463e5fcfd85db5d3488e0c93590b922886c
+SHA256: 8f8810dd5152b8328801abd47ccbca4a0b8dff03cf854b857ba7b0c0fb518aab
+SHA512: 743143dcdaf793e4cc31439bd16795c9a475e5127fe89214b250dc941233dbfc9e3a12cbd3bb32c226b678351a94ca588c347e0aadfa251aa47ea63b7c5a48d8
 
 Package: gawk-static
 Architecture: arm
@@ -504,6 +504,53 @@ MD5Sum: 85ffefc9cfcf1e6e6e69368e20c259c9
 SHA1: 888bf82ba1ce9f383215174960af6a57c795d0e9
 SHA256: 4d2976b37467155997f22207516d28206427054c483fe46742704f2732ae2420
 SHA512: a9928af7c7d111a1f6eee149519e1cb9d230f1b5eccdbbb54498131c83c5ecf34a1df2cdff3fc7c786f56faedc4998746bd35956db1411d7b0fbbc28e027225f
+
+Package: giflib-static
+Architecture: arm
+Installed-Size: 68
+Maintainer: @termux
+Version: 5.2.2-1
+Homepage: https://giflib.sourceforge.net/
+Depends: giflib (= 5.2.2-1)
+Description: Static libraries for giflib
+Filename: dists/stable/main/binary-arm/giflib-static_5.2.2-1_arm.deb
+Size: 13872
+MD5Sum: 3b419fba8e6420301903741e13689da2
+SHA1: c66cf7f74ad0c6fd90d7a44fc0bba1d870c98491
+SHA256: 25798dd20540fa27ace7946969e59c4063a846526cf4d39c020afa1b8688e157
+SHA512: 9d3dfbbae820ade9e0a7cafb6f3c79d6d792d22ab48c80cc0b6cf5d99985a819f41aadc200e2b498e37b3945611c904f6a4e065155a7195e162eb6494117777a
+
+Package: giflib-utils
+Architecture: arm
+Installed-Size: 280
+Maintainer: @termux
+Version: 5.2.2-1
+Homepage: https://giflib.sourceforge.net/
+Depends: giflib (= 5.2.2-1)
+Conflicts: giflib (<< 5.1.4-4)
+Description: A set of utilities that comes with giflib package
+Filename: dists/stable/main/binary-arm/giflib-utils_5.2.2-1_arm.deb
+Size: 44528
+MD5Sum: 40f33f4eded5d5d1a2e43fb813a06dff
+SHA1: 1f6d939d4431bd0185e9789a0f72d4a2cc4f37b1
+SHA256: 3b01b1d16711eccabce0e05ad75edfa7a149d4c7f39a03944cbbea0f84c7a982
+SHA512: 60b32345310db5e1eaaf7fa237cea5ee3f4fc555078a7cd6b1fcd0f85acb016050e1eadf8bae14603778c93b436dc331a83e9f66b00165295f5c41f6f16a24b6
+
+Package: giflib
+Architecture: arm
+Installed-Size: 96
+Maintainer: @termux
+Version: 5.2.2-1
+Homepage: https://giflib.sourceforge.net/
+Breaks: giflib-dev
+Replaces: giflib-dev
+Description: A library for reading and writing gif images
+Filename: dists/stable/main/binary-arm/giflib_5.2.2-1_arm.deb
+Size: 16776
+MD5Sum: 62874c0ef9c933ecfe8e67a63e5fa66c
+SHA1: c2d5ef19f9fbd0dda7a54329510abb91bc616515
+SHA256: 527264672b7ebabff15086bc0df38ce48652b572494905a9c5b2160d7e1a0206
+SHA512: b97d0d107fd7604a01f3b674cc0425530c1ebbb1a776284860f969bcf189320c1e91d0727ce1c05f59f2bbe7057193a752404c1d1fd6f8ccac8deead17a13d61
 
 Package: glib
 Architecture: arm
@@ -766,6 +813,21 @@ SHA1: 27787081880e4bca9b718a30bade2fa6344604d9
 SHA256: 5d328dd717972280ec972973d48df5e4095320dfde5209bd354bceaca71cf6cb
 SHA512: d87eea36e22289f150577feed6df4905be72cb0975f60881de7f36802a1dc560b4a99968d97d34f5aed5e74c81700b0de9da9387b0b7586dea8cd5c5b8ca60d4
 
+Package: libandroid-shmem-static
+Architecture: arm
+Installed-Size: 40
+Maintainer: @termux
+Version: 0.7
+Homepage: https://github.com/termux/libandroid-shmem
+Depends: libandroid-shmem (= 0.7)
+Description: Static libraries for libandroid-shmem
+Filename: dists/stable/main/binary-arm/libandroid-shmem-static_0.7_arm.deb
+Size: 5660
+MD5Sum: 543733e3ea7b2b681d3c67f6c21fbb0b
+SHA1: 3bd877811b28cb77878358de823fb7103b29a4c6
+SHA256: cf9f4b147a95a7c8ebea19cfe3aedcbdcc17b6812922bf528d3053e3a46374f1
+SHA512: e0ed1a7cfa0546cb0c6db04675eb267a56fbbe91614c346c3e3ba361f68bca965f3ca6644593623ff5c31a553577775a7fc269e7006a88684c5f6a5c8479b799
+
 Package: libandroid-shmem
 Architecture: arm
 Installed-Size: 68
@@ -781,6 +843,22 @@ MD5Sum: ffae4fad9da97c893b9be2bb35d2100f
 SHA1: 7b1e77383bb6edba14d83110324db81c5447616e
 SHA256: e36a37edcace807a9220b2c002891b6c6158209770e49e56b150fb3aa3c623e8
 SHA512: f4a5e8be411d099d406a1a94a3ae0a99ee85cafd6911b9f3166e3e52aaf5af782af6dcfc38ba5e6899270e3cfeee180afee3c75a51feff8ca03b49bb638c526a
+
+Package: libandroid-shmem
+Architecture: arm
+Installed-Size: 68
+Maintainer: @termux
+Version: 0.7
+Homepage: https://github.com/termux/libandroid-shmem
+Breaks: libandroid-shmem-dev
+Replaces: libandroid-shmem-dev
+Description: System V shared memory emulation on Android using ashmem
+Filename: dists/stable/main/binary-arm/libandroid-shmem_0.7_arm.deb
+Size: 6948
+MD5Sum: b75e8657146a7db5c751d22f828a5b29
+SHA1: d461d0296a6522789928a86c80720b2821c7a0e3
+SHA256: 810340fb66039a6c31c4daa0dff49d5dd5ea3167169db25ada0b467a170251b4
+SHA512: 7533c4d0f3532e0dd5d61b04023d0d7168ed7b6acda21562b85b22a5ac6c0916e158bfc9034ccd0350afeaca7dac60ae6bfc67a573265debc5a0e3f064aa7dee
 
 Package: libandroid-spawn-static
 Architecture: arm
@@ -821,11 +899,11 @@ Homepage: https://github.com/termux/libandroid-support
 Depends: libandroid-support (= 29-1)
 Description: Static libraries for libandroid-support
 Filename: dists/stable/main/binary-arm/libandroid-support-static_29-1_arm.deb
-Size: 8152
-MD5Sum: 0a2fd30efbde96bb0eceaeaaf78ae870
-SHA1: 42ab7308098602e21ebbe77c2d20d1250efc0209
-SHA256: a1f898fdac363c3c6ec725a6c4ede45607223f59d12e196c05ea071628310982
-SHA512: 23de76aac7c9545f6bfbabc986d1975b828f4b750be98e295f6dbaad1a56f66e20e0b3b1adf938849e91557d83bfd293deafb52d1a266bfb91a1f60ad2792b3d
+Size: 8148
+MD5Sum: 25d54821bfd5ddb9c988aa667c4109e5
+SHA1: 047ee9d3b3c093bd5cd520ce0fe38f9339ae3f36
+SHA256: 7bb256cd400e1cb5f55fef848f76f60e1b9b7604b52b4a54c2909c96e9b54f06
+SHA512: 933d90fdc5c382fc8c859315168465cff9c1ad941fec160ac8e3bcac14d1c2a707d91d208258ae832ff8bb53e29cd09755e0adac17552db03c42b944c9adc3df
 
 Package: libandroid-support
 Architecture: arm
@@ -836,11 +914,11 @@ Homepage: https://github.com/termux/libandroid-support
 Essential: yes
 Description: Library extending the Android C library (Bionic) for additional multibyte, locale and math support
 Filename: dists/stable/main/binary-arm/libandroid-support_29-1_arm.deb
-Size: 10388
-MD5Sum: 5b853c7bab6461df68fc22104a7af102
-SHA1: 9337a8f7e4d2e9b9d9a1a9a3990cf51478649bdd
-SHA256: 34f8a570cf532ea5e8914762e45842f1dc06637dac3596c9a440f4aa3e8fa1bb
-SHA512: f2b54dd69251930fcc891ecfd3d5af581bfc56d1b0cf0e87634e0b214af2e5090b9e9d7bd5257ece522a9ab5ae0f03b3db2e00a455af1b6050dae499e77a7901
+Size: 10384
+MD5Sum: 5fcc8562ea514d4a54a3d9006d77ac67
+SHA1: 22891987a0f1787ad64b5624497851cd421384f4
+SHA256: 4b07ab46ab395250d24754fc97f14660bd09fc9871104aeb377d834999c015a1
+SHA512: 8ea878596ce281a296a7c936f74086d1b521e67b17a8ca0c6f18f9f7e907e3308acbd05e585d0a5b0fc6de84316b0b06a849f84d0f5b92865fc3e2f986291e5f
 
 Package: libandroid-sysv-semaphore-static
 Architecture: arm
@@ -927,11 +1005,11 @@ Essential: yes
 Replaces: libbz2-dev
 Description: BZ2 format compression library
 Filename: dists/stable/main/binary-arm/libbz2_1.0.8-8_arm.deb
-Size: 24100
-MD5Sum: 21f51222832a74b05bd27baa79443e23
-SHA1: d27beee21e2453283cfc4c0ac1ed12bd4e5f37b0
-SHA256: 78bb2cce0b74722caa434cfba149ce60fcea9fa571cdb2323b6094f326ef883c
-SHA512: dc36f872410da11a91e0548a141b6242f1ac39a15d273b123f032d9af125e93cb40757755f2b962aca3ab732ff0c718aab5f3f23d6702cca1ed3e029fe4f3422
+Size: 24096
+MD5Sum: afdc4eda7f975a64aaa2d77bc32da1ad
+SHA1: 6d18e48dff70f6bf98728c33e0cc49eb23168589
+SHA256: 73bd7533e7c1ea3f7950414fbd25c05e8fcd780021aa878f8059a7529daf0b63
+SHA512: 76ac5ef5460632839a9db9e42ec532e30e2be98e8c9077e279be0ea24302442c0f6eaab4b426d0d13b0324c6fa82b1b89a38b8162190318acb2082340b4c1499
 
 Package: libc++
 Architecture: arm
@@ -1303,11 +1381,11 @@ Homepage: https://libjpeg-turbo.virtualgl.org
 Depends: libjpeg-turbo (= 3.1.3)
 Description: Programs for manipulating JPEG files
 Filename: dists/stable/main/binary-arm/libjpeg-turbo-progs_3.1.3_arm.deb
-Size: 85020
-MD5Sum: e41e2bb74effd6eec7a2d233c8ecc04f
-SHA1: 0530f42b3b24566c3e31d9779338c4463a4f50ba
-SHA256: 52a2fd2c099004ef32604dfd40bcf22f797ac5a417e477b8efeb3d915f351fe3
-SHA512: 24a4370a8bbce40f4fe18dfbb02358160af70b2c96486094fb24d450f0b00671e585d2c882389d3c811677ebf34a35c1a099d4d6324c96f84e27cbd76921c57c
+Size: 84992
+MD5Sum: c2278791a6376aafad642ac002b9bfab
+SHA1: f09adfc11c54f6c0e11e0e74212863f5292ed80a
+SHA256: 4a7f347dbf7dd6c7c8ef781bf76ca86ceb3d7bd9112e56513e3d1225a0fdbe0e
+SHA512: e0f2e8cba0413875f73667fe2db09126bfc2af8fe9f14dc7c31b09590fa3241866c7f65d4b91aacb87d7250a56e70bf63ed06e6f012bddf10d03bf2229abde90
 
 Package: libjpeg-turbo-static
 Architecture: arm
@@ -1318,11 +1396,11 @@ Homepage: https://libjpeg-turbo.virtualgl.org
 Depends: libjpeg-turbo (= 3.1.3)
 Description: Static libraries for libjpeg-turbo
 Filename: dists/stable/main/binary-arm/libjpeg-turbo-static_3.1.3_arm.deb
-Size: 243608
-MD5Sum: 3152f9d157f9bd1b6f3b02a0019e8785
-SHA1: 54db64cb77c01aacb5d37f57c786fc95b0d6398f
-SHA256: 85ba9ba31e97f0a6b235947cfb170395e8d1cd7bb3cb5265b65337e0223ecf24
-SHA512: 2888455fd0308539ffe66c41d1beb56f2dd8005eccc4c4f1b4e64da1e2be50fa78f9a63ca410f0bebed901f1885084b9e70313f86c8b19c29ee0fb4062e3b6e3
+Size: 243240
+MD5Sum: d2c520f8e95281a62972c68b1e6448c5
+SHA1: 55dc5f1832fb9927818bab6b90ad1eb9d3cf8a15
+SHA256: 9d34790ac79b75eb9cf3491db50a3d166139e7efce67ed83b2b1b89e01539ba2
+SHA512: ab6d71d147a047f710d5855a65a50250082de93b0479939a34bfb784cac2fe16f62afada90b7719480e6e93ac0340023c649a62a6ec0b1a83401d386e8969fc0
 
 Package: libjpeg-turbo
 Architecture: arm
@@ -1334,11 +1412,11 @@ Breaks: libjpeg-turbo-dev
 Replaces: libjpeg-turbo-dev
 Description: Library for reading and writing JPEG image files
 Filename: dists/stable/main/binary-arm/libjpeg-turbo_3.1.3_arm.deb
-Size: 355860
-MD5Sum: 6a49422c41209d495870e8376a369fe8
-SHA1: e3a48b21d9fed146e5db1bf569eec3cb1048bc43
-SHA256: 9a669c5ee86a99ae4f47d1b9c4b6dec87705d2381bd32fc215afe94eae86c9b9
-SHA512: 3749d2092065fea987a12426d0fbf54793bf6c6f2851e34d76504f7ec094e691fe46dcc7f48196e66520b759104aa8be2a67f6214fa526f2333cfb85145e0ed4
+Size: 355916
+MD5Sum: 36099716a56d2b59833a415d486b4bad
+SHA1: 324b7d028f6aa03f15756d30514a1c3e223e0d3c
+SHA256: 4406f965a450012eaaad5a44d3556ee7153c7e86435d394d1fcbbe47e9ba6267
+SHA512: 363d718ff11d84c70ed87bd377e004ff1b082055fb85a47f8dc51700fcd609ae3228d9c6e58c2331161df608e3c14c9d70f5deb124b94b93185cdadd000fcf1a
 
 Package: libltdl
 Architecture: arm
@@ -1636,6 +1714,21 @@ SHA1: 42ca8502dfd8c09172f543ec3192f3afb1690fdf
 SHA256: 2a9c9c2cb1c844a0fff25014a5fff2982d6a286a888cb76bade575477a9643b1
 SHA512: 5cfd2834ccb66c20ac4a3e3f66cfdf8fb8fd780ea01d39cd6c4b25328a1f74819d45813f51323bc661af2600cf2d6d4509bd4a72d8c00c23f631b92b3aa1dbf1
 
+Package: libpng-static
+Architecture: arm
+Installed-Size: 236
+Maintainer: @termux
+Version: 1.6.54
+Homepage: http://www.libpng.org/pub/png/libpng.html
+Depends: libpng (= 1.6.54)
+Description: Static libraries for libpng
+Filename: dists/stable/main/binary-arm/libpng-static_1.6.54_arm.deb
+Size: 79348
+MD5Sum: b34c3240b5fe9398d49b0181f7e9fcd4
+SHA1: a2402d2b461a18dea060ce08a31b727bf2807be2
+SHA256: fb75c5486f1c0c78d2ab397ccf5a393bf4a0b784f91734c0bb582e0cfe00c6ee
+SHA512: c1c89027a452ead40cae7e6c89cccd41b3fac9d52f2f5fe526ae27429304e7b6cfc4e6a6fc0613907dd62547a76f02def6ac4572b2fd448965bf770223b5b9c7
+
 Package: libpng
 Architecture: arm
 Installed-Size: 468
@@ -1652,6 +1745,23 @@ MD5Sum: 10896363e328f6bd10dd789f51044eb5
 SHA1: 6d1500cbc11fc30991120ae0fa91b53e63f13b57
 SHA256: 0dd8387f2b2c0a9c19dd0aaa39caaab2c526523ce14a7e194a5cf1faaedfebf9
 SHA512: 45f7bef69885c9501e508fa0e3bab5bb5a9cf6091f3e16a09a2bb8b58cc86a1d5f2ac669758a09d52a543f2a4ccdf344e33c806efa5ab474c4c798d730754787
+
+Package: libpng
+Architecture: arm
+Installed-Size: 468
+Maintainer: @termux
+Version: 1.6.54
+Homepage: http://www.libpng.org/pub/png/libpng.html
+Breaks: libpng-dev
+Depends: zlib
+Replaces: libpng-dev
+Description: Official PNG reference library
+Filename: dists/stable/main/binary-arm/libpng_1.6.54_arm.deb
+Size: 187040
+MD5Sum: b788c0ed02c95c518a0360efffd49587
+SHA1: b3903ba3ebb585dad0baaaf49e18aa257eff3b88
+SHA256: 34d39def1e0b5efcdf361b7b25840cfc319c91279c863c2ad17e6c057c383829
+SHA512: c6b88760cb95761efd780aa69ecf4ddd63937580236573d578276c60182f387a0d234619db7a40be93d6f8ecc527dd99ba0e06bfe5f27601052fc33bf91c9f3c
 
 Package: libsm
 Architecture: arm
@@ -2012,11 +2122,11 @@ Homepage: https://xorg.freedesktop.org/
 Depends: libx11 (= 1.8.12-1)
 Description: Static libraries for libx11
 Filename: dists/stable/main/binary-arm/libx11-static_1.8.12-1_arm.deb
-Size: 531272
-MD5Sum: 896f0d259dc2ad58b8861ae291648d61
-SHA1: e8ee063d864271f828f6b302a6da9d2be149da17
-SHA256: 3ba4a6b73a2b3a321449b48b1796667cb2d3abb91813b84974de387f3b2d6638
-SHA512: 59f486e4df943b011c5bfe48ae6b9ab4cb903c69398aa837c9b775d39db31d8e3ac649b8a148e04f0ba3127ebf0cf4d6e1e32db2f0c1f179354e083a448de7b8
+Size: 531020
+MD5Sum: be0b72c37c979a2ff6711cf34c93552e
+SHA1: 1423d9a9b848b3aebf92e64aa0a502a9df03ae0b
+SHA256: df32263e4b1fcfb024a68001abeeb14670779218358c5d6f33eca08efe61fb01
+SHA512: cf372ec6d2ae7714990e5c652cc0cf2e38520d53674449407290ba94d872428bad848fc973af33a97d2b6f6ebe5e9ab420587f1beca15d6c377b2013124f86e7
 
 Package: libx11
 Architecture: arm
@@ -2028,11 +2138,11 @@ Depends: libandroid-support, libxcb
 Recommends: xorg-xauth
 Description: X11 client-side library
 Filename: dists/stable/main/binary-arm/libx11_1.8.12-1_arm.deb
-Size: 1881192
-MD5Sum: f12d1770233f03077e2935ea506b39d5
-SHA1: 8150ce317982094c20f85e8e2245c762c725c7c9
-SHA256: e4d9e9c99516e94cd265704b1d9ee304e74f346ae9de18d88c5d0676037dffd9
-SHA512: 42fe6b58683bbf9315ef53f4fc6ad94b28a4c8930706bb99f62449fb47bbf8155010a7d46b1f4459257d83a461a3d79ec9b6a2a1dc0ca9762ea11af3ef6c4250
+Size: 1881076
+MD5Sum: f4a8a45d3630b79f23a15dae01002204
+SHA1: 2c1eb965781e6d5c8fe9f807bffe83573103949f
+SHA256: 84e691144bf18f89f56296c8929a20f98924d79bb9304ceece219708ce6b29db
+SHA512: 6f60cd90300414b0c30e9ab40c382f396f8ed2c5f16842cd5d4d822520ad9cc8a192c4a96db53a41e8d5f564fa2cd6d4ae938971177be5189013030307d5558c
 
 Package: libxau
 Architecture: arm
@@ -2043,10 +2153,10 @@ Homepage: https://xorg.freedesktop.org/
 Description: X11 authorisation library
 Filename: dists/stable/main/binary-arm/libxau_1.0.12-2_arm.deb
 Size: 8648
-MD5Sum: cab737875a38c240e81e885e46bd9542
-SHA1: bdf73ca1cdf9d466fe615367c362ea026cac4e90
-SHA256: ba17344f57c44d525eb1e869aa583b63f7656649099e1330527047745cd8eaad
-SHA512: 4c1cffe79fee67ebcd9d3495a867695194aca201a767c78d917f1a424b8b81ab730c3449198ebfdc8d6852646cb8c1c2bd279da6dafca954ea44d95d4445a14d
+MD5Sum: c51c028cbd56d5284c63004366cb8b07
+SHA1: 4f48d8dbc6208f6972daf21cf02bf87e7c43d169
+SHA256: 3832c59b678923a567f13511f57f9716519bf87e3111cec6b6191620205ce4a1
+SHA512: c5ba39a926e90b613bfbed2b0e0decd010e91dc15d971f8c3d145b2bc6b10c6b06957de59b21b3b7b9c88693aa6bd7829ab1b8532b22fb487d5bc2e9f3744bc5
 
 Package: libxcb-static
 Architecture: arm
@@ -2057,11 +2167,11 @@ Homepage: https://xcb.freedesktop.org/
 Depends: libxcb (= 1.17.0-1)
 Description: Static libraries for libxcb
 Filename: dists/stable/main/binary-arm/libxcb-static_1.17.0-1_arm.deb
-Size: 125264
-MD5Sum: 23535300bd58d7358ee5a281f90feb80
-SHA1: 1229f38d8ba25eb92f2a294ce035ea9b7dc5fb35
-SHA256: 280f47c1955b21f5481282a030e7095eb61ad26cc4752c30c2032a14b26c4b4a
-SHA512: 78e4093b60bf6961a6013e550d90d131052707052577758baf3d8c180a8f0c85fc7d88fa773aed8d9660435c5d85c09d73ccd5d907929df8652cca6e1f94fe4d
+Size: 125292
+MD5Sum: 8c6b71cf9e42cd173793a3a24ab54386
+SHA1: 74340d19a7dce8e6a235fc723d85f1b0a75f5849
+SHA256: 7ce2149ae942ed381de15cec7328f1096fe348cb2eaf083ac1b0997feac2aec0
+SHA512: 83af1a21224969354996d69da56561fad027257fcacb78788a283bcb5646d3c68939c7e0b7d53341fd685f655b31b94444ab77eada8615af6dcf2e6acc3d607f
 
 Package: libxcb
 Architecture: arm
@@ -2073,11 +2183,11 @@ Depends: libxau, libxdmcp
 Recommends: xorg-xauth
 Description: X11 client-side library
 Filename: dists/stable/main/binary-arm/libxcb_1.17.0-1_arm.deb
-Size: 880036
-MD5Sum: 07665a09f6d1469946a25bb2f34eb998
-SHA1: 4a14d2198752ddbaa5a5d98a0255041cbc68d111
-SHA256: 0fed61b09f564ae6ac7185fcb05bf4346ca4cab85a778c2797889ed5072e53f8
-SHA512: 82ae61c1f974cc1c5a907ecd1f6ef1e3c276cc29bbd1b5671f7d94e7ea5cfc2dcce0fef099978838f50f97030c75ddcebaac633b3b1d6b2fbc9823cb899dc992
+Size: 880180
+MD5Sum: 2e5b2b62851988c5de3fc1439f40f6f7
+SHA1: bcd9bdc109f97b313b573bc7809bac638ec04016
+SHA256: 7ea8b554f25e63ccd97222882e5970c48a97a3f756a4c9d9d191aad355f617bf
+SHA512: 60c48e9c8170d48be28ca18eb5289b554ed02821ab7fe3015791d00168fad9efe7a94455bd8cb5fdc35e3edf46189220d3a3815be80ff07538fc67b74b10ea5a
 
 Package: libxdmcp-static
 Architecture: arm
@@ -2089,10 +2199,10 @@ Depends: libxdmcp (= 1.1.5-2)
 Description: Static libraries for libxdmcp
 Filename: dists/stable/main/binary-arm/libxdmcp-static_1.1.5-2_arm.deb
 Size: 6844
-MD5Sum: c16d30d3205a18c3c85a0fb92628dd37
-SHA1: 5f6d812dd4876b8abf18fade18b170534178a33c
-SHA256: 5cae718cfdb335e8a1893b7662d9bbb6c43e0a6ca62c4dde86286b333fdc2cef
-SHA512: 0770829da1cb191f64a9cba566b220d1526af9c7aabba37180b4dbf97495619814b557f7302465bfd232bb1886104d23bc2078c158a10f86ce24ba998d97af69
+MD5Sum: eb839e9c9a68f5ef68caae77fb34c7f2
+SHA1: 83c22238dc9bd525fb79afda5a327b9ebfd3777f
+SHA256: 0a5f698c2acbc59a329cbe086060e65ec8683e29ba93a788e9052909943f9085
+SHA512: 64dc48c6ce8c98966bbdaf12ce1316506c72c87aa556f9b9e295c6497750275565bbda88e92d270217616a8f6c2c098f35220488d3fd8f56baddde5efbbf1b0a
 
 Package: libxdmcp
 Architecture: arm
@@ -2102,11 +2212,11 @@ Version: 1.1.5-2
 Homepage: https://xorg.freedesktop.org/
 Description: X11 Display Manager Control Protocol library
 Filename: dists/stable/main/binary-arm/libxdmcp_1.1.5-2_arm.deb
-Size: 23316
-MD5Sum: 2418a0f1432995fc194acb6a22052286
-SHA1: c6b56e621e4045d838f9b4a60ce4dee0117c49f3
-SHA256: 530e28374c70df2a3c83645c2dd93370fac5f0f1cfe06e5ca70f8013a83de02f
-SHA512: dc559ed36bee5dbc5082be80c0718a769b965d9b41815d3da586df94b4f8cc6984de2cf8718d6402d43986d0113113dc811a68bdec1a7726e79a6a05b0343f74
+Size: 23292
+MD5Sum: 325df9565892b561e95bc0e9e413fb58
+SHA1: 05cbf7700d3b5f8586189b30a38864030577feec
+SHA256: 279f357872a7f0731a49de538f843f68b489f2c834be26576977829247a95104
+SHA512: 785b5ca76388da4ecd1d17d8ea7e2abffcb57a443f5a52041e56ff77f3167a6acdbee29985cdb0a1f84eb6f4b9d5edcedb41b19eaac9eb53e9f2d7e8eeab73bf
 
 Package: libxext-static
 Architecture: arm
@@ -2117,11 +2227,11 @@ Homepage: https://xorg.freedesktop.org/
 Depends: libxext (= 1.3.6-1)
 Description: Static libraries for libxext
 Filename: dists/stable/main/binary-arm/libxext-static_1.3.6-1_arm.deb
-Size: 20868
-MD5Sum: c736d641998cac54e926c3f0036e400e
-SHA1: 1aa0a2a27c91f3fb60cc2b70291005909a346dad
-SHA256: e3d785adbc3833359f45a5446e417ee0632cfbac38357077457ee3d5613e17b6
-SHA512: 4d730232ac5c6ae02a167502ed604d4933f4918d1dfb95ade6b5cfaba39d3a07712b54140cf363baabfc96d1e4ac9c0a1bc2f37b053ab0f184b9e35c19a4f0d1
+Size: 20872
+MD5Sum: 894d94481f6fcb4e04dbbddc33feda2c
+SHA1: cf9895afc1e8d14884bdd1405bc988db2303942e
+SHA256: cf6c628daf392fd07c643b5d11bd5d3cec67a1d7fc1304f703b359f4f4d7cd02
+SHA512: d26738ac7e649f3ef98e61b13179c54e1ce8aded7c36b14c9c34a7f27575213dfb21886837c49096a20d70dfb1d00ca53d39fcbf3fb99c50051f912b4e92443e
 
 Package: libxext
 Architecture: arm
@@ -2132,11 +2242,41 @@ Homepage: https://xorg.freedesktop.org/
 Depends: libx11
 Description: X11 miscellaneous extensions library
 Filename: dists/stable/main/binary-arm/libxext_1.3.6-1_arm.deb
-Size: 93060
-MD5Sum: 828d9c678ee3479cb438d0e14237bd81
-SHA1: 8a6b0e6f2c733433271853c3942826d396562ef5
-SHA256: 21ccadde9c5f758c84d46c958312db9e374583f15b76b33d57808c1edd82a38f
-SHA512: b5f7d3e8eae0c82e567976e8fcc194a34e8ca1f951556bc76b72617f1fbb0882763ab92715fe7f220a53fc5807e079177634e37a0a81104b117db804810025d7
+Size: 93096
+MD5Sum: f03f7e2d0bd8d5b8683636763b6498ca
+SHA1: 8c180af94a23e3fc54aeb8e7df5ebb910acdb6fd
+SHA256: ff937f2d088a86c7ef201426a7b93a5bdff073f87d1d13dacc2b0125ddd7e0a0
+SHA512: 9f6cb35616c0da2eff34952f552974b4db72537ba3befc8600a43ddda87ae05c58e3ebee5f99068b294bf76c5eccc14f9499e7f308d103ebdb577d6f3299f7a8
+
+Package: libxfixes-static
+Architecture: arm
+Installed-Size: 52
+Maintainer: @termux
+Version: 6.0.2
+Homepage: https://xorg.freedesktop.org/
+Depends: libxfixes (= 6.0.2)
+Description: Static libraries for libxfixes
+Filename: dists/stable/main/binary-arm/libxfixes-static_6.0.2_arm.deb
+Size: 6164
+MD5Sum: a6c0035e0dab93db599e4de8f1187a19
+SHA1: 0a2a6644a9ba5d39dbe8adba489592a4a654f612
+SHA256: 19536209415022e2f2bceaa295a466983ae6ddae064364bd39e4628883050426
+SHA512: 78f42b55ee48fe5b3a612980eac3550f46ecec0773c4989771b572db9df55b1aa3f0fa30605c62b1c1d86cb18ac6cdae176e6478aa1755f8a36eac5c8eb50a20
+
+Package: libxfixes
+Architecture: arm
+Installed-Size: 96
+Maintainer: @termux
+Version: 6.0.2
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11
+Description: X11 miscellaneous 'fixes' extension library
+Filename: dists/stable/main/binary-arm/libxfixes_6.0.2_arm.deb
+Size: 9864
+MD5Sum: 23969aa3d1a51857b32ecd3907fdc5ce
+SHA1: 2c1f65b38ba644da9f41b17c4ea13409ee04e99f
+SHA256: 625fd84a50cca3e4cb77abbd149986f95f873d8d8cc62ce518abc68113116635
+SHA512: 81f5c5782c58e1b957208566ccf1125bcf9412c47fd335592d9e023f2a49ef7ffb9288f7c2b9a4951d86f0aaf199868dac6eaea266dc3a39d2869f23491ce1f3
 
 Package: libxft-static
 Architecture: arm
@@ -2167,6 +2307,36 @@ MD5Sum: 2b46f16dd793272692ea99736630312d
 SHA1: 9897f25053c2e006481fbc9e2d6a504d027a72b6
 SHA256: 59383ed6d87833f7781f6152c1c40870e155ecf8f89d68befb5b84e63282447e
 SHA512: ac3974d6d310110480fd46a4eb23642e0add4c613ff1d235712c2819472aa324d56594db0bd3af5420fb8b3ceaa7cdc98fa7ef005c91cc9d13838cfe7440c79f
+
+Package: libxi-static
+Architecture: arm
+Installed-Size: 140
+Maintainer: @termux
+Version: 1.8.2-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libxi (= 1.8.2-1)
+Description: Static libraries for libxi
+Filename: dists/stable/main/binary-arm/libxi-static_1.8.2-1_arm.deb
+Size: 23624
+MD5Sum: 6652808f16137123abc0da64ca15d3b0
+SHA1: c0d043933c6e0094a7186591de894fa33341f67a
+SHA256: 839d6c1ba78839e0e095344f8c2ac179256d0e9a1af733b7c8ccebd48fba7ce4
+SHA512: 0c67d324c8f51e6cfadb5ab35e4315c50295a1ae5612a033a7e2a19278d80c73cb5234fa2276f0bcd196eaa42ac2ad78c6450840771310f4d8546a172c9738f6
+
+Package: libxi
+Architecture: arm
+Installed-Size: 768
+Maintainer: @termux
+Version: 1.8.2-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxext
+Description: X11 Input extension library
+Filename: dists/stable/main/binary-arm/libxi_1.8.2-1_arm.deb
+Size: 138980
+MD5Sum: 4b85e15c6465bec97a2f7e42e1f5662b
+SHA1: 79516708cb0cc5ab11af773b1b2f547634ae37bd
+SHA256: 787bf31613399d945886480815437793d5b377c452a402e82e6cef26c9754def
+SHA512: 972cd0e557d41ab7f5f440a2cdccdbb0f246796cc4686560613408ffdd0026557ed76e2624e1eddde88a4d968d8f8c46ee10acd56425385b3b28540587a8d4bd
 
 Package: libxrandr-static
 Architecture: arm
@@ -2207,11 +2377,11 @@ Homepage: https://xorg.freedesktop.org/
 Depends: libx11
 Description: X Rendering Extension client library
 Filename: dists/stable/main/binary-arm/libxrender_0.9.12-1_arm.deb
-Size: 22712
-MD5Sum: cd69caaaf6044706e13422cb0c58b34b
-SHA1: cbc28e134eab6614f2b5006b764f2934f709befc
-SHA256: a6c851dbba81d890441ffc734274a8d9d98009f49cf35731d7d542acd826e3bf
-SHA512: 4c3c71668964c8783cd1b7918af9a5ef1330fa9a44e7aa42f78223b4da17f87cb0e74afd8600c963e0df4e7d32384dc42beeb42aa81c0afca92752de41138d4f
+Size: 22704
+MD5Sum: 44a0eef1eeed66cec2a4de8501eee392
+SHA1: 69616018e8883ac6d3e9a11082d7cc3f46ff8128
+SHA256: eebeafb1e4004cd4ce3988a60e071f98485fdfae56aee78ffe5c1fa8e84fc66b
+SHA512: 68ec67e258a5163a0f0b61d8a17eda9ff45f03b5991472cf2f00b8b2f0abb66d1e9f8d7cab6a16c2947b0ff684d7b0596312d36f4e3fa648152704c346eeb277
 
 Package: libxss-static
 Architecture: arm
@@ -2272,6 +2442,36 @@ MD5Sum: 6d5203711236cc7aae4187c791bb18e4
 SHA1: 0d94a0e49d14de5d223e9b3fe80047247324207d
 SHA256: 137b94c2cf4d23da1f98a5e75320f2f6e16a55c823b0d318cbc98cb2d14da7a1
 SHA512: 1e0d65850fb05a8a21edca71b5dfe23fd90328549cdf39128c7ceaeeeac31bf6dcf6c801a8ab95557e812657ba3950185b0b70cecbc1a3fef3733ec6eb62b792
+
+Package: libxtst-static
+Architecture: arm
+Installed-Size: 48
+Maintainer: @termux
+Version: 1.2.5-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libxtst (= 1.2.5-1)
+Description: Static libraries for libxtst
+Filename: dists/stable/main/binary-arm/libxtst-static_1.2.5-1_arm.deb
+Size: 7508
+MD5Sum: 877847e3b7a7a8ded8a41989d81dd8d5
+SHA1: cf8cc5754b1a8071ce6ca1064b049ffb29c7731e
+SHA256: b7bbcd3e6c5c31f9f460751a20642d500c6f55cc947deab8f16ab29da5f3b9b8
+SHA512: 48f20b4c5be649eaf5276b734ff21ea80d2832311e481a889089f72d9c2b7d8f889ec80b9991c1670b6d3b7661a0b4be138b1dc13b2fa32acb7905ce8d0a8a93
+
+Package: libxtst
+Architecture: arm
+Installed-Size: 228
+Maintainer: @termux
+Version: 1.2.5-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxext, libxi
+Description: Xlib-based library for XTEST & RECORD extensions
+Filename: dists/stable/main/binary-arm/libxtst_1.2.5-1_arm.deb
+Size: 24596
+MD5Sum: 7276a32daa0d8db51f204b4ca310f5f4
+SHA1: 41e32f94744176a6bba8b1c908852dfe856ad5e9
+SHA256: 760de9d659fae31e826f623bf9bc4f0e8a3377af29913bdb23b2999482da3b70
+SHA512: 1637707f25e87c63eef670bd7e25a91a499d4c82dc1b42f048b3ed6375a5e999ece41526d4bf73564f9aa4e1daf204331bf494fbfabeb57270e86738f47531e5
 
 Package: littlecms-static
 Architecture: arm
@@ -3085,11 +3285,11 @@ Homepage: https://www.zlib.net/
 Depends: zlib (= 1.3.1-1)
 Description: Static libraries for zlib
 Filename: dists/stable/main/binary-arm/zlib-static_1.3.1-1_arm.deb
-Size: 34832
-MD5Sum: 0fc4778c474e18d09633bf5adbc085e5
-SHA1: 97fb59550c3fed1f95cfa07b529a60dfe24e52e1
-SHA256: 304c028449536e4ca765119cd5be1e07a13d3ecce04f570680df8784e139289d
-SHA512: d0c34569d49b1f417b2dd19d12c1dc273a890c2cb2803d14e8d688431034e383f8b11ead2c048e4204ec1a715153739d302d2320b662433113078feaa52ff705
+Size: 34852
+MD5Sum: 5836a81dcece5ce853c377081901e9b1
+SHA1: d470a285bef005da5b51f544d181f9c12a1210c0
+SHA256: 5a03a1d4a799ac5d9b956d0f420f6f6208adb3138e5757bb9e926b4a0535d851
+SHA512: ab9994221643d0a3de0c621e4fd1f37982bbfee7a96e375a4829b5fa8eaf6a0542315e30152e9ec8fa848b5e1f97f74bb81096e3e49006af27c243ce81059efe
 
 Package: zlib
 Architecture: arm
@@ -3102,10 +3302,10 @@ Replaces: ndk-sysroot (<< 19b-3), zlib-dev
 Description: Compression library implementing the deflate compression method found in gzip and PKZIP
 Filename: dists/stable/main/binary-arm/zlib_1.3.1-1_arm.deb
 Size: 61068
-MD5Sum: 848aa8128103f648c911df6b662d982b
-SHA1: ad56ba5e612f5b894565ffaa2d6c68bebcaf34b4
-SHA256: af72cf20bf2c1f6712bf3d3d18110d848fe31756741c624fffc6a8a074690a5f
-SHA512: 2dbc7cf4f6da72b6975bfba0609167884f5adfc7689baefcca089c032246a94070d44869a76701c3b7d51508c4ea3e752e99e65ac18df952b5988494dc5c0e94
+MD5Sum: 1e7dea47b9146616930a191258617d4a
+SHA1: b4347d795dcb4365a69d1e07e286e19a1e36084d
+SHA256: 71243b96a233dffbec5ae3a816d2e3e696f5e78125530d19667ef3be9527e7ff
+SHA512: d9961d808bbf8885318a97e4ab830c4dd8b923f623009f829d2af0b896883ed26cda50f57d0ffefaa209b4983ba8818a12e0f4ccecd7147294bc5569dfe7e0c2
 
 Package: zstd
 Architecture: arm

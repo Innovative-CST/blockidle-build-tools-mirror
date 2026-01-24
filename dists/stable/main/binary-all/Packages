@@ -61,7 +61,7 @@ SHA512: 40a6493eb8e35c9c586aae69b88553c6af625a5e2c0607dbce010f677c4c750a44e5102b
 
 Package: python-xcbgen
 Architecture: all
-Installed-Size: 444
+Installed-Size: 132
 Maintainer: @termux
 Version: 1.17.0-1
 Homepage: https://xcb.freedesktop.org/
@@ -71,11 +71,11 @@ Recommends: python
 Replaces: xcb-proto (<< 1.15.2)
 Description: The xcbgen Python module
 Filename: dists/stable/main/binary-all/python-xcbgen_1.17.0-1_all.deb
-Size: 44576
-MD5Sum: 5392056c473dccfe04478500f2cb8770
-SHA1: 9490060472e568e3add86c3ccc0a687816c7eb0e
-SHA256: 28c82808e311eca04c655d9f10965903578e5ce387c4f0057231e089c7b87590
-SHA512: 8483eac0e0632816186ce7b8263844a7411cd26768a8ca85563c499499716fe8ba54aa1bee86b2d56453ea7603a28bdf7c3bb75219d5d157c3c3e7abcf39818a
+Size: 15184
+MD5Sum: 085fe5cee8375edcd17e849a24b26d41
+SHA1: b9628db12983974974feae8a591f1c2715c04621
+SHA256: ebc5401c214df3b602632b978a70e80a2d8532859a070ced45f0b95fab222757
+SHA512: 7b7d2c4471dd7e98556a4528aa255474b90b9ed7219185b5b41cc24067ebc1b85860e135e867028702742e16caeebfe9eb737f36500a25e11d9419f9b16a54c1
 
 Package: termux-am
 Architecture: all
@@ -131,11 +131,11 @@ Conflicts: xcbproto
 Replaces: xcbproto
 Description: XML-XCB protocol descriptions
 Filename: dists/stable/main/binary-all/xcb-proto_1.17.0-1_all.deb
-Size: 78624
-MD5Sum: 40752dffbfb2806e925efc3a4c85176e
-SHA1: 4e28d40bcca93b71a3a25f4acd2887b236c52c79
-SHA256: bc0a2483c48c32f2c9eb48b875395280ea7f4a7032c218412216036e92ccefe1
-SHA512: 5e42bae7d39c397b98016857554b09b547d0f89baacc3767991bec1bb09c208e0c5917fa6afefa46285b939df39ac4aa9d9edb57df65e74a4ac8fa9714edb4b2
+Size: 78632
+MD5Sum: 146546065c1b55ba854ee939f430cbb6
+SHA1: 31a6de2ca019b294525ad890d36adb8bc086942e
+SHA256: a148b82fa7b16bacbae2e1e39cf9fe3c4e320aacac3cfedcc08a72f5a6bce6c8
+SHA512: d4626dbb82d73db90f7f90ef75a75a263cc29f5d3476388a6dd23e6189f1951311b4ded92b88eab60ea17629450563d33566bcf91b2494122f3f463bab251a57
 
 Package: xorg-util-macros
 Architecture: all
@@ -145,11 +145,11 @@ Version: 1.20.2
 Homepage: https://xorg.freedesktop.org/
 Description: X.Org Autotools macros
 Filename: dists/stable/main/binary-all/xorg-util-macros_1.20.2_all.deb
-Size: 21956
-MD5Sum: 85fedbe8c5f862b97fe4717ef5d5c280
-SHA1: e1eeb242cd3af7df427adcc98280caf1e7fcdb13
-SHA256: 6d83d13fd973dd4c5c0c62e00113059a988bb8dd817dfdcb9f4453095d7c27de
-SHA512: 9236995c5d1c47954f965d7077c6ee2d9d116de11e057d3d6bece441ff6fd065df52b70f78879e5799c0695ed71ec30c6f7644ce83d0201ed8672a52099b50c7
+Size: 21968
+MD5Sum: dfe64a401cf26d3bb645127ed1eed589
+SHA1: 1d8b5f5382794b850a1fb44aa2a569feb57d9f2c
+SHA256: a3f833081470268c58976f35790664a86a60f3b92dc840e584664a1607e029e9
+SHA512: 1c07a7092ebb614f938963b95d9bfc051494c52f49365a3e595fa064e8a931f6cf083a3f7150021c7339fe1e3fa78c61f35985c859dcdfe45edbe8d140c2e4de
 
 Package: xorgproto
 Architecture: all
@@ -162,11 +162,11 @@ Conflicts: x11-proto
 Replaces: x11-proto
 Description: X.Org X11 Protocol headers
 Filename: dists/stable/main/binary-all/xorgproto_2025.1_all.deb
-Size: 249528
-MD5Sum: 7aa83708b97f33cebf7fdfeb107ca330
-SHA1: ecf6eb6d7a0422b57171af3b60e9c99c6653201c
-SHA256: 89f5e8d9c1e5251cf8b636a03342f1aee00540924700964e1d4de58f68b98706
-SHA512: cfa3d5518413dccb215d6572fc6655713b3cdcc312c7fc1f2ed108056529656c06d163ae42a4a61f41e33b4b3998ff08628c052f54452eaf5831fee292ee6566
+Size: 249532
+MD5Sum: 5169427e6b10b9383462098b315fac96
+SHA1: 3dfa6491cdad6cdf45eeeeea14e06854483ffad9
+SHA256: a8fff07e2d29cfec1b61817e0f4ab8707bff9ce063d98860aeed0cfa2554fb63
+SHA512: f3aff29be7c72bf8f0426714a0f3bf5e3cdad2d9d89026db1dbc72d28db18a65368821a62cce24aa646ab4747cf98c8e63a9c14f1de1169b3cf06d32dcc1944a
 
 Package: xtrans
 Architecture: all
@@ -176,9 +176,9 @@ Version: 1.6.0
 Homepage: https://xorg.freedesktop.org/
 Description: X transport library
 Filename: dists/stable/main/binary-all/xtrans_1.6.0_all.deb
-Size: 39868
-MD5Sum: 0a75d292c93b7cdc0a1dbba50aa0e37e
-SHA1: 71c26b8d006c3f903253827bd7d3b09a3adb1794
-SHA256: 0c7d6040e067a5492d7cc31c0cd8342e6cd0b831de6ee112dcf53e450a7d4631
-SHA512: 4348c032e0c61f21e8603d25466de89f322cc102846300a15de085d0123c4db215d1fd3ad6a95ac644b310e4391dc3e8f5a5beee33fb3f2af20e405bfba1a1cd
+Size: 39896
+MD5Sum: 0d8a29a45dcaf3d39d6c8da925229a31
+SHA1: 5294abb35a337c823529f02eb52e0db7e31fe996
+SHA256: 43ed78c46e6ae00b8713589d01bd6fa7bdc6ac3983f2c9d416083dda192103af
+SHA512: 472b46d19c0e31bd4cc4ba547b3a9b00db598dc0c27f096758dcccbaf4836a5a43fe6a1ee9511e710ca40b10b6c386f885c03a30250cc14e9b9f76dc5612b7f4
 
