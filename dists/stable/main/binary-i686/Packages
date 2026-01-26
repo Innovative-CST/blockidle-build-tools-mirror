@@ -248,6 +248,36 @@ SHA1: d8bbe8293d40717b6f7f5c797e3f5bbd75820728
 SHA256: 80622811293bb199ca840761b262a639972005c15e1ec7c3aa257d86b754d030
 SHA512: 98acec08a0099882ced09dc411e2a88161b3dac52e3046768f21c1af714f3079d3921ac99e6907013fc21f2305cf5c31fd1d2f4617f6a5fae1525839108c4e6a
 
+Package: libandroid-support-static
+Architecture: i686
+Installed-Size: 64
+Maintainer: @termux
+Version: 29-1
+Homepage: https://github.com/termux/libandroid-support
+Depends: libandroid-support (= 29-1)
+Description: Static libraries for libandroid-support
+Filename: dists/stable/main/binary-i686/libandroid-support-static_29-1_i686.deb
+Size: 8628
+MD5Sum: ffe63731ea9cb589a31ee128e2642f06
+SHA1: 70ee2a3dceba0d50a9129377379dff4542eb36da
+SHA256: 5ff48814d092485a4ade77a876b4f20dd19bca8a627883fadb6fca60482e19c7
+SHA512: 85c339e446863feb6ab7f0b84f8c0eb9b15db42b2acf0fde3126b26347f2428263eae3fe435c8efb5f5875676dae9019dc4a6ab684a58549c95d7c775785f3e9
+
+Package: libandroid-support
+Architecture: i686
+Installed-Size: 72
+Maintainer: @termux
+Version: 29-1
+Homepage: https://github.com/termux/libandroid-support
+Essential: yes
+Description: Library extending the Android C library (Bionic) for additional multibyte, locale and math support
+Filename: dists/stable/main/binary-i686/libandroid-support_29-1_i686.deb
+Size: 11140
+MD5Sum: 8b6186e0e7df55a0f4ede60d93c64e0a
+SHA1: bc8f0b578858c36bd37522d4ac5cbe0479854d2f
+SHA256: 89c4ddb386a8d0a57285075c0c9596b201e8feacc077eff0c19c0d6004390f8e
+SHA512: 677b31113561f2a7a5cb1b1bc78b7518c6db61ac4d3441c9e0520222424948715d86f13bc327989185d55cb12e147e08d691ad6afddf97193d7479c4c6982e5e
+
 Package: libandroid-sysv-semaphore-static
 Architecture: i686
 Installed-Size: 32
@@ -781,6 +811,156 @@ MD5Sum: 0d387ded4f6d6374d8a316649521c8e5
 SHA1: 43114ebb45eb8fb21d9714ce324dedfdfdbb204d
 SHA256: cc104fbb95dba746b149850cad501408fa9f9c9a02b06e055c3ba72947726604
 SHA512: c1a107fa000ad2c5034c396760c1e902e94f30eecb9f4612c2ec836b4dfdb9a55b53981ebce3f55161da3f99858d9cd34048f2a465b158ae54fe4dd0bb3bc0c0
+
+Package: libx11
+Architecture: i686
+Installed-Size: 13680
+Maintainer: @termux
+Version: 1.8.12-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libandroid-support, libxcb
+Recommends: xorg-xauth
+Description: X11 client-side library
+Filename: dists/stable/main/binary-i686/libx11_1.8.12-1_i686.deb
+Size: 1927188
+MD5Sum: 6f467effcbf8e6027780fcb4a3f332c3
+SHA1: aa9b0a5799d78aede99a18fb95fd67b02eda3f1f
+SHA256: d2ac4f1613510135fd37a40acb4edbf513b263c32274d6e7aab77081d58c28b9
+SHA512: 0df06077af8bf9e7f13b15cfa74404b0f211f3d603db3e721f1951810dfab25b50bd11b93a876d2b37e52bb579ce8f140bcf7fa7e886244297de4cfa7345c9cb
+
+Package: libxau
+Architecture: i686
+Installed-Size: 124
+Maintainer: @termux
+Version: 1.0.12-2
+Homepage: https://xorg.freedesktop.org/
+Description: X11 authorisation library
+Filename: dists/stable/main/binary-i686/libxau_1.0.12-2_i686.deb
+Size: 9140
+MD5Sum: 08236747b09c7cb9f5635e834af5f386
+SHA1: 369818f1a01c492e4f7724d869ffa469e7aaaa3b
+SHA256: 0da8ddb4fae43d6208bbe35233fe17a5c091a5e4758980c0d7b6da665a3cec62
+SHA512: 5099ffac0e83f486d5eeeff88c7bb31350d82e1c85a0fe484e26e00308cb35911717a3a005f1da69c345102ab2558bf66c1cbb8a203365ba53c227288d094fd5
+
+Package: libxcb-static
+Architecture: i686
+Installed-Size: 1192
+Maintainer: @termux
+Version: 1.17.0-1
+Homepage: https://xcb.freedesktop.org/
+Depends: libxcb (= 1.17.0-1)
+Description: Static libraries for libxcb
+Filename: dists/stable/main/binary-i686/libxcb-static_1.17.0-1_i686.deb
+Size: 144492
+MD5Sum: 10203c747f5f6315019e3ee8b39584da
+SHA1: 8ab5c3ecf1f44300795b6a8060e777712b42c849
+SHA256: 9a8e790fe8038c908122c6a64a0177a0c23881bdfe78c10f5c15729b44868aa8
+SHA512: 124972a29d39ff128ac2bbaccedd8a718bf59797a7b7d5cc0e9946b555b14c7d475c6f7d74eda75e8ca2ac5444d32603dc251d8358af993e46b21a4c6f81f757
+
+Package: libxcb
+Architecture: i686
+Installed-Size: 12820
+Maintainer: @termux
+Version: 1.17.0-1
+Homepage: https://xcb.freedesktop.org/
+Depends: libxau, libxdmcp
+Recommends: xorg-xauth
+Description: X11 client-side library
+Filename: dists/stable/main/binary-i686/libxcb_1.17.0-1_i686.deb
+Size: 917192
+MD5Sum: b4c0ac1cce2bc8a2476a1a26dcaff37f
+SHA1: 94e9783ab59788c221b488d5f602d16bce5dc9d9
+SHA256: be0b10f495a76f4bba28fd0d6edd3bc9a734394e48fe117ae98a5a1999b54ebf
+SHA512: ee7cc3c55c72ca1e4d17d4ef104af6a7b5d16d9e3aaebdb830aebaff661aac404270a4fbedf845ba32ce10ccf4fbfeaab9cd217a09d2ab7454f4348098f0ad0d
+
+Package: libxdmcp-static
+Architecture: i686
+Installed-Size: 56
+Maintainer: @termux
+Version: 1.1.5-2
+Homepage: https://xorg.freedesktop.org/
+Depends: libxdmcp (= 1.1.5-2)
+Description: Static libraries for libxdmcp
+Filename: dists/stable/main/binary-i686/libxdmcp-static_1.1.5-2_i686.deb
+Size: 7604
+MD5Sum: 81983d94ed38f2a63bde8b3514ff2958
+SHA1: 03bd96745930dda9f15e5a5e430615aa250e2581
+SHA256: 8ca59f4a5eed4d86b89523fc80019e8fb2eac1ff1db36c793435ab40e1e95838
+SHA512: 609b9853876b9dd5426648020aba27a6354def54f8cb92070c17d5bc49399ace6d96c57f81a4dd9050d93bfc6637026a4daac7a9f4189812064af62d2bbf5627
+
+Package: libxdmcp
+Architecture: i686
+Installed-Size: 196
+Maintainer: @termux
+Version: 1.1.5-2
+Homepage: https://xorg.freedesktop.org/
+Description: X11 Display Manager Control Protocol library
+Filename: dists/stable/main/binary-i686/libxdmcp_1.1.5-2_i686.deb
+Size: 24396
+MD5Sum: fcd52f234cdb7bcf4691cfb883078211
+SHA1: baf3789b074ed1587e300d0b7126516432a89b2f
+SHA256: a4ad802528e018f2b03c8373a048e29d0e2c0f4c75a1bc1f63154c5f233e0129
+SHA512: 5a960c340aed3d57c4f8c3423da313e4a1155255e169a7e2066aab81d6d2c3d65bd7fee43fe4cff9d79a1959fbd127a6c4116856df1aaec01740c6941e55e6e6
+
+Package: libxext-static
+Architecture: i686
+Installed-Size: 120
+Maintainer: @termux
+Version: 1.3.6-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libxext (= 1.3.6-1)
+Description: Static libraries for libxext
+Filename: dists/stable/main/binary-i686/libxext-static_1.3.6-1_i686.deb
+Size: 22428
+MD5Sum: 414c5804f097fedfca4715dde3782a1c
+SHA1: 9270b21ac353a7fa72b76157c58b146b6591763e
+SHA256: 409d8ef66bf90a90a1162f862198a3997fc2385185819ac2f947ada775bd058e
+SHA512: 027d3a23af919ae20b269259c17162fc32a17d2d82a848fce371f80fbae1e4d66a648ee704b540467393e829eb6bf57655373075f80ad563bcd1293a75e4bf88
+
+Package: libxext
+Architecture: i686
+Installed-Size: 608
+Maintainer: @termux
+Version: 1.3.6-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11
+Description: X11 miscellaneous extensions library
+Filename: dists/stable/main/binary-i686/libxext_1.3.6-1_i686.deb
+Size: 96412
+MD5Sum: 535e2a77ce9fc239f67f3a55afd3021c
+SHA1: 88a48a89a8d27a996ccbf8bf0f892b1771ef502c
+SHA256: e1b5a407b291541e2c94c6d86afa4fc34d4718c9d4c68b2c7557fd3b26027ee8
+SHA512: caff0787334c77daa38295977d48f5639d59ec66d60bf8ce7e9981eb15cc6ebae339a3cd1d7a07262c8cc47f91a3989dde5a695f3e08348d0411b23b2887ba91
+
+Package: libxrandr
+Architecture: i686
+Installed-Size: 196
+Maintainer: @termux
+Version: 1.5.4-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxext, libxrender
+Description: X11 RandR extension library
+Filename: dists/stable/main/binary-i686/libxrandr_1.5.4-1_i686.deb
+Size: 22304
+MD5Sum: 4d6b43228eb0073f55d69fe24cc7455f
+SHA1: 994041f578f125409fc766a0e9b6f104b674ea6b
+SHA256: 52b2eac73ae2d2f0e87dd973128bcc5e6b79ef942fba60eaacb3a9f317d88f49
+SHA512: 4100091232eab7f66ff98a13a73012ed369da3b8cc95c2deb05c4bd57f5196b9aa79ca5ce08c60c9d69842a073bc091449fd10a79e0bb6357662ec05fd9f9656
+
+Package: libxrender
+Architecture: i686
+Installed-Size: 160
+Maintainer: @termux
+Version: 0.9.12-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11
+Description: X Rendering Extension client library
+Filename: dists/stable/main/binary-i686/libxrender_0.9.12-1_i686.deb
+Size: 23968
+MD5Sum: e63e846be7d7ceaa0cd119b477f9fdb1
+SHA1: e082d8e031471ebeae923fee15b3db64491edf8f
+SHA256: 26ad9aceda2398d62b410db7b99f2599f60b334003f963d513f151b6a46e3ca0
+SHA512: 7643f3d40dd7c30b3b654bc6757bf4470979c12361d7b8410292d2d0a989174f5285061057a30b9ea48b1dfbb5bf6a85ac390636ade3e2a9a7eb8e98c2ed2dd9
 
 Package: mount-utils
 Architecture: i686

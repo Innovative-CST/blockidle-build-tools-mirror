@@ -370,6 +370,36 @@ SHA1: 8fd1014f3cbd50a54b4266976a0bae78d761eb51
 SHA256: 879ab466441c73eeb53400a3bf7840ef001e0f85fdb7a523fc08482791e9f824
 SHA512: e2abc8cee30894f7348bfee34acd80813f3e3ec0a0500413c357ed0dcde9272ed3fb77ad35cc4cb3ce7dc555f6800b61ccc4ee29b9c69029fbc5a2ca674025f1
 
+Package: libandroid-support-static
+Architecture: arm
+Installed-Size: 64
+Maintainer: @termux
+Version: 29-1
+Homepage: https://github.com/termux/libandroid-support
+Depends: libandroid-support (= 29-1)
+Description: Static libraries for libandroid-support
+Filename: dists/stable/main/binary-arm/libandroid-support-static_29-1_arm.deb
+Size: 8148
+MD5Sum: 8be182b51af9761d0a8be78a9af8116b
+SHA1: 92f44deeca44187276d3933f58e51efcefbf63f4
+SHA256: 89fb9b16291eb6af660dcc33b018bf3b39bec498e5db8f2394406bb5ae5eaf43
+SHA512: ad07f0e0875bdfa9d4bf62ce6139b988d95d2e491fffdaf084ef88506c35c6b23901e0fbfac98a4a76453d443fee949641ec260451dd44f935770b63eab3306d
+
+Package: libandroid-support
+Architecture: arm
+Installed-Size: 72
+Maintainer: @termux
+Version: 29-1
+Homepage: https://github.com/termux/libandroid-support
+Essential: yes
+Description: Library extending the Android C library (Bionic) for additional multibyte, locale and math support
+Filename: dists/stable/main/binary-arm/libandroid-support_29-1_arm.deb
+Size: 10380
+MD5Sum: 65e297c01e5623bf047a42e4c11a55d6
+SHA1: fbe67a5b638ddcff3654aa35aec443d9ca3fa4a7
+SHA256: 3a900acc8e1a2e4864e4411ae33b298959c11ade5d43bafe19681616ca8040f3
+SHA512: c5ef819cd141078f5fc4360f20391f6277a1fa3aa026e86f2786c5b675bf31d0e0351262cbb278b011bd1af4078de62d481c5744dafde675fe5827d06a680ef2
+
 Package: libandroid-sysv-semaphore-static
 Architecture: arm
 Installed-Size: 32
@@ -997,6 +1027,126 @@ SHA1: 35fc44a9c23b58a6b716c50b088a6411b01207b8
 SHA256: c223bc47085429eee8e7d2fc24f03ac1795a8326bf52ffba5b77e25d947a9bdc
 SHA512: 400f8f8689346e14cbf2d97e1318e937aa8e73425af2ea58a797a913e26c71c3a08c7a0c90cb7ce53f9c0a443849853ae6aaa04a41ffa8a7fe2c25976faea366
 
+Package: libx11
+Architecture: arm
+Installed-Size: 13444
+Maintainer: @termux
+Version: 1.8.12-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libandroid-support, libxcb
+Recommends: xorg-xauth
+Description: X11 client-side library
+Filename: dists/stable/main/binary-arm/libx11_1.8.12-1_arm.deb
+Size: 1882156
+MD5Sum: 7008c42bc04a18e3015303a0c655ae6c
+SHA1: 5c2bfd4aaef189a12e50fe61a30ab7d593871ac6
+SHA256: 563b9d938e10241364556adf4e69901b2cee351d038a6f684c1112dd5c8ef1d3
+SHA512: 9b9f47a01c3bac6c68ea92fcd78329fb44a5ce69fc014ae5f4fd56d27b72cab390d15ee263fff2ab6dfd652d6d5ff4215e7426047fd5a3a814735993e3e56b47
+
+Package: libxau
+Architecture: arm
+Installed-Size: 124
+Maintainer: @termux
+Version: 1.0.12-2
+Homepage: https://xorg.freedesktop.org/
+Description: X11 authorisation library
+Filename: dists/stable/main/binary-arm/libxau_1.0.12-2_arm.deb
+Size: 8656
+MD5Sum: 4ea53ae988fe6f26804907f529ba5ce5
+SHA1: 56cbcbec9e44b80e53c097e5f75ae2cc06a57992
+SHA256: c42bc448446c90ee89e9e75deb9fe1222e3cf88bdba210865d47904b62956cd8
+SHA512: 66703192a70d627b5069f589d46258e2e30baf5d6d3e82331c6b9719caa7e9212d5fd1c87a2ed818b661d065da53fa790708df22e9ae9e84b46a5df610c6ea98
+
+Package: libxcb-static
+Architecture: arm
+Installed-Size: 1012
+Maintainer: @termux
+Version: 1.17.0-1
+Homepage: https://xcb.freedesktop.org/
+Depends: libxcb (= 1.17.0-1)
+Description: Static libraries for libxcb
+Filename: dists/stable/main/binary-arm/libxcb-static_1.17.0-1_arm.deb
+Size: 125468
+MD5Sum: eb3b47b8057c4d4456865ba8e6a51582
+SHA1: 4c8a9bf80fa7b0d9a9f2ced753f4028cdad3e6f4
+SHA256: 8a6d2f1c04af979302cd6ef034a00605fda73c8ce6eed930d632445a66926888
+SHA512: cf4a421153f7b7fbccce5272475927a4f3a7d8756c918afb4919ef066ebbc02331d13e349e7b5ee18739a145efd21e024b878fd33cc2a2bb1722ccc0b3fc4653
+
+Package: libxcb
+Architecture: arm
+Installed-Size: 12540
+Maintainer: @termux
+Version: 1.17.0-1
+Homepage: https://xcb.freedesktop.org/
+Depends: libxau, libxdmcp
+Recommends: xorg-xauth
+Description: X11 client-side library
+Filename: dists/stable/main/binary-arm/libxcb_1.17.0-1_arm.deb
+Size: 880136
+MD5Sum: 1391c5ccaed49cf9b2b96001d6c6fc95
+SHA1: b743bd5da51a213dee32600487323fbef3a472b5
+SHA256: ce3a779836131168a3e3da564365502a8551bd54528f33b78cc65f26422b8cf5
+SHA512: 34a69107ea631d6e518023b9b7685eb2828604b67a213fafe8bbbc6cc0f1ef942835e78f20c09a007f3840577e5ba94a17cefe9ecaca6534d756934dd9e4fb5b
+
+Package: libxdmcp-static
+Architecture: arm
+Installed-Size: 56
+Maintainer: @termux
+Version: 1.1.5-2
+Homepage: https://xorg.freedesktop.org/
+Depends: libxdmcp (= 1.1.5-2)
+Description: Static libraries for libxdmcp
+Filename: dists/stable/main/binary-arm/libxdmcp-static_1.1.5-2_arm.deb
+Size: 6856
+MD5Sum: 0748e1ad7ce72c4b77fc483b0ce79cc7
+SHA1: d4d2522baf1039383e428bd89741d32271a41d7f
+SHA256: 689848a3649250bc79c4152d48369d158f2ff25235457d09c5049e70978190d0
+SHA512: c427755a4942aeee35a28a1ebb4686af6795e14f384ae2f5e73723e359287185d3da64acfc74e85283dae0feb7309e741d8164647911560acdc7a773d6251a0a
+
+Package: libxdmcp
+Architecture: arm
+Installed-Size: 192
+Maintainer: @termux
+Version: 1.1.5-2
+Homepage: https://xorg.freedesktop.org/
+Description: X11 Display Manager Control Protocol library
+Filename: dists/stable/main/binary-arm/libxdmcp_1.1.5-2_arm.deb
+Size: 23320
+MD5Sum: dbf331bc8f9b041893eda2758bdb6740
+SHA1: 76c65737a2e65d1f5083ca829aab1961a5c08db7
+SHA256: 9832fe8ae36e76f0f4263e2ed05ed89410841a3e6cc2ebd7015dcdfd5756557b
+SHA512: 3f5432b04a9cfc44c9c0ba83077dda92fd0773a894ffd9b04c320205d44b496feca3b31772341bc4baedd2e55ff962aa113d81eda0e2d6a21823b830a04f42b1
+
+Package: libxext-static
+Architecture: arm
+Installed-Size: 112
+Maintainer: @termux
+Version: 1.3.6-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libxext (= 1.3.6-1)
+Description: Static libraries for libxext
+Filename: dists/stable/main/binary-arm/libxext-static_1.3.6-1_arm.deb
+Size: 20848
+MD5Sum: 3db02f327f6b529a05d3ff6b0a8c1feb
+SHA1: 9756cae77e8db11dc0134e9287e02e087769b64c
+SHA256: c895e8da6caaebd021d5d82ef1aaf4d69710d0d341290cf8441b90f83c4e826f
+SHA512: 0e1bd639a7adb43aaf8556374a4e7c72ad591c906230f65a40f1734d42043048b8d1f816e1d5c06d5393d7ca03306d0e67b69aba304f9076d59bc997bd908abf
+
+Package: libxext
+Architecture: arm
+Installed-Size: 588
+Maintainer: @termux
+Version: 1.3.6-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11
+Description: X11 miscellaneous extensions library
+Filename: dists/stable/main/binary-arm/libxext_1.3.6-1_arm.deb
+Size: 93072
+MD5Sum: dc282db4fce64d07f17dd765eaf2e64d
+SHA1: d036b7d243c5a7af7fefa8c76ed8bf23bccb7b85
+SHA256: 6b38d05bd092eca9bcae75c9352d09a5a4c1709ffc363e0f3f690b0dba7c146b
+SHA512: 5a3564d7fda133c2f041fecdf8335d884a2b74048075abbc7e67a327bba2aeaa35285a8047bb1c837c33d324cf7221bd5467175f503e9360060b80de1495ef1e
+
 Package: libxfixes-static
 Architecture: arm
 Installed-Size: 52
@@ -1056,6 +1206,36 @@ MD5Sum: db5bb143fc3e12a773ee9b3eff9692cc
 SHA1: 0b88e359542eef35f62025e61f825fde4aba89ee
 SHA256: 61ee6b9e18f4c04eac29fbf794f3b92e7925fd684b31db97ba524539446ecfd2
 SHA512: 2311508fabbe696ab2eea11a26cbabbc3f59947bfcecf2d601dc9d02ce0694383af670e949bfa739f39e8cb3c2b6662dbd1a3a03bc5956fbc07925563310e57a
+
+Package: libxrandr
+Architecture: arm
+Installed-Size: 184
+Maintainer: @termux
+Version: 1.5.4-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxext, libxrender
+Description: X11 RandR extension library
+Filename: dists/stable/main/binary-arm/libxrandr_1.5.4-1_arm.deb
+Size: 20564
+MD5Sum: de21dfbd40f3af1ceb727f9ebe671f3b
+SHA1: ab6a28b58a36c79f13f0463053afe808924f944d
+SHA256: 0a2eb1aaadb17d4395cddea2b6c73fab1dfe32773518c03234aace8c322a1a2c
+SHA512: 3b1edf352c5386ba660240dc2ee731e34367d5c952b1b6c5e7ba665f17c4e4a854b11aaf682b01c8f4fd3a75e0c6a1c2935e5f9884bc2b53c2d64ff717ebf663
+
+Package: libxrender
+Architecture: arm
+Installed-Size: 152
+Maintainer: @termux
+Version: 0.9.12-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11
+Description: X Rendering Extension client library
+Filename: dists/stable/main/binary-arm/libxrender_0.9.12-1_arm.deb
+Size: 22700
+MD5Sum: 336e80914fe798d36764caf0169c75b0
+SHA1: f333d92ad1a6a8cd463bab9ac9330083412f07b8
+SHA256: c89dee8a1db21f6228b0c0176cd23b22bf2fc6656ae3ec353dc12517eaec2d50
+SHA512: 40ee9dcb071d6824a73cc70b222e38a9f04215223458ef60d442a626c236151062b86f5d8f6ba969c2a1393bcb4e9533d3d9593742a91c576104403440c91c2b
 
 Package: mount-utils
 Architecture: arm
