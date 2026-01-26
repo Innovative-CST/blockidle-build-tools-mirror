@@ -470,6 +470,7 @@ data/data/com.icst.blockidle/files/usr/opt/glib/cross/share/locale/yi/LC_MESSAGE
 data/data/com.icst.blockidle/files/usr/opt/glib/cross/share/locale/zh_CN/LC_MESSAGES/glib20.mo glib-cross
 data/data/com.icst.blockidle/files/usr/opt/glib/cross/share/locale/zh_HK/LC_MESSAGES/glib20.mo glib-cross
 data/data/com.icst.blockidle/files/usr/opt/glib/cross/share/locale/zh_TW/LC_MESSAGES/glib20.mo glib-cross
+data/data/com.icst.blockidle/files/usr/lib/jvm/java-17-openjdk/lib/src.zip       openjdk-17-source
 data/data/com.icst.blockidle/files/usr/lib/python3.12/ensurepip/_bundled/pip-25.0.1-py3-none-any.whl python-ensurepip-wheels
 data/data/com.icst.blockidle/files/usr/lib/python3.12/site-packages/xcbgen/__init__.py python-xcbgen
 data/data/com.icst.blockidle/files/usr/lib/python3.12/site-packages/xcbgen/align.py python-xcbgen

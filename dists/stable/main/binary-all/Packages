@@ -7,11 +7,11 @@ Homepage: https://curl.se/docs/caextract.html
 Depends: ca-certificates (= 1:2025.12.02)
 Description: Common CA certificates (java keystore format)
 Filename: dists/stable/main/binary-all/ca-certificates-java_1:2025.12.02_all.deb
-Size: 113808
-MD5Sum: 058f3927dc89b6ea2a8477efa1bfeaac
-SHA1: 16e58cb07330bf9ff03778ecf3d488429a3f406a
-SHA256: b7eb7d9e3912325245ac0b590f6aa65ddc9ef25cac46ff1ffc41f562ce420640
-SHA512: 096443c8dcc29a1e75486b4bf8206021e311f0f1dee421e97aee10be0a1c3b625d6ee46f75264beb17e477afc0cbef9c3889cb9f772d0707c0f74078251c18d0
+Size: 113812
+MD5Sum: 98cf1edf0a98ccc0c665a41af326a19a
+SHA1: 873a90e2159ab1fcb3467d0495a2046ff8ea788b
+SHA256: e9d851ed57e43a4bc1efb679770b01a8bb393154b1a9313f1b9ea3622351d6db
+SHA512: 1bbaa13dde4be11c913661f670ffe06dab87c2cb9ade34c8359d65d085425c0430060efbaf92f739c43285249664c4465e34a1acdc01f049e5dff2014791f70f
 
 Package: ca-certificates
 Architecture: all
@@ -21,11 +21,11 @@ Version: 1:2025.12.02
 Homepage: https://curl.se/docs/caextract.html
 Description: Common CA certificates
 Filename: dists/stable/main/binary-all/ca-certificates_1:2025.12.02_all.deb
-Size: 124240
-MD5Sum: c03dca5ffa2d84fda9ba112ba30fe175
-SHA1: f573467d53894584fe8c9022e2f49fde02c379df
-SHA256: 851f745057532673f0bd17716d765068226e92739bb4f344d2a56093ae3f22ab
-SHA512: 593a2a894065eff0396abcd59b6b68e85ab8f37c3734f9ae42564a0a072953210f8efeab762be17fef3adf64596fac05510725295bffffc24bab48aac3c4fc12
+Size: 124256
+MD5Sum: ee130928856b5f621479e4131bf55553
+SHA1: 16a1cea6c9296a5f46bd1693f42b9ee16bc3c2dc
+SHA256: 9b93669524de270d667662808b8c2974a144293bb13c34c99204063d3caf0fb9
+SHA512: b6ae76879332050d5dde78b48358f5e465a197f80a02a44a79df8cb282a884b508e7da888e18e16b408687229dca8fb4dea5b5e846a14f7cc2936087a0eb3284
 
 Package: glib-cross
 Architecture: all
@@ -41,6 +41,20 @@ MD5Sum: f543db6171ae565e4209f1ad06cba8d5
 SHA1: 1b4e49792340594fc100ad4d8bfbebc6cbc34149
 SHA256: 9748a448e3317d7bb70a90d7655bdaad197c2911d411323aefce1c0d1234b063
 SHA512: dd578d1260179b43a8d749796c81d1a58ce773f16a5064518f5e5a3e0b92f2b57b370951110cf2a14b9dabf8096f877a61e0754b0680d18b939e2c88d5ddbb2d
+
+Package: openjdk-17-source
+Architecture: all
+Installed-Size: 50756
+Maintainer: @termux
+Version: 17.0.18
+Homepage: https://openjdk.java.net
+Description: Source files for openjdk-17
+Filename: dists/stable/main/binary-all/openjdk-17-source_17.0.18_all.deb
+Size: 47026112
+MD5Sum: 466ab0fbac45b7e07c76069c1019059c
+SHA1: 1d2711981d40f57e919c4d4e6b46733a3985e1d2
+SHA256: 233e9d936f0f39f4c1d1073b6cd018370439d6f20713cec9c03c383f581a54d9
+SHA512: 848bdb08d6949930db1a1709b365cf9ee54ea9e1e0894a85a34e561d5edb47923d5fbecb255ff1751a4a8b45a49d8bc5688876cd65954deb799109dfdaac2a5a
 
 Package: python-ensurepip-wheels
 Architecture: all
@@ -72,10 +86,10 @@ Replaces: xcb-proto (<< 1.15.2)
 Description: The xcbgen Python module
 Filename: dists/stable/main/binary-all/python-xcbgen_1.17.0-1_all.deb
 Size: 15196
-MD5Sum: 9541d599446c6d5b23a5a11a20fccdb8
-SHA1: 49aa0a25bf975bbe10b98e9b3e82002f912eb410
-SHA256: 1c906ad2ee33b29fafc29894b81c2b2c8a21f46cba6a4e63d05c95c0ab4c228f
-SHA512: 491b6be8525d00b097e98d3deb8d7746d43caf599c1f99434fe2bc505da7b62ca1a569406996298e12de9bdc567762a00b6823e7aaec51aed4299051c8d6ca68
+MD5Sum: 549e2a4d2d9d7f2265c09088d48087d1
+SHA1: 9881774b6700e3248227aae553977cdf2f1446fa
+SHA256: 189d6c2c9f9d2380820c3d2ab32369320b3c7cf5b12c5aec544ea62c5180b2ad
+SHA512: 015eac70bb51916d7b067d2309bc9e3c9e96ccd6443464bb8f8408d36426f038f825b23c734c65e8e5a5f614eb8768033ddb7d8499d90b040c3701e21baa3455
 
 Package: termux-am
 Architecture: all
@@ -86,11 +100,11 @@ Homepage: https://github.com/termux/TermuxAm
 Conflicts: termux-tools (<< 0.51)
 Description: Android Oreo-compatible am command reimplementation
 Filename: dists/stable/main/binary-all/termux-am_0.8.0-2_all.deb
-Size: 577272
-MD5Sum: 49ee3d30b7c40b5cd2b72e79cb7c3398
-SHA1: 547547217f9d160ab6f68e2ee67cb61dd025ce8f
-SHA256: 33c58318835414523b2bc8dd124635bc191519c88f08cb7756be4e0f93224e09
-SHA512: 45f9be06273daa5ef529fbe75ecddc428d5b2a1eb69e0fbb2181c68dd5c1d742542b372c79bd503ce19e85a77515b1676d6f0b04a82299ed69ba12b4d0afac08
+Size: 577284
+MD5Sum: dd23dd8afe60e033a5da67ecc8e80f64
+SHA1: a9a74a618f165cd5edfaa58a92cb37c9b4f0c89b
+SHA256: a2f025e548b0da3019c478581d995130deb0bfb37a262c6acaeea482941ef9bc
+SHA512: 996fe88f9b3fd76f2a544abc0b42c2864fc78d9407becf78594780eee03855ee994ff55c4d268ad85306dee10e81977606d5c8a45a96b35390f5a7dad8a488f5
 
 Package: ttf-dejavu
 Architecture: all
@@ -100,11 +114,11 @@ Version: 2.37-8
 Homepage: https://dejavu-fonts.github.io/
 Description: Font family based on the Bitstream Vera Fonts with a wider range of characters
 Filename: dists/stable/main/binary-all/ttf-dejavu_2.37-8_all.deb
-Size: 2459944
-MD5Sum: 7ee0ba9d817a48daa2397b9dee3ebfa5
-SHA1: de18369a32e841b496fb739ea78bb9490e5233ac
-SHA256: 45b2594f52822b4d97745b087f8f65b3f807032b5016e18aa5cfed74f6ef024a
-SHA512: 9ea9ba8a6c1271899ab37324713a3afd6b4a8cdeece3eb9cb6613f323813ace4ac3c43e070c62ef1ae9b4f8eb89da45ed2ed2d27d674c7f752aadb541d434067
+Size: 2459728
+MD5Sum: b343934522c2bba3b090529374e665dc
+SHA1: 4978e9a44216a833d168dba32fc77da8870cfab4
+SHA256: 6022d5ea519a953455caac0c0e044c34128ad7c55af3a87f16ead8a34bf74116
+SHA512: ca959e659b224003dac82c681adacc1aad7b4be4bc089c06740f9fdefccf7d3815a257d53e43c639bdbe44ff980feb43ab4da5be7e3b9ac668c35d68b8f8e38b
 
 Package: update-info-dir
 Architecture: all
@@ -131,11 +145,11 @@ Conflicts: xcbproto
 Replaces: xcbproto
 Description: XML-XCB protocol descriptions
 Filename: dists/stable/main/binary-all/xcb-proto_1.17.0-1_all.deb
-Size: 78620
-MD5Sum: 39748fca927ce89ddef7ef374d9020a8
-SHA1: 1a3fb7a9c40899a9365441aabd7881b4b07dff6e
-SHA256: 81cb304f484bd4ee9eadf94bbc0040787a950d04904edcfb4b39dfe5c6cc7888
-SHA512: 2ef7c7fcdd355deeaa2c04f247814938a772c8ae4a97503dc10b623789ed5a0d536f85a4d6a85a612df6c53236b6fb005c005c51f177449b7da1d22ceb96742c
+Size: 78584
+MD5Sum: b50edf60a47ab672c81dc2e7e95fc770
+SHA1: b398334c36dd503849011788a37e730ddf9d2614
+SHA256: abd87d5c737f08124f2f2481694aa0c1ac8cdd2ab5487d5db17b676637d48c09
+SHA512: 862b5c633cc4da08f7ee1c15862462be895d35f275ba7ca3233294385901f1b73cfc4bec66398637c7ffc41d380e5231306f8fd27f9ffb4c96aeae27b275ef55
 
 Package: xorg-util-macros
 Architecture: all
@@ -145,11 +159,11 @@ Version: 1.20.2
 Homepage: https://xorg.freedesktop.org/
 Description: X.Org Autotools macros
 Filename: dists/stable/main/binary-all/xorg-util-macros_1.20.2_all.deb
-Size: 21952
-MD5Sum: 2d394603117205b092d79c9fbec52c8b
-SHA1: bf76de005f9543ad7b9aac8b87cad755fda36860
-SHA256: f9c60affc0767b91f4a8cf82faf6bfef82b4dd0c73c136790f13bfa457d72bf7
-SHA512: 17ccdf2c40b2d4d65267204219cad1011ca40ffe2239c90d548094b66be00a6108a7f128d5af58d497f0ee7a7225b4785904d14ce0d7a575bd8e7406d11ffb45
+Size: 21956
+MD5Sum: 859220ef8359675901b7dd09c370a8a5
+SHA1: 0f20b0f8cc5904e012dee4509c3f54c847c040aa
+SHA256: e6261eb8efde97e2c3cd2bf5bfa0ace97fe1e1cf4b9e44b196b14da5356896dd
+SHA512: 94f96b060d2c198b8b3c033accc2d6d07600996c705e38385b20bd7291993f0185fec45fc794e1bf2fc9f43b69a05d4e44a558d491674438aea61372673e2c8b
 
 Package: xorgproto
 Architecture: all
@@ -162,11 +176,11 @@ Conflicts: x11-proto
 Replaces: x11-proto
 Description: X.Org X11 Protocol headers
 Filename: dists/stable/main/binary-all/xorgproto_2025.1_all.deb
-Size: 249576
-MD5Sum: fccf0b77ddfc79cd79288041b74aeae7
-SHA1: 61981e5694d8b6a1d999cdbbd9b0dc61c64d8372
-SHA256: 9dffb5d1b08694efee507e58a724d08d44be3be117c8b5f3b9ada5ec83b941e3
-SHA512: 7c62ecf859523334a0f56acb721721cc09866ba95d0b4bba502a954b32e67ed128ca246269313ada568469666dc9d4d6fdbadb0486e0cd45cb7f65458d0c1e5f
+Size: 249564
+MD5Sum: 758af7041493bcd9d229eda051254b67
+SHA1: 433f49b0e2e9fa3ebf1bca0d2e1ddb4ef9fddbbb
+SHA256: b410a1648309b70eae7939d73f5187100c7c0439505f8c10486e4091d2afcf41
+SHA512: e42e74b81d847b1bc8ff492db38e1d0b178d4ec39380648e4924174479644b648d871fd5793c4ef55adf49ff1183f379b58992a05f87a59cec97ba70f5842b7f
 
 Package: xtrans
 Architecture: all
@@ -176,9 +190,9 @@ Version: 1.6.0
 Homepage: https://xorg.freedesktop.org/
 Description: X transport library
 Filename: dists/stable/main/binary-all/xtrans_1.6.0_all.deb
-Size: 39896
-MD5Sum: 458b34c70a08b6b85db54c19f643b798
-SHA1: 2c4fc9421ce2ade9ac40ea0b132a020c537e682e
-SHA256: a8206a7c367af31c5bf853d506c1841b8010e7d9d6090d4a2ecb7918ae1ef34d
-SHA512: 74949cdb8477fd43b26671623e68add6f330292228715f3fecd9b550841e344f4e545306318f67a6ad9fdb839095609222658cc4324772d545964559629c5163
+Size: 39872
+MD5Sum: 8a3d5adcc9299e60c765a323278a5029
+SHA1: 1c40e0446edffae1e91d592d3da524a4a104aaf0
+SHA256: c7cbcdd88b82dd0daec366c0d29f0b73c15bbb40a45560f68f66d2fca664780d
+SHA512: 0c5c6a5f5f1f09c6f6de98c814ffb8a46d9cbb917ef1d1bacc9226539c66bf6e9c5362f6ca7e1fe66bd697d757c5ee48b66e3b4f3feda850d53a14bc600d88d4
 

@@ -556,6 +556,20 @@ SHA1: 0ddee869e3d7ae20a17dc57b2d58f1766d0aeb92
 SHA256: 5a7b0368a1f623ba853d2f9f8100fbb94b199cb4f2a7c2b462234d7312b375ed
 SHA512: 1cbdd1ef91dbbafa57769ef2a3638b1300ce7bbe85974c2ec6fbcec6600d6924dd55bea6b87dd4dd5101b816b87269c3cf800f14dea2bb49ddc6c799b3360cea
 
+Package: libice
+Architecture: aarch64
+Installed-Size: 436
+Maintainer: @termux
+Version: 1.1.2-1
+Homepage: https://xorg.freedesktop.org/
+Description: X11 Inter-Client Exchange library
+Filename: dists/stable/main/binary-aarch64/libice_1.1.2-1_aarch64.deb
+Size: 68664
+MD5Sum: 0eca038249d814976f28a1e53ffa695f
+SHA1: 4d64b7845d98040d4fec7b4c4e9ee7dcb614d789
+SHA256: 52a7149a8afa7c19288a2ed57c9b0cfae5cde90864abdcecaec91784b4c10365
+SHA512: fe2172738b400efc86ed8c7d17cc4f1e65a1c2c224d11b12173810ba457218404d8744ae09d1c338e0e2bd7787e06eebf647103d63f60de9dec4866dc57ab8f2
+
 Package: libjpeg-turbo-progs
 Architecture: aarch64
 Installed-Size: 348
@@ -849,6 +863,21 @@ SHA1: 48ab3ce4f2f2c1436a8e33556ca0da009ad28eff
 SHA256: f7f08a861070ab0ae9dc8ec9e030e7bfb10e93812c781896edd84baada64c7fa
 SHA512: 7bc6808e537f4fe812414b505c830773983a4e815cfd5fc321975bc6f56a108c15bdc0d6d6521c813490ce7646d4dcb6c77ab7ca6d49e2c5dbfac64eb479e78a
 
+Package: libsm
+Architecture: aarch64
+Installed-Size: 332
+Maintainer: @termux
+Version: 1.2.6-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libice, libuuid
+Description: X11 Session Management library
+Filename: dists/stable/main/binary-aarch64/libsm_1.2.6-1_aarch64.deb
+Size: 41144
+MD5Sum: 852307a7f1d33d0ae53d1291f8dfd075
+SHA1: 5b1e5a198cabc2195b009edb44a8a629a3320c4f
+SHA256: 5992d46926f7b461e7ae5c5f546f57d5d4d00af14aa6cfba1bf359dcf3a84da9
+SHA512: 7039d0778df71538e002243401b9d52f58c9c94efee6f604ee037d68b17e0a098684482ab7bd5f29b05172246f8a1f36f7ee4b2d685a2d31264f70688d60b586
+
 Package: libsmartcols
 Architecture: aarch64
 Installed-Size: 324
@@ -913,6 +942,53 @@ MD5Sum: ad2f4421cf1d3e2766547312539785e6
 SHA1: c01ea00b46dcfe7f388d035d5cd8813c9869b713
 SHA256: 9ca04f04cdac9740804a87dc4c9fdd3d4c7fe6629b01a902362fe889085188e2
 SHA512: 230bcea2c2d0eee416a78be95c5af8ea750b772207cb6c54040c4aafbb48e050b67dce953c5ac970017b64f10882cbdbfdf39f1d40d0386a9a5217c5c80a5240
+
+Package: libtiff-static
+Architecture: aarch64
+Installed-Size: 864
+Maintainer: @termux
+Version: 4.7.1
+Homepage: http://www.simplesystems.org/libtiff/
+Depends: libtiff (= 4.7.1)
+Description: Static libraries for libtiff
+Filename: dists/stable/main/binary-aarch64/libtiff-static_4.7.1_aarch64.deb
+Size: 170756
+MD5Sum: 587f41569e77655d81fe319ce30f1a8a
+SHA1: f1857be6ed8dca3f90b617f58c976573a568bef4
+SHA256: a5fc46b8a140f293d36b5489d10794d2be6e19692ed81914505ae20e497604f3
+SHA512: 5e0d862bc4925188639a53d0b3ab586be247921f7509fe67baec2318da9fdb3071284b129b2f436a38c6fb0e3d53cf1c8744c159243a60af6296d3c373447082
+
+Package: libtiff-utils
+Architecture: aarch64
+Installed-Size: 812
+Maintainer: @termux
+Version: 4.7.1
+Homepage: http://www.simplesystems.org/libtiff/
+Depends: libtiff (= 4.7.1)
+Description: Tools for working with tiff files
+Filename: dists/stable/main/binary-aarch64/libtiff-utils_4.7.1_aarch64.deb
+Size: 257280
+MD5Sum: 5d29ada365a11ccc21e993e9d2b12598
+SHA1: f6a999643ed32928156e1cc664b427cd60a203ac
+SHA256: 739fe24e9d440ce313dfce06fdafbdb19aa51d1cfcc0a6f42056ac4e7e6522bf
+SHA512: 41cfc863e982bb1931187312e663c81d69cb41418c0351ad1895b105e6a6e051c986bdc476fd61913d64d92185d8cc8f3cfdb9d0e216554ac1a194a5f8815fca
+
+Package: libtiff
+Architecture: aarch64
+Installed-Size: 6524
+Maintainer: @termux
+Version: 4.7.1
+Homepage: http://www.simplesystems.org/libtiff/
+Breaks: libtiff-dev
+Depends: libc++, libjpeg-turbo, liblzma, zlib, zstd
+Replaces: libtiff-dev
+Description: Support for the Tag Image File Format (TIFF) for storing image data
+Filename: dists/stable/main/binary-aarch64/libtiff_4.7.1_aarch64.deb
+Size: 850076
+MD5Sum: 9fc972a0337770fc73f26ba65b8c5670
+SHA1: 1a7dff939ca462d32a0e9831450b21071f66aaed
+SHA256: 27f78032d4f2c7c2a91441adcc1a6478305e706b8f94031d277ed64163ac7b6b
+SHA512: bfce4f5696776a81295602aea5268318ffc04c9d970f17c2c1c9c583aade44917ed69431c02cdcc483ff8ad220c8247c45050011a160492afd9613c49d9b3f51
 
 Package: libtool
 Architecture: aarch64
@@ -1237,6 +1313,112 @@ SHA1: bd6dfd1f655d4007fcc4518cdd7c6f4e6844a081
 SHA256: d98e766942cc0e2b047994a8eefbe8a40cb92d76f0ed2615b8b7c3971d65f38d
 SHA512: c4da247de12f5bb5e86f2bf7855ec8f48f94b92e86dee5790eeceb5019b2915c5a763e0c0f1fe57ab2665aa5c43a3439c146734168469677a26d1418f3fc017b
 
+Package: libxt-static
+Architecture: aarch64
+Installed-Size: 696
+Maintainer: @termux
+Version: 1.3.1-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libxt (= 1.3.1-1)
+Description: Static libraries for libxt
+Filename: dists/stable/main/binary-aarch64/libxt-static_1.3.1-1_aarch64.deb
+Size: 150036
+MD5Sum: 01740db2bf11de72d5865d9683dded90
+SHA1: 1a88e15a7b170c0a093cb71a912dd88b9650769c
+SHA256: 1eef5a8e7c386a9c0b9ca70c20c2e103b79d353ec7db04313610ae1cb41a3167
+SHA512: 319423ae3dde2ef0d171f1bd6e66a6f31feedbb759da5d880d6a8e066e087cb96198eaa59588365fa01837c99de014caff6930ef63d9f4c2fd145f38d01caa4e
+
+Package: libxt
+Architecture: aarch64
+Installed-Size: 3120
+Maintainer: @termux
+Version: 1.3.1-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libice, libsm, libx11
+Description: X11 toolkit intrinsics library
+Filename: dists/stable/main/binary-aarch64/libxt_1.3.1-1_aarch64.deb
+Size: 483856
+MD5Sum: 264e145d46cbab7d7026ea21feaa9127
+SHA1: 9e6f0d05f4f582ca45354c89e94476fa325a9153
+SHA256: 22428346a0a1b3c292f29f7314aaede505b7d78a0cc8c056ba3c36302c4c6193
+SHA512: 4c1c3b65ccf2f7919f73578fac7a7db2713c829ae3434fefc5fb704dc64aee747130d2cd305f0ba24f01af5632693c259525839dc10f23fd361d66c9608f10dc
+
+Package: libxtst-static
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: @termux
+Version: 1.2.5-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libxtst (= 1.2.5-1)
+Description: Static libraries for libxtst
+Filename: dists/stable/main/binary-aarch64/libxtst-static_1.2.5-1_aarch64.deb
+Size: 8612
+MD5Sum: 7ceddf63ca8651187d3bfd0c50ac808e
+SHA1: 681c4d181aed51f48f7db5e2a19ff8ede09be9c4
+SHA256: f89cfd115371c8d2cb07dfbd1a74ab04e94acf3d6d32f7081ba5596f67d3d2e1
+SHA512: b5c6e3d5d50f0ed8e4fab70b106eb5c6d303233698ab373ec47b922011759f5f45f4e9c0ff4b746b36781bb41ed86be481e4d1058b267da5b7d4f0bc926a161d
+
+Package: libxtst
+Architecture: aarch64
+Installed-Size: 232
+Maintainer: @termux
+Version: 1.2.5-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxext, libxi
+Description: Xlib-based library for XTEST & RECORD extensions
+Filename: dists/stable/main/binary-aarch64/libxtst_1.2.5-1_aarch64.deb
+Size: 25680
+MD5Sum: 35dfed1c03f3d91551f4de74d7d37b07
+SHA1: e88c646eafdecf12a695db53ddde4135ba323653
+SHA256: 35345c3a6976218d3badb8097b4f2aaff4dc4b9d497a57279cfa620d7cd3fe0a
+SHA512: f44c91c09bfc23c8bdcac3067e31ff64b451514bf82d878d251a1b98af261d49f55dced4d2e8cc9b49cbc9d0bacd07dd564362d0cdd73812efa33a70aeef03b9
+
+Package: littlecms-static
+Architecture: aarch64
+Installed-Size: 648
+Maintainer: @termux
+Version: 2.18
+Homepage: http://www.littlecms.com/
+Depends: littlecms (= 2.18)
+Description: Static libraries for littlecms
+Filename: dists/stable/main/binary-aarch64/littlecms-static_2.18_aarch64.deb
+Size: 145776
+MD5Sum: 8013953805a374f8a8d84963199d9b7d
+SHA1: d112757d5ccc2852926636e05f2c0e24158b4e61
+SHA256: 48f9bdddfb7d2896b19785766117488a2a9fd9799162ae6e376b4fa5f8c7d4d3
+SHA512: 31c8e3360f057e9aae63da31524cc7a5c68e529ea5b59ac506984a9afa6c1910a0fd4e276c4bacbc7142af3217750d343523f6857307f3a6c313038718216015
+
+Package: littlecms-utils
+Architecture: aarch64
+Installed-Size: 180
+Maintainer: @termux
+Version: 2.18
+Homepage: http://www.littlecms.com/
+Depends: libjpeg-turbo, libtiff, littlecms (= 2.18)
+Description: Color management utilities
+Filename: dists/stable/main/binary-aarch64/littlecms-utils_2.18_aarch64.deb
+Size: 35152
+MD5Sum: 92c64ab607b337b59a34347dd0407981
+SHA1: 1f7f95dda6406c8ada695ffc3547de68032248a9
+SHA256: 50dba0f4e2419d85c0a11dc6f260729fbd5e6191fe5a868f40d707cf1c3f31bd
+SHA512: db829fdf37a46c76576704e65f05fb6e0df7063502b8671251d77c9df8691cc04c8825a1114834f37a8620701c24a38eec5ec3e6095488f0c9ec0ba8faca9d1a
+
+Package: littlecms
+Architecture: aarch64
+Installed-Size: 540
+Maintainer: @termux
+Version: 2.18
+Homepage: http://www.littlecms.com/
+Breaks: littlecms-dev
+Replaces: littlecms-dev
+Description: Color management library
+Filename: dists/stable/main/binary-aarch64/littlecms_2.18_aarch64.deb
+Size: 142340
+MD5Sum: 738583f523f88d54c9ec6c6134d5bdbb
+SHA1: fc91ab322bbd3c968a25a28ac6e23158544eebe9
+SHA256: ea85ad88f9ee06323c975e85e02833ca12d6c5a46c9bb8aea88bb1aed8672a1b
+SHA512: 447d0129d93b69950a5d91f04176fda96606330ca2aea6bf847722848844c404cdf48901450512c0c96dd2c4c6d2e36e06b8af61a26e7dba887ad1ca84d897a7
+
 Package: mount-utils
 Architecture: aarch64
 Installed-Size: 560
@@ -1252,6 +1434,38 @@ MD5Sum: eb9d6f5b3d097c7ea915d6dfcb6a5f8b
 SHA1: be3562007c587dd14c6f347599662bac9063f5ec
 SHA256: f68137f3f7a21763e6361346446688927934adf3a615e29205a5259c28e792db
 SHA512: 3e9c54d2cc9c226ae50da73c0dc68700c6d9fefcae3c7055fbd0801d0c95955ed595418c5500a2f1cbd14beb72b21e9aa85cdfba0b4cc29e30341a851907719e
+
+Package: openjdk-17-x
+Architecture: aarch64
+Installed-Size: 14768
+Maintainer: @termux
+Version: 17.0.18
+Homepage: https://openjdk.java.net
+Depends: freetype, giflib, libandroid-shmem, libjpeg-turbo, libpng, libx11, libxext, libxi, libxrender, libxtst, openjdk-17 (= 17.0.18)
+Description: Portion of openjdk-17 requiring X11 functionality
+Filename: dists/stable/main/binary-aarch64/openjdk-17-x_17.0.18_aarch64.deb
+Size: 12559008
+MD5Sum: 713cd26ae0e7e128e443ba1f3cbfd9e1
+SHA1: 51a4b4da85f583c5864d8dac74fc1343bc4e57f9
+SHA256: 04f8758eb3827f9d657172972b7918bcec48209bad259f0410d44bc7b0def597
+SHA512: 5c25fa45eff0dd0471e9aa0f3017dd9213dc5aa891dba9e1969201d402ad2a317c4f9f54c43626ef8572b4bf5a2d9caed4a27e03d95cd57265bd8429176de842
+
+Package: openjdk-17
+Architecture: aarch64
+Installed-Size: 217872
+Maintainer: @termux
+Version: 17.0.18
+Homepage: https://openjdk.java.net
+Depends: libandroid-shmem, libandroid-spawn, libiconv, libjpeg-turbo, zlib, littlecms, alsa-plugins
+Recommends: ca-certificates-java, openjdk-17-x, resolv-conf
+Suggests: cups
+Description: Java development kit and runtime
+Filename: dists/stable/main/binary-aarch64/openjdk-17_17.0.18_aarch64.deb
+Size: 95522108
+MD5Sum: 730a7c6cd0d76d5b2fd3172d53343d2e
+SHA1: 8ed685e3f342b62e7469196abab8b97f544cd221
+SHA256: eb5604becacbc5903df6697fb323edd2cc63f0672db833c2e1313f7ff6a154e0
+SHA512: 5139d3c6528170507e02eb7dfc87ea53323a1abcf5d729e68e9fa5de5637c33260201aa72d42039862d2385320f78fc3e21b311d011dd0638257a98ec606e24f
 
 Package: pkg-config
 Architecture: aarch64

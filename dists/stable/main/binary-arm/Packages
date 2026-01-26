@@ -556,6 +556,20 @@ SHA1: 2e27d773bffa738d72f5572d3f63bd83850f0d29
 SHA256: b0120ccfea115308200685baf3d573743e151c2a18bd713316f5bdfbab8de006
 SHA512: 30f531b11e800c0bfdef9f15aec4e8a883c8817fda448caa1d136ad4b5e454c64bf021c8b63b8d622a584804d249538493864d66e2707646977cfeebdb2b512b
 
+Package: libice
+Architecture: arm
+Installed-Size: 408
+Maintainer: @termux
+Version: 1.1.2-1
+Homepage: https://xorg.freedesktop.org/
+Description: X11 Inter-Client Exchange library
+Filename: dists/stable/main/binary-arm/libice_1.1.2-1_arm.deb
+Size: 64632
+MD5Sum: 4acb43ce73dc0c1e1137e093ff906d10
+SHA1: 705fc8377ffb0c716a76dde9a393f9caaf16a5d8
+SHA256: 7a6716b1dc38b555704165ae94c71b1389504ae52eb5eb6670ad12fc42a2d328
+SHA512: 3c0f76ac289f0c9c2c0bc1f17ec593b95e6f52cfb35187cf1ad4895c2be0232930032a015440dd38f72266286e60cedd170213cf7dc3bde760c8f1f9c78d6814
+
 Package: libjpeg-turbo-progs
 Architecture: arm
 Installed-Size: 260
@@ -849,6 +863,21 @@ SHA1: f7505a1d8cfc1b48b9327a5553efa94b84c8dec9
 SHA256: 7dd1d6ae419546c3deb831d45f96d881140f883839004abeb09082278612d938
 SHA512: 10ca2467426867c2ee84770b2ba3097887f38fbee6be383bcc89bee1a97a2abc4947a92a750877ed6dd0ac5a2c9b9f56feb0e141acda9c2449ab38c0ae5325ee
 
+Package: libsm
+Architecture: arm
+Installed-Size: 324
+Maintainer: @termux
+Version: 1.2.6-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libice, libuuid
+Description: X11 Session Management library
+Filename: dists/stable/main/binary-arm/libsm_1.2.6-1_arm.deb
+Size: 40220
+MD5Sum: 8fcabc1f42f2e78cc54bc3d5b827ab08
+SHA1: a91087daec31238554692c5e1ebd2c280d0e5b5c
+SHA256: dfb52afbf8e1cea3c7053cd29cf85e5e340e68d09681f59790e637323853c005
+SHA512: 03bba1fa0625649a232c85d284bf7093c8ab55b75dfaa9fbf339bc68c3dc7ebff11cf42791948e707444b444fab03200cb1a1ed538fd8462deea4decce3d0b66
+
 Package: libsmartcols
 Architecture: arm
 Installed-Size: 236
@@ -913,6 +942,53 @@ MD5Sum: 6376553977664031192c62cc347d0a01
 SHA1: 7ed7ed1cf69b7cc909039b51e946325960287be8
 SHA256: ef270543d5d8c232cbf27bbab6fd6eea74ed8117012b9fefacb866fc80b17c8f
 SHA512: 911bfe32457772c8ccabbe0708e54cf5cc6c213460c693bad5dd6e05a5a2f75a5f80f7329a5bf318071ff227d7825a0b07588d26e3e742bb28f1c65e8dddb33d
+
+Package: libtiff-static
+Architecture: arm
+Installed-Size: 624
+Maintainer: @termux
+Version: 4.7.1
+Homepage: http://www.simplesystems.org/libtiff/
+Depends: libtiff (= 4.7.1)
+Description: Static libraries for libtiff
+Filename: dists/stable/main/binary-arm/libtiff-static_4.7.1_arm.deb
+Size: 164644
+MD5Sum: 35732e329b4a394e86e10df765047bae
+SHA1: 630ac45542712e5eeb58aa149f77f7ae46e21eb7
+SHA256: 9fb725fa1c3184897e3bcdc626eb334df7533444e514935e28c165b74c17f854
+SHA512: 534fbdd93ea9dacad6bdd07f1712aa074d8675868c9bf72f8e734e71475f8398b6e0031ec8e87b0eaa27f8a17f41f9f4cc6a489af9b5fed57f361ae7164cb0a1
+
+Package: libtiff-utils
+Architecture: arm
+Installed-Size: 736
+Maintainer: @termux
+Version: 4.7.1
+Homepage: http://www.simplesystems.org/libtiff/
+Depends: libtiff (= 4.7.1)
+Description: Tools for working with tiff files
+Filename: dists/stable/main/binary-arm/libtiff-utils_4.7.1_arm.deb
+Size: 252580
+MD5Sum: d49870637770f223d2d0fc561c537a20
+SHA1: 1877ebef13b7f0d942a77834e191099562745665
+SHA256: 582fbefdf561ad612544ea405ff95f5da5e3aafee969342030d062190b33fbcc
+SHA512: 8c28a0bb781c8e933251a56fad00ee50fc6fb5f8a672794e494a324c7fadc403c5a0c6834ec0a896063737cf900990781d47a417e851f90a159bb9ad9c18ccb7
+
+Package: libtiff
+Architecture: arm
+Installed-Size: 6392
+Maintainer: @termux
+Version: 4.7.1
+Homepage: http://www.simplesystems.org/libtiff/
+Breaks: libtiff-dev
+Depends: libc++, libjpeg-turbo, liblzma, zlib, zstd
+Replaces: libtiff-dev
+Description: Support for the Tag Image File Format (TIFF) for storing image data
+Filename: dists/stable/main/binary-arm/libtiff_4.7.1_arm.deb
+Size: 833648
+MD5Sum: fc5de822143f0da3018585efd500cfe2
+SHA1: e8e7fea57559a51c4a4b864d116e8b9887ee8c67
+SHA256: 79abf94c21fcf92a563c2810437c465994df4992af21d800570dfe7eb96568d4
+SHA512: 2b3b35abb7ce0830ab6c5d68e3a3a3a664dee4f71d6eb0af718679bad9e5a14eba0933977cb69432bbf72fdf54feba5935717368470c69ca48ebe0ea45feef55
 
 Package: libtool
 Architecture: arm
@@ -1237,6 +1313,112 @@ SHA1: f333d92ad1a6a8cd463bab9ac9330083412f07b8
 SHA256: c89dee8a1db21f6228b0c0176cd23b22bf2fc6656ae3ec353dc12517eaec2d50
 SHA512: 40ee9dcb071d6824a73cc70b222e38a9f04215223458ef60d442a626c236151062b86f5d8f6ba969c2a1393bcb4e9533d3d9593742a91c576104403440c91c2b
 
+Package: libxt-static
+Architecture: arm
+Installed-Size: 428
+Maintainer: @termux
+Version: 1.3.1-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libxt (= 1.3.1-1)
+Description: Static libraries for libxt
+Filename: dists/stable/main/binary-arm/libxt-static_1.3.1-1_arm.deb
+Size: 132640
+MD5Sum: 65d93f78e49cab4008cba71aed8df953
+SHA1: c1e7be3ec8dc12a83f4a9a7924d95b629cb70e78
+SHA256: effeb474cf59ad8e9328388907dca225a7efea490b2c7ffcf1505be08644fc22
+SHA512: 321f5198fb908b98fa8a883b9dfe6cc12fdbde24942d3386e2194f71b62e553165eef90710475fa469ec297446e0f49eb51fea08f3e8f45358be3da50ca0c6e0
+
+Package: libxt
+Architecture: arm
+Installed-Size: 2980
+Maintainer: @termux
+Version: 1.3.1-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libice, libsm, libx11
+Description: X11 toolkit intrinsics library
+Filename: dists/stable/main/binary-arm/libxt_1.3.1-1_arm.deb
+Size: 468244
+MD5Sum: 30b273ed85dc5382b5f96b2c49babf7c
+SHA1: 0d3884021e032578afaef1b55b78a18ecfb40550
+SHA256: ea4bfef3222e17a57328b1d988a5c229dd52522e3c671a4831e18614da1d01fc
+SHA512: d251be6977c9f233aed5e78713ba2a1fd7a0f036ad7b63e01d062b52a8325bb1548eaf80be1697075b96eea78b74a9be1af0c81363809d71d1e667bbfbdd901c
+
+Package: libxtst-static
+Architecture: arm
+Installed-Size: 48
+Maintainer: @termux
+Version: 1.2.5-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libxtst (= 1.2.5-1)
+Description: Static libraries for libxtst
+Filename: dists/stable/main/binary-arm/libxtst-static_1.2.5-1_arm.deb
+Size: 7476
+MD5Sum: ad520e73920c5fbb3c68b05a327433fa
+SHA1: f632a1bc033c1b2503d10a22fe1e7e1af0250d71
+SHA256: 785f794f718fcfede316867cf4040d8fb78532bc77725e97e9bb538f1a1ce729
+SHA512: 548817c2a9e74a3ae69ff639877cf23756f305125d48465069ac4987b4117b7c973b5b54cc64d9c687b17c79bdf276c3979bb5fc0d848284d538d5e9abe8c70a
+
+Package: libxtst
+Architecture: arm
+Installed-Size: 228
+Maintainer: @termux
+Version: 1.2.5-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxext, libxi
+Description: Xlib-based library for XTEST & RECORD extensions
+Filename: dists/stable/main/binary-arm/libxtst_1.2.5-1_arm.deb
+Size: 24540
+MD5Sum: badf80611ef10da84855516d3739910b
+SHA1: 638c5b4ad9617a29e5d3e12d130ba7bb432a2c46
+SHA256: 4a495989e413ff854385aa1f75f4120754cd2076da42e0ffa5277ffc35217742
+SHA512: 2630c4a7c00676d3d0fbe0f3646ff5693b3bc5359eadfadb362bee326e991b8b39db6570cfb8732065e62e6a6f1ddda1d6a372b4c0c4737bf1cd1670a7e5e2c1
+
+Package: littlecms-static
+Architecture: arm
+Installed-Size: 432
+Maintainer: @termux
+Version: 2.18
+Homepage: http://www.littlecms.com/
+Depends: littlecms (= 2.18)
+Description: Static libraries for littlecms
+Filename: dists/stable/main/binary-arm/littlecms-static_2.18_arm.deb
+Size: 132488
+MD5Sum: a0f3f78db103d4fe8a8cd3f107326d69
+SHA1: 5ea683f0870ac25a1749d07ca1045ccba6b99ae1
+SHA256: b57502b613ac162f2d52b24ca4412405a6b6a19a3b411f27f896e824a25b5343
+SHA512: 57e723aab603365c59c5a385314f0777402250a6e490c20d5614a5e756aee2c5015dcb2fea78b6f8a481018c5d5d89c25ef9fcb11d330d00968f0312fb986102
+
+Package: littlecms-utils
+Architecture: arm
+Installed-Size: 156
+Maintainer: @termux
+Version: 2.18
+Homepage: http://www.littlecms.com/
+Depends: libjpeg-turbo, libtiff, littlecms (= 2.18)
+Description: Color management utilities
+Filename: dists/stable/main/binary-arm/littlecms-utils_2.18_arm.deb
+Size: 32548
+MD5Sum: eaf718f1687d483c27c1fa77969567c3
+SHA1: cd2c5a30c0ef1f35e423323f6719b908c5b3bca0
+SHA256: 6d3b62877c414c94e92a3e789c6ec91a6853be6ce3e490397c6706dbe527fc8d
+SHA512: 08f03c60d5b2336e3a8a23a0438e2f5d6d4c27933e18d06533da931f26a4bc77c6efc2bd3edcad6f06ea0ae56e505be01fc9b0c6c03187b662ed51d8e85218b5
+
+Package: littlecms
+Architecture: arm
+Installed-Size: 436
+Maintainer: @termux
+Version: 2.18
+Homepage: http://www.littlecms.com/
+Breaks: littlecms-dev
+Replaces: littlecms-dev
+Description: Color management library
+Filename: dists/stable/main/binary-arm/littlecms_2.18_arm.deb
+Size: 129992
+MD5Sum: 779cba3f0f1cc29c2aea5f57020a8a1f
+SHA1: dd7e59cc1ff51297d5ba01ee62f0dbdd2fdeaa5f
+SHA256: f1acf4a1e1f09dcb3e1a7dcf1a699f4fdc0fd77b84ec9e92b3ef4e7f7a7ae01a
+SHA512: fa72b1d17d31c370f35a1097bf0082411511c5120710e971b8e97bcb19af3b8fa1be3da0267150bbb6ff85861ec02896668f3e19012416ee5478c1dce2d01440
+
 Package: mount-utils
 Architecture: arm
 Installed-Size: 420
@@ -1252,6 +1434,38 @@ MD5Sum: d34af9ea353c9244fcd19bfb9c6bb152
 SHA1: f1b41b352748765a51ca7d0d17defe74399277af
 SHA256: fdc129925585d8f7ea81a1b58bba8ca49b70ea9e8841a33df5a241f02c9ff60b
 SHA512: 1a572a2665f4e74f2b4bd8159ce6a9a891deadc876f499e461472a7dbbf81030cb86eb54a7512e207843e9eed2c91a29a7d82f3b596ca6aa0f35c2180896464b
+
+Package: openjdk-17-x
+Architecture: arm
+Installed-Size: 13972
+Maintainer: @termux
+Version: 17.0.18
+Homepage: https://openjdk.java.net
+Depends: freetype, giflib, libandroid-shmem, libjpeg-turbo, libpng, libx11, libxext, libxi, libxrender, libxtst, openjdk-17 (= 17.0.18)
+Description: Portion of openjdk-17 requiring X11 functionality
+Filename: dists/stable/main/binary-arm/openjdk-17-x_17.0.18_arm.deb
+Size: 12376288
+MD5Sum: e35d50a3257316a188d4f9e4e0b24558
+SHA1: e1438ff4eaa451ff2b344e78850adc404972df9f
+SHA256: 258828f60ea88171a95aa085d7d45ddb966929369587e5a984abdf5858ed7de4
+SHA512: 8ca2461cc46316af45d04bd219f2f9d23dec619cc06707434883e9cfebc222420a5b8a65f47bbd469def408edcb000eac2faf9d49d32c9c6444de006d20c948b
+
+Package: openjdk-17
+Architecture: arm
+Installed-Size: 207180
+Maintainer: @termux
+Version: 17.0.18
+Homepage: https://openjdk.java.net
+Depends: libandroid-shmem, libandroid-spawn, libiconv, libjpeg-turbo, zlib, littlecms, alsa-plugins
+Recommends: ca-certificates-java, openjdk-17-x, resolv-conf
+Suggests: cups
+Description: Java development kit and runtime
+Filename: dists/stable/main/binary-arm/openjdk-17_17.0.18_arm.deb
+Size: 92143676
+MD5Sum: 1e7e3a46de29d0a438893bca7b6a2b2d
+SHA1: 08d711bbd67af0f5797eed92ad37cdaf112b260a
+SHA256: c88d2aca737172063ae4f7f16cb94b6b0f77fcdb4ed1a56e29f83786e0cc656a
+SHA512: 00e45fcc92f0eb09ae9993f4b94ca148801760b398f2074855d6bd2c6ee00d19b05bcdae524488025883680f6aa2801f0ccaa05071318ed55e9fa59ce720020c
 
 Package: pkg-config
 Architecture: arm
